@@ -1,96 +1,31 @@
 \chapter{Research Questions}\label{chapter:ResearchQuestions}
 
-\section{Section}
-Citation test~\parencite{latex}.
+\subsection{Initial Hypothesis}
 
-\subsection{Subsection}
-See~\autoref{fig:sample}.
+\indent A software architecture document is not just a necessary afterthought of architecture design [DSAView], but an important contributor to the entire software design and development lifecycle.  At an initial phase, for a new project, the software architecture document is produced as an artifact for software architecture views for different stakeholders. During the course of project lifecycle, the software architecture document grows and serves as an artifact to record important architectural decision made by the architects. At the design phase the software architecture document provides developers with a high level view of the software architecture and helps to understand the system interfaces, component interaction and basic functionality of each architectural component. 
+\\\indent A software architecture document is not a static artifact. Rather, it is as dynamic as the software requirements itself[DSAView]. Maintanace of software architecture requires deep understanding of the skeleton system and depends heavily on its documentation. This escalates documentation to the highest position in the software evolution cycle. But usefulness of this document is measured by its relevance and consistency. This requires maintenance of the document itself to keep it as up-to-date as the current system. Thus, software architecture documentation is an integral activity that revolves not only at a software inception phase, during software architecture design, but also during the course of software’s development maintenance and evolution. Since documentation is an activity, it needs to be regulated as a software process. 
+\\\indent Software process is affected by organizational behavior [SoftwareProcessRoadmap]. Different organizations work on a culture specific to the standards and processes followed by the within their scope of control. In this context, Open Source software communities are noteworthy due to their relaxed process control and organizational structure. With regards to any form of artifact, especially documentation, this community is loosely coordinated where developers or contributors tend to code solutions without producing adequate documentation[OSSDoc].
+\\\indent This brings us to an initial hypothesis that forms the basis for this research work on Software architecture documentation process: Open source software community lacks a process for maintenance of software architecture documentation. 
+For a concrete example, Mediawiki was chosen as the ideal candidate. In the last few years the wiki community has grown to become one of the top most open source communities in the world, powered by the Mediawiki engine. The robust architecture of the mediawiki software is a complex system that has evolved over the years and its architecture complexity has grown manifolds. To explain its architecture at a high level, some documentation is available on “mediawiki.org”. But to cater to new developers and first time users of mediawiki, the mid-level architecture details and technicalities of architectural components is scarcely available on “mediawiki.org”. Although some component documentation is available as a part of the source code, this documentation is not well structured or available in wiki format. This deficit was realized as a part of the initial study and discussions with the stakeholders at mediawiki. Hence, all the research and conceptualization of improved documentation process was based on these initial ideas. 
 
-\begin{figure}[htsb]
-  \centering
-  \includegraphics{logos/tum.pdf}
-  \caption[Example figure]{An example for a figure.}\label{fig:sample}
-\end{figure}
+\subsection{Research Qestions}
+\begin{enumerate}
+\item RQ1 : How software architecture documentation process can be improved for Wikimedia Software?
+\item RQ2 : What state-of-the-art architecture documentation process (methodology, tools) are available in the industry that meet domain-specific requirements – e.g. Open Source S/W ?
+\item RQ3 : What are the quality characteristics and metrics for evaluation of the software architecture documentation process?
+\item RQ 4 : Which specific requirements of Wikimedia stakeholders should be met by documentation process for Mediawiki SAD ?
+\item RQ 5 : What process can be followed to automate the quality assurance of SA documentation in OSS
+\end{enumerate}
 
-\section{Section}
+The following sub-sections will cover the research questions : 
+ 
+\section{Current state-of-art}
 
-See~\autoref{tab:sample}, \autoref{fig:sample-drawing}, \autoref{fig:sample-plot}, \autoref{fig:sample-listing}.
+\subsection{Problems}
 
-\begin{table}[htsb]
-  \caption[Example table]{An example for a simple table.}\label{tab:sample}
-  \centering
-  \begin{tabular}{l l l l}
-    \toprule
-      A & B & C & D \\
-    \midrule
-      1 & 2 & 1 & 2 \\
-      2 & 3 & 2 & 3 \\
-    \bottomrule
-  \end{tabular}
-\end{table}
 
-\begin{figure}[htsb]
-  \centering
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}[node distance=3cm]
-    \node (R0) {$R_1$};
-    \node (R1) [right of=R0] {$R_2$};
-    \node (R2) [below of=R1] {$R_4$};
-    \node (R3) [below of=R0] {$R_3$};
-    \node (R4) [right of=R1] {$R_5$};
-
-    \path[every node]
-      (R0) edge (R1)
-      (R0) edge (R3)
-      (R3) edge (R2)
-      (R2) edge (R1)
-      (R1) edge (R4);
-  \end{tikzpicture}
-  \caption[Example drawing]{An example for a simple drawing.}\label{fig:sample-drawing}
-\end{figure}
-
-\begin{figure}[htsb]
-  \centering
-
-  \pgfplotstableset{col sep=&, row sep=\\}
-  % This should probably go into a file in data/
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1000 \\
-    2 & 1500 \\
-    3 & 1600 \\
-  }\exampleA
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1200 \\
-    2 & 800 \\
-    3 & 1400 \\
-  }\exampleB
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}
-    \begin{axis}[
-        ymin=0,
-        legend style={legend pos=south east},
-        grid,
-        thick,
-        ylabel=Y,
-        xlabel=X
-      ]
-      \addplot table[x=a, y=b]{\exampleA};
-      \addlegendentry{Example A};
-      \addplot table[x=a, y=b]{\exampleB};
-      \addlegendentry{Example B};
-    \end{axis}
-  \end{tikzpicture}
-  \caption[Example plot]{An example for a simple plot.}\label{fig:sample-plot}
-\end{figure}
-
-\begin{figure}[htsb]
-  \centering
-  \begin{tabular}{c}
-  \begin{lstlisting}[language=SQL]
-    SELECT * FROM tbl WHERE tbl.str = "str"
-  \end{lstlisting}
-  \end{tabular}
-  \caption[Example listing]{An example for a source code listing.}\label{fig:sample-listing}
-\end{figure}
+\subsection{Maintainability}
+\section{Requirement Analysis}
+\subsection{Stakeholders}
+\subsection{Meetings}
+     
