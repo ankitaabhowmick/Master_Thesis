@@ -2,9 +2,9 @@
 \defcounter {refsection}{0}\relax 
 \select@language {american}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{iv}{figure.caption.1}
+\contentsline {chapter}{Acknowledgments}{iii}{figure.caption.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abstract}{v}{chapter*.2}
+\contentsline {chapter}{\nonumberline Abstract}{iv}{chapter*.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {I}Introduction}{1}{part.1}
 \defcounter {refsection}{0}\relax 
@@ -20,66 +20,76 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Research Questions}{4}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.0.1}Initial Hypothesis}{4}{subsection.2.0.1}
+\contentsline {section}{\numberline {2.1}Initial Hypothesis}{4}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.0.2}Research Qestions}{5}{subsection.2.0.2}
+\contentsline {section}{\numberline {2.2}Research Questions}{5}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Current state-of-art}{6}{section.2.1}
+\contentsline {section}{\numberline {2.3}Current state-of-art}{5}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Problems}{6}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.3.1}Software Architecture Documents}{6}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Maintainability}{6}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.3.2}Software Process}{7}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Requirement Analysis}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.3.3}Documentation Process}{9}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Stakeholders}{6}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.4}Problems}{10}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Meetings}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.4.1}Maintainability}{10}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Literature Survey}{7}{chapter.3}
+\contentsline {subsection}{\numberline {2.4.2}Roles and Responsibilities}{11}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {II}Thesis Contribution}{8}{part.2}
+\contentsline {subsection}{\numberline {2.4.3}Availability and Management}{11}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conceptualization}{9}{chapter.4}
+\contentsline {section}{\numberline {2.5}Requirement Analysis}{11}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Idea Generation and Evolution}{9}{section.4.1}
+\contentsline {subsection}{\numberline {2.5.1}Stakeholders}{11}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Initial Ideas}{9}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {2.5.2}Meetings}{12}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}A proof of concept}{9}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {3}Literature Survey}{13}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Improved Process}{9}{section.4.2}
+\contentsline {part}{\numberline {II}Thesis Contribution}{14}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Process Details}{9}{subsection.4.2.1}
+\contentsline {chapter}{\numberline {4}Conceptualization}{15}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Implementation}{11}{chapter.5}
+\contentsline {section}{\numberline {4.1}Idea Generation and Evolution}{15}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Architecture and Technical outline}{11}{section.5.1}
+\contentsline {subsection}{\numberline {4.1.1}Initial Ideas}{15}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Details of the implemented parts}{11}{section.5.2}
+\contentsline {subsection}{\numberline {4.1.2}A proof of concept}{15}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Future implementation}{11}{section.5.3}
+\contentsline {section}{\numberline {4.2}Improved Process}{16}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {III}Evaluation and Conclusion}{12}{part.3}
+\contentsline {subsection}{\numberline {4.2.1}Process Details}{16}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Evaluation}{13}{chapter.6}
+\contentsline {chapter}{\numberline {5}Implementation}{17}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Meetings and Discuassions}{13}{section.6.1}
+\contentsline {section}{\numberline {5.1}Architecture and Technical outline}{17}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Survey}{13}{section.6.2}
+\contentsline {section}{\numberline {5.2}Details of the implemented parts}{17}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Evaluation}{13}{section.6.3}
+\contentsline {section}{\numberline {5.3}Future implementation}{17}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{14}{chapter.7}
+\contentsline {part}{\numberline {III}Evaluation and Conclusion}{18}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Challenges}{14}{section.7.1}
+\contentsline {chapter}{\numberline {6}Evaluation}{19}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Benefits of implemented solution}{14}{section.7.2}
+\contentsline {section}{\numberline {6.1}Meetings and Discuassions}{19}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}arguments to support the idea}{14}{section.7.3}
+\contentsline {section}{\numberline {6.2}Survey}{19}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Concluding Remanks}{14}{section.7.4}
+\contentsline {section}{\numberline {6.3}Evaluation}{19}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{15}{appendix*.5}
+\contentsline {chapter}{\numberline {7}Conclusion}{20}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{16}{appendix*.6}
+\contentsline {section}{\numberline {7.1}Challenges}{20}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Benefits of implemented solution}{20}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}arguments to support the idea}{20}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Concluding Remanks}{20}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{21}{appendix*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{22}{appendix*.9}
