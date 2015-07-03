@@ -1,5 +1,125 @@
 \chapter{Literature Survey}\label{chapter:LiteratureSurvey}
 
-Answer research Questions from literature
-Derive ideas from existing examples, come up with process ideas when no existing example is available
+This chapter aims to answer the previously formulated research questions by surveying already available literature and the related work in this direction This literature survey forms a basis in this thesis to derive ideas from existing examples and to come up with ideas to comceptualize the implementation work ahead. Also the related work helps to start with the initial idea and build upon it to derive a novel solution to solve the existing problems.
+
+\section{Points from Literature} 
+\indent This section elaborates on some facts and answers to research questions derived from existing literature. These points of reference help to build on ideas for finding solutions to the research questions formulated in this thesis.
+\subsection{Improved Documentation Process}
+\indent \emph{How software architecture documentation process can be improved for
+Wikimedia Software and why is it required?}
+\newline
+\\\indent \textbf{Software Architecture Documentation : } A very extensive research and usage of software architecture documents, documentation process and evaluation has been covered in the book \enquote{Documenting Software Architecture- Views and beyond} \cite{BachmannDocumentingSoftware2010}. The book suggests implementation of a \enquote{Package Module} for documentation that aims at collecting all relevant architecture documentation as a package i.e. all in one place. The architecture documentation is regarded complete when it captures the following aspects :
+\begin{itemize}
+\item Document control information 
+\item Documentation roadmap 
+\item How a view is documented
+\item System overview 
+\item Views 
+\item Mapping between views 
+\item Rationale
+\item Directory
+\end{itemize}
+This makes the documents more available and improves ease of access. The book elaborates on capturing various views of the software architecture from the stakeholder's perspective and explains the structuring of documentation based on these \enquote{stakeholder views} (e.g) in this thesis the target stakeholders are the developers- hence a software architecture documentation that explains the architectural component overview and inter-component interaction specification is required for the better training of new developers and serve as reference for experienced developers.
+\\\indent The book also answers the question : \enquote{Why choose wiki ?}. It suggests that documenting software architecture on a wiki platform ha several advantages :
+\begin{itemize}
+\item wiki-links are easy to navigate
+\item they provide easy formatting options 
+\item wiki is easy to learn and more or less, intuitive
+\item it delivers nice readable web pages which provide editing and revision feature for version tracking and maintenance
+\item the wiki-pages are available/ accessible by all
+\end{itemize}
+\indent
+\\\indent \textbf{Process and Community : } Literature supports the idea the understanding the social environment of software communities has helped to understand their functional model and process-orientation. This understanding has lead way for guidelines and best practices to improve their current processes, as explained in \cite{bab2009}. The Open source culture of Mediawiki community poses limitations brought about by the relaxed process management and control \cite{6923128}. Hence an improvement requires a process to be built upon the existing, available resources that can be easily be adopted or integrated into the environment. The \enquote{Eclipse Development Process} [Eclipse dev process] suggest that guidelines can be provided for new members such that they follow processes in a more self-regulated manner. The eclipse development process sets an example for open source communities by providing such guidelines for user groups like \enquote{committers} and \enquote{contributors}.
+\\\indent Software architecture documentation is an inherent part of the software architecture itself and is an integrated part of the architecture design process \cite{Shahin2009}. It is very important to document the software architecture as it helps to identify and record important decisions taken during the course of architecture design and also forms the basis for future architectural re-factoring.
+\newline
+\\\indent \textbf{Open Source Software Architecture documentation : } The article \enquote{Empirical study of the effects of open source adoption on software development economics} \cite{Ajila2007} quotes that \enquote{When adopting an Open Source Software, software architecture documentation has a positive impact on the degree and cost of the software adoption}. Thus, it is important for open source communities to offer concrete documentation to expand and enrich their contributing community. Some research has indicated that a lack of software architecture documentation maintenance in open source projects may hinder the use and further development of the software \cite{michlmayr:quality_problems}.
+\\\indent Research and empirical studies \cite{6923128} have revealed that there is no dedicated role in open source communities to take responsibility of collecting, archiving , alighning and maintaining the software architecture documentation. This mandated the need for an advanced documentation process to handle the responsibility gap.
+\newline
+\\\indent \textbf{Documentation Level and Extent : } The scope of detail in software architecture documentation \enquote{how much is enough and appropriate} and its need within open source developer community is largely dependent on \enquote{the contextual factors of software development, such as development method, rate of change, size of project, and architecture stability} (\cite{SMR:SMR572} \cite{Briand2003}).
+\subsection{Current Industrial State-of-the-Art}
+\indent \emph{What standard architecture documentation processes are available in the industry and practices of open source software?}
+\\\indent Many industry standards have been defined in literature and practiced in the field of software engineering that support software process management and evaluation. Also, there is a possibility of adopting these standards in the open source community. Some research on the current practices in open source software development helps to understand the community processes and methodologies
+\newline
+\\\indent \textbf{Application Lifecycle Management tools : }  
+\newline
+\\\indent \textbf{Capability Maturity Model : }  For process oriented software engineering, CMM standards \cite{SCAMPITeam2013} have been set for process maturity evaluation. But open source communities are more focused on development maturity rather than process maturity. 
+\newline
+\\\indent \textbf{IEEE1471-2000 standard : }Documentation in standard software engineering projects follow the IEEE1471-2000 standard \cite{BachmannDocumentingSoftware2010} that defines the outline for documentation of software architecture views and viewpoints.
+\newline
+\\\indent \textbf{Software process in Open Source community : } The journal for \enquote{Systems and Software} \cite{Zhao2003} suveyed that over 61\% of the open source projects also employ bug tracking tools, and a majority of projects use bug tracking tools provided by the host web sites.
+\newline
+\\\indent \textbf{Natural Language and visualizations : } It was surveyed and studied that 70.4 \% of the OSS projects use natural language with HTML as the main format for documenting software architecture \cite{6923128}. 
+\newline
+\\\indent \textbf{XWiki : }
+
+\subsection{Evaluating Documentation Process}
+\indent \emph{What are the quality characteristics and metrics for evaluation of the software architecture documentation process?}
+\newline
+\\\indent \textbf{Socio-Technical factors : } Software quality is influenced by the way the community interacts \cite{Mens2011}. The socio-technical environment within a community of developers who are geaographically separated and not bound by strict process control tends to introduce risk factors in terms of software quality. QualOSS assessment model \cite{5314237} suggest that the organization of open source communities is loosely-bound and statistical research \cite{Zhao2003} proves that only about 20\% of the open source projects have planned release dates . Some process oriented co-ordination approaches have been developed and adopted by open sorce software communities to manage their software processes .The \enquote{STIN} (Socio-Technical Interaction Networks)in Free/Open Source Software Development Processes \cite{SPM_2005} describes the well-established STIN (\enquote{Socio-Technical Interaction Networks})relationship for process enforcement by combining the socio-technical aspects that effect open source organizations. 
+\\\indent \textbf{Process Quality metrics : } Maintainability and evolvability of the system should be supported by the software process [Documenting SA -Views].There is a direct correlation between the quality of the process and the quality of the developed software \cite{Fuggeffa1988}. The article on \enquote{Software Process Roadmap} \cite{Fuggeffa1988} suggests that the degree of maturity of the process is a main dimension of process assessment. Open source communities have can be evaluated on the basis of a few exceptional metrics in this regard \cite{Zhao2003} :
+\begin{itemize}
+\item Responsibility : level of user participation in open source projects is extremely high
+\item Organizational process : simpler feature-request process and easier transition from detection to debugging 
+\item Efficiency : larger motivation of developer to propagate personal need to community need
+\item Collaboration : open source processes and tools for change management include cutting edge, large-scale collaborative software development
+\end{itemize}
+\subsection{Stakeholder Requirement Satisfaction}
+\indent \emph {Which specific requirements of Wikimedia stakeholders should be met by documentation process for Mediawiki SAD ?}
+At mediawiki, the most active and important stakeholders are the coders or developers of the software.
+\newline
+\\\indent \textbf{Documentation within source code : }  The open source developers need to collaborate at a larger extent than traditional software systems. The daily work of developers within the community involves version control systems to manage and maintain the software repository. Thus, a requirement arises for collaboration in terms of code commit and source code consistency. Also, the documentation should be consistent with software version. It is always preferable  and desirable that documentation confirms to the master branch source code.
+\newline
+\indent \textbf{Community acceptance : }Any existing or newly incorporated software process should fit into the socio-technical environment of the open source community [Analysing the evolution of social aspects of open source software ecosystems].Community interaction helpa to understand the roles and responsibilities of community members as a part of the software process. 
+\newline
+\indent \textbf{Architectural views : }\cite{BachmannDocumentingSoftware2010} stresses the a good software architecture document should provide the different architectural views for all the different stakeholders of the software. In \autoref{fig:4_1_view} the standard views in accordance with the software architecture has been mapped to stakeholder concern. With the specific case of mediawiki software where the Developers(Programmers) are the prime stakeholders, all documentation needs to be created and maintained for the developers and by the developers. 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=100mm]{images/4+1View.jpg}
+  \caption["4+1" Unified View of the Software Architecture \cite{bab2009}]{"4+1" Unified View of the Software Architecture.}\label{fig:4_1_view}
+\end{figure}
+\indent The document itself and the process to create/ update and maintain this documentation should assist the stakeholders and not add to cost of the software project (\cite{Shahin2014}).
+\\\indent \textbf{Roles and Responsibility : }The user management system is usually well-established in any software development organization which follow group management where user rights are group specific. Also, guidelines for user management with regard to the responsibility within the documentation process can be issued and followed \cite{5314237}.
+\subsection{Process Quality Assurance}
+\indent \emph {How can the quality of SA documentation process be assured?}
+\newline
+
+\section{Idea Generation}
+\indent This section covers the ideas that were derived from the literature to improve the documentation process for Mediawiki.
+\\\indent The book \enquote{Documenting Software Architecture – Views and Beyond} \cite{BachmannDocumentingSoftware2010} suggests to define a page for architecture document in the exiting wiki.
+\emph{Idea} : Use category feature of wiki to segregate \enquote{Mid-level Software Architecture Documentation} pages. Also, add templates on wiki page such that source-code consistent documentation belongs to non-editable parts and cannot be modified by sources other than Mediawiki developers.
+\newline
+\\\indent Wiki is not able to track and edit past changes and only provides a discussion page.
+\emph{Idea} : Add the software architecture documentation to version control system (along with the source code). Also, migrate document related discussion from wiki page to task management system where documentation process can be tracked as a task.
+\\\indent Many options are available to capture documentation in wiki format. The book \enquote{Documenting Software Architecture – Views and Beyond} \cite{BachmannDocumentingSoftware2010} suggests to use word2wiki to migrate word documents into wiki. Also XWiki (\emph{http://www.xwiki.org/xwiki/bin/view/Main/WebHome}), a free wiki software platform includes WYSIWYG editing, OpenDocument based document import/export options, semantic annotations and tagging, and advanced permissions management.
+\newline
+\\\indent \enquote{Software Process} \cite{Fuggeffa1988} suggests to pay attention to the complex interrelation of a number of organizational, cultural, technological and economical factors.
+\\\indent\emph{Idea}	- It is wise to interact personally with members of the community to understand their specific requirements, already existing practices/ processes and try to improve it, rather than bringing in something completely new. This increases the acceptance of the process within the community
+\newline
+\\\indent \enquote{Documenting Software Architecture from Knowledge Management perspective} \cite{bab2009} suggests to provide rationale for final architectural solution.Within a software organisation, the extent of design that constitutes its software architecture is based on its \enquote{context, domain, culture, assets, staff expertise, etc.}. And this \enquote{thin line in the sand} must be made visible to all stakeholders. Also, it is important to \enquote{revisit, redefine and adjust} the architecture design decisions as the software and organization evolves. It is the software architect's responsibility to \enquote{make design choices, validate them, and capture them in various architecture related artifacts} \cite{Kruchten2008}. The Mediawiki coding convention suggests having a text (.txt) file for the corresponding component in the source code \emph{mediawiki.org/wiki /Coding conventions Documentation}
+\\\indent\emph{Idea} : The documentation should be written by the architect/ developer as they understand the architectural components in the best possible way. While an architectural component is added/ updated, the corresponding text file documenting the component shpuld also be update. There can be inter-references between the code and document to find relevant parts easily.
+\newline
+\\\indent The architectural viewpoint needs to capture details that are more abstract than source code functional details and less abstract than high-level architectural component interaction \cite{bab2009}.
+\\\indent\emph{Idea} : Capture the architectural component details and their functional details from a developer's view of the system to add relevant details as understood by current developer and as would be required for the future developer.
+\newline
+\\\indent \enquote{Mediawiki.org} follows a standard user based rights system to grant permissions \emph{(Manual:User Rights)} to user groups with the special case of BOTs that have the rights to access and modify \enquote{mediawiki.org} pages for huge volume of maintenance activities.
+\\\indent\emph{Idea} : Apart from manual creation of documents by the Mediawiki developers, the responsibility for their maintenance can be partially automated by the usage of BOTs.
+
+\section{Important Terms, Concepts and Definitions}
+\indent \textbf{Software Architecture : } SAD provides a blueprint of a software-intensive system for the communication between stakeholders about the high-level design of the system \cite{6923128}
+\newline
+\\\indent \textbf{Complete} – “good enough to meet our expectations for this system within the contect in which we are developing it”  \cite{BachmannDocumentingSoftware2010}
+\newline
+\\\indent \textbf{Software Process}  – Software processes are processes too ! \cite{Fuggeffa1988}
+\newline
+\\\indent \textbf{Architecture Documentation} of SA from knowledge perspective] – “If it is not written, it does not exist”
+\newline
+\\\indent \textbf{System : }A collection of components organized to accomplish a specific function or set of functions (IEEE, IEEE Std 1471-2000 International Standard, Recommended Practice for Architectural Description of Software Intensive Systems, 2000).
+\newline
+\\\indent \textbf{Environment : }Environment determines the setting and circumstances of developmental, operational, political, and other influences upon that system (IEEE, IEEE Std 1471-2000 International Standard, Recommended Practice for Architectural Description of Software Intensive Systems, 2000.). 
+\newline
+\\\indent \textbf{Stakeholder : } An individual, team, organization who has an interest in a system (IEEE, IEEE Std 1471-2000 International Standard, Recommended Practice for Architectural Description of Software Intensive Systems, 2000.).
+\newline
+\\\indent \textbf{Architectural View : } A representation of a whole system from the perspective of a related set of concerns (IEEE, IEEE Std 1471-2000 International Standard, Recommended Practice for Architectural Description of Software Intensive Systems, 2000.).
+
+
 

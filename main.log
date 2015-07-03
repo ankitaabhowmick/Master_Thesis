@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  29 JUN 2015 03:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  3 JUL 2015 03:54
 entering extended mode
 **main.tex
 
@@ -410,11 +410,11 @@ File: csquotes.cfg
 Package csquotes Info: Enabling multilingual quotes.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
-Package: biblatex 2014/06/25 v2.9a programmable bibliographies (PK/JW/AB)
+Package: biblatex 2015/04/19 v3.0 programmable bibliographies (PK/JW/AB)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex2.sty"
-Package: biblatex2 2014/06/25 v2.9a programmable bibliographies (biber) (PK/JW/
-AB)
+Package: biblatex2 2015/04/19 v3.0 programmable bibliographies (biber) (PK/JW/A
+B)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
@@ -510,7 +510,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count142
@@ -589,7 +589,7 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
-File: blx-compat.def 2014/06/25 v2.9a biblatex compatibility (PK/JW/AB)
+File: blx-compat.def 2015/04/19 v3.0 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
@@ -604,29 +604,37 @@ File: biblatex.def
 \c@biburllcpenalty=\count213
 \c@smartand=\count214
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\alphabetic.bbx"
-File: alphabetic.bbx 2014/06/25 v2.9a biblatex bibliography style (PK/JW/AB)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric-comp.bbx"
+File: numeric-comp.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
+File: numeric.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
-File: standard.bbx 2014/06/25 v2.9a biblatex bibliography style (PK/JW/AB)
+File: standard.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count215
 \c@bbx:relatedtotal=\count216
-))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\cbx\alphabetic.cbx"
-File: alphabetic.cbx 2014/06/25 v2.9a biblatex citation style (PK/JW/AB)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric-comp.cbx"
+File: numeric-comp.cbx 2015/04/19 v3.0 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count217
+\c@cbx@tempcntb=\count218
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
@@ -655,7 +663,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count217
+\Gread@gobject=\count219
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -664,23 +672,23 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 Package: scrhack 2015/02/07 v3.16 KOMA-Script package 
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count218
+\lst@mode=\count220
 \lst@gtempboxa=\box27
 \lst@token=\toks18
-\lst@length=\count219
+\lst@length=\count221
 \lst@currlwidth=\dimen106
-\lst@column=\count220
-\lst@pos=\count221
+\lst@column=\count222
+\lst@pos=\count223
 \lst@lostspace=\dimen107
 \lst@width=\dimen108
-\lst@newlines=\count222
-\lst@lineno=\count223
+\lst@newlines=\count224
+\lst@lineno=\count225
 \lst@maxwidth=\dimen109
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count224
-\lst@skipnumbers=\count225
+\c@lstnumber=\count226
+\lst@skipnumbers=\count227
 \lst@framebox=\box28
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -699,7 +707,7 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lstaddons\lstautogobble.sty"
 Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
 ings'
-\lstag@spacecount=\count226
+\lstag@spacecount=\count228
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
@@ -746,10 +754,10 @@ ode.tex"
 \pgf@yc=\dimen119
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count227
-\c@pgf@countb=\count228
-\c@pgf@countc=\count229
-\c@pgf@countd=\count230
+\c@pgf@counta=\count229
+\c@pgf@countb=\count230
+\c@pgf@countc=\count231
+\c@pgf@countd=\count232
 \t@pgf@toka=\toks23
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
@@ -770,8 +778,9 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
 code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count231
-\pgfsyssoftpath@bigbuffer@items=\count232
+\pgfsyssoftpath@smallbuffer@items=\count233
+Normal \count register pool exhausted, switching to extended pool.
+\pgfsyssoftpath@bigbuffer@items=\count277
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
 code.tex"
@@ -798,7 +807,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \everycr=\toks27
 \minrowclearance=\skip64
 )
-\rownum=\count233
+\rownum=\count278
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -824,8 +833,7 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
 "
 \pgfmath@dimen=\dimen122
-Normal \count register pool exhausted, switching to extended pool.
-\pgfmath@count=\count277
+\pgfmath@count=\count279
 \pgfmath@box=\box30
 \pgfmath@toks=\toks28
 \pgfmath@stack@operand=\toks29
@@ -850,7 +858,7 @@ code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
 erarithmetics.code.tex")))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count278
+\c@pgfmathroundto@lastzeros=\count280
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
 de.tex"
@@ -888,7 +896,7 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
-\pgf@picture@serial@count=\count279
+\pgf@picture@serial@count=\count281
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
 ate.code.tex"
@@ -923,7 +931,7 @@ File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 e.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen146
-\pgf@sys@shading@range@num=\count280
+\pgf@sys@shading@range@num=\count282
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
 e.tex"
@@ -986,7 +994,7 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
 dlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count281
+\pgf@plot@mark@count=\count283
 \pgfplotmarksize=\dimen151
 )
 \tikz@lastx=\dimen152
@@ -999,19 +1007,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikz@figbox@bg=\box37
 \tikz@tempbox=\box38
 \tikz@tempbox@bg=\box39
-\tikztreelevel=\count282
-\tikznumberofchildren=\count283
-\tikznumberofcurrentchild=\count284
-\tikz@fig@count=\count285
+\tikztreelevel=\count284
+\tikznumberofchildren=\count285
+\tikznumberofcurrentchild=\count286
+\tikz@fig@count=\count287
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
 e.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count286
-\pgfmatrixcurrentcolumn=\count287
-\pgf@matrix@numberofcolumns=\count288
+\pgfmatrixcurrentrow=\count288
+\pgfmatrixcurrentcolumn=\count289
+\pgf@matrix@numberofcolumns=\count290
 )
-\tikz@expandcount=\count289
+\tikz@expandcount=\count291
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
 s\tikzlibrarytopaths.code.tex"
@@ -1027,8 +1035,8 @@ Package: pgfplots 2015/01/31 v1.12 Data Visualization (1.12)
 \t@pgfplots@tokb=\toks34
 \t@pgfplots@tokc=\toks35
 \pgfplots@tmpa=\dimen158
-\c@pgfplots@coordindex=\count290
-\c@pgfplots@scanlineindex=\count291
+\c@pgfplots@coordindex=\count292
+\c@pgfplots@scanlineindex=\count293
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfplotssysgeneric
 .code.tex"))
@@ -1044,7 +1052,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 soldpgfsupp_pgflibraryfpu.code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
 soldpgfsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count292
+\c@pgfmathroundto@lastzeros=\count294
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
 soldpgfsupp_trig_format.code.tex"))
@@ -1056,13 +1064,13 @@ liststructure.code.tex")
 liststructureext.code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
 array.code.tex"
-\c@pgfplotsarray@tmp=\count293
+\c@pgfplotsarray@tmp=\count295
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
 matrix.code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable
 shared.code.tex"
-\c@pgfplotstable@counta=\count294
+\c@pgfplotstable@counta=\count296
 \t@pgfplotstable@a=\toks36
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
@@ -1075,7 +1083,7 @@ ta.code.tex"))
 .code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplot
 s.surfshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count295
+\c@pgfplotslibrarysurf@no=\count297
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def")))
@@ -1110,7 +1118,7 @@ s.code.tex"
 \pgfdecoratedinputsegmentcompleteddistance=\dimen161
 \pgfdecoratedinputsegmentremainingdistance=\dimen162
 \pgf@decorate@distancetomove=\dimen163
-\pgf@decorate@repeatstate=\count296
+\pgf@decorate@repeatstate=\count298
 \pgfdecorationsegmentamplitude=\dimen164
 \pgfdecorationsegmentlength=\dimen165
 )
@@ -1124,7 +1132,7 @@ brarydecorations.pathmorphing.code.tex"))
 s\tikzlibrarydecorations.pathreplacing.code.tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
 brarydecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count297
+\pgfplots@numplots=\count299
 \pgfplots@xmin@reg=\dimen166
 \pgfplots@xmax@reg=\dimen167
 \pgfplots@ymin@reg=\dimen168
@@ -1162,22 +1170,22 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen179
 \cmidrulekern=\dimen180
 \defaultaddspace=\dimen181
-\@cmidla=\count298
-\@cmidlb=\count299
+\@cmidla=\count300
+\@cmidlb=\count301
 \@aboverulesep=\dimen182
 \@belowrulesep=\dimen183
-\@thisruleclass=\count300
-\@lastruleclass=\count301
+\@thisruleclass=\count302
+\@lastruleclass=\count303
 \@thisrulewidth=\dimen184
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks37
-\MT@count=\count302
+\MT@count=\count304
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen185
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count303
+\MT@listname@count=\count305
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
@@ -1206,7 +1214,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@hangindent=\dimen192
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count304
+\c@ContinuedFloat=\count306
 Package caption Info: listings package is loaded.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -1258,15 +1266,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen193
-\Hy@linkcounter=\count305
-\Hy@pagecounter=\count306
+\Hy@linkcounter=\count307
+\Hy@pagecounter=\count308
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count307
+\Hy@SavedSpaceFactor=\count309
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1278,10 +1286,10 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count308
+\c@Hy@tempcnt=\count310
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen194
-\Fld@menulength=\count309
+\Fld@menulength=\count311
 \Field@Width=\dimen195
 \Fld@charsize=\dimen196
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -1293,9 +1301,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count310
-\c@Item=\count311
-\c@Hfootnote=\count312
+\Hy@abspage=\count312
+\c@Item=\count313
+\c@Hfootnote=\count314
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
@@ -1306,8 +1314,8 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count313
-\c@bookmark@seq@number=\count314
+\Fld@listcount=\count315
+\c@bookmark@seq@number=\count316
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1319,23 +1327,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks38
-))
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count315
+\c@float@type=\count317
 \float@exts=\toks39
 \float@box=\box41
 \@float@everytoks=\toks40
 \@floatcapt=\box42
 )
-Package scrhack Info: loading float hack on input line 7.
+Package scrhack Info: loading float hack on input line 30.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\float.hak"
 File: float.hak 2015/02/07 v3.16 KOMA-Script package (hacking package float)
 Package scrhack Info: redefining \newfloat on input line 161.
 Package scrhack Info: redefining \listof on input line 161.
 Package scrhack Info: undefining \float@addtolists on input line 161.
-)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\breakcites\breakcites.sty")
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\settings/settings.tex")
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
@@ -1346,12 +1355,12 @@ Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\american.lbx"
-File: american.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
+File: american.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
-File: english.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
+File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 ))
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.aux")
@@ -1387,25 +1396,32 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\main.bbl")
+-master\main.bbl"
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Kruchten2008
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 16.
 Package biblatex Info: Reference segment=0 on input line 16.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
+\scratchcounter=\count318
 \scratchdimen=\dimen198
 \scratchbox=\box43
-\nofMPsegments=\count317
-\nofMParguments=\count318
+\nofMPsegments=\count319
+\nofMParguments=\count320
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count319
+\MPscratchCnt=\count321
 \MPscratchDim=\dimen199
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
 \everyMPtoPDFconversion=\toks42
 )
-\c@lstlisting=\count322
+\c@lstlisting=\count324
 Package scrhack Info: undefining \float@addtolists on input line 16.
  ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
@@ -1437,7 +1453,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count323
+\c@section@level=\count325
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
@@ -1454,7 +1470,7 @@ Package nag Info: Command \topcaption not defined, skipping amendment on input
 line 16.
 
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\pages/cover.tex" <logos/tum.jpg, id=190, 319.1925pt x 176.91093pt>
+-master\pages/cover.tex" <logos/tum.jpg, id=226, 319.1925pt x 176.91093pt>
 File: logos/tum.jpg Graphic file (type jpg)
 
 <use logos/tum.jpg>
@@ -1462,7 +1478,7 @@ Package pdftex.def Info: logos/tum.jpg used on input line 13.
 (pdftex.def)             Requested size: 170.71652pt x 94.61806pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 26.
- <logos/faculty.pdf, id=191, 34.14326pt x 36.98859pt>
+ <logos/faculty.pdf, id=227, 34.14326pt x 36.98859pt>
 File: logos/faculty.pdf Graphic file (type pdf)
 
 <use logos/faculty.pdf>
@@ -1582,87 +1598,229 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
 [2
 
 
-]
-
-LaTeX Warning: Reference `chapter:conclusions' on page 3 undefined on input lin
-e 25.
-
-)
+])
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\chapters/ResearchQuestions.tex" [3]
 Chapter 2.
 [4
 
 
-] <images/arch_doc_level.jpg, id=320, 610.53094pt x 539.01375pt>
+] <images/arch_doc_level.jpg, id=387, 709.14937pt x 422.32782pt>
 File: images/arch_doc_level.jpg Graphic file (type jpg)
 
 <use images/arch_doc_level.jpg>
 Package pdftex.def Info: images/arch_doc_level.jpg used on input line 29.
-(pdftex.def)             Requested size: 284.52756pt x 251.2063pt.
- [5] [6]
-Overfull \hbox (91.77245pt too wide) in paragraph at lines 37--38
-[]\T1/pplx/m/n/10.95 (-20) Maintainers : As the name sug-gests, Main-tain-ers (
-\T1/pplx/m/it/10.95 (-20) https://www.mediawiki.org/wiki/Developers/Maintainers
-
+(pdftex.def)             Requested size: 284.52756pt x 169.4501pt.
+ [5] [6 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesi
+s-latex-master/images/arch_doc_level.jpg>]
+Overfull \hbox (8.35785pt too wide) in paragraph at lines 37--38
+\T1/pplx/m/n/10.95 (-20) ules in the me-di-awiki code base \T1/pplx/m/it/10.95 
+(-20) https://www.mediawiki.org/wiki/Developers/Maintainers\T1/pplx/m/n/10.95 (
+-20) .
  []
 
-[7 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-lat
-ex-master/images/arch_doc_level.jpg>]
-Overfull \hbox (55.56644pt too wide) in paragraph at lines 38--39
-[]\T1/pplx/m/n/10.95 (-20) Mediawiki BOTs : Be-sides hu-man main-tain-ers, Bots
- (\T1/pplx/m/it/10.95 (-20) https://www.mediawiki.org/wiki/Project:Bots\T1/pplx
-/m/n/10.95 (-20) )
+
+Overfull \hbox (0.35437pt too wide) in paragraph at lines 38--39
+\T1/pplx/m/n/10.95 (-20) automated pro-cess to carry out main-te-nance ac-tiv-i
+-ties that may be time-consuming
  []
 
-<images/MWSoftwareProcess.jpg, id=343, 600.8046pt x 632.3625pt>
+[7] <images/MWSoftwareProcess.jpg, id=414, 600.8046pt x 632.3625pt>
 File: images/MWSoftwareProcess.jpg Graphic file (type jpg)
 
 <use images/MWSoftwareProcess.jpg>
 Package pdftex.def Info: images/MWSoftwareProcess.jpg used on input line 49.
 (pdftex.def)             Requested size: 284.52756pt x 299.47795pt.
- [8]
-<images/MWDocProc.jpg, id=354, 392.9079pt x 415.5525pt>
+
+<images/MWDocProc.jpg, id=416, 392.9079pt x 415.5525pt>
 File: images/MWDocProc.jpg Graphic file (type jpg)
 
 <use images/MWDocProc.jpg>
 Package pdftex.def Info: images/MWDocProc.jpg used on input line 58.
 (pdftex.def)             Requested size: 284.52756pt x 300.92227pt.
- [9 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
-tex-master/images/MWSoftwareProcess.jpg>] [10 <C:/Users/Ankitaa/Desktop/TUM Stu
-dies/tum-thesis-latex-master/tum-thesis-latex-master/images/MWDocProc.jpg>] [11
-])
+ [8 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+tex-master/images/MWSoftwareProcess.jpg>] [9 <C:/Users/Ankitaa/Desktop/TUM Stud
+ies/tum-thesis-latex-master/tum-thesis-latex-master/images/MWDocProc.jpg>] [10]
+)
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/LiteratureSurvey.tex" [12]
+-master\chapters/LiteratureSurvey.tex" [11] [12]
 Chapter 3.
-) [13
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 13.
+
+LaTeX Font Info:    No file OMSpplx.fd. on input line 13.
+
+LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 13.
+
+[13
 
 
-] [14
+]
+Underfull \hbox (badness 10000) in paragraph at lines 31--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--39
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 40--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--54
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+
+ []
+
+[16] <images/4+1View.jpg, id=490, 624.83438pt x 356.83313pt>
+File: images/4+1View.jpg Graphic file (type jpg)
+
+<use images/4+1View.jpg>
+Package pdftex.def Info: images/4+1View.jpg used on input line 77.
+(pdftex.def)             Requested size: 284.52756pt x 162.48999pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--79
+
+ []
+
+
+Overfull \hbox (2.25128pt too wide) in paragraph at lines 67--79
+\T1/pplx/m/n/10.95 (-20) should fit into the socio-technical en-vi-ron-ment of 
+the open source com-mu-nity [Analysing
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--106
+
+ []
+
+
+Overfull \hbox (52.0721pt too wide) in paragraph at lines 87--106
+\T1/pplx/m/n/10.95 (-20) mi-grate word doc-u-ments into wiki. Also XWiki (\T1/p
+plx/m/it/10.95 (-20) http://www.xwiki.org/xwiki/bin/view/Main/WebHome\T1/pplx/m
+/n/10.95 (-20) ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--106
+
+ []
+
+[18 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+tex-master/images/4+1View.jpg>] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 108--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--123
+
+ []
+
+) [20] [21
 
 
 ]
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\chapters/Conceptualization.tex"
 Chapter 4.
-<images/MWDocBot.jpg, id=383, 575.9919pt x 569.2467pt>
+<images/MWDocBot.jpg, id=525, 575.9919pt x 569.2467pt>
 File: images/MWDocBot.jpg Graphic file (type jpg)
 
 <use images/MWDocBot.jpg>
-Package pdftex.def Info: images/MWDocBot.jpg used on input line 12.
+Package pdftex.def Info: images/MWDocBot.jpg used on input line 17.
 (pdftex.def)             Requested size: 418.25555pt x 413.36646pt.
- [15
+ [22
 
 
 ])
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/Implementation.tex" [16 <C:/Users/Ankitaa/Desktop/TUM Studies/
+-master\chapters/Implementation.tex" [23 <C:/Users/Ankitaa/Desktop/TUM Studies/
 tum-thesis-latex-master/tum-thesis-latex-master/images/MWDocBot.jpg>]
 Chapter 5.
-) [17
+) [24
 
 
-] [18
+] [25
 
 
 ]
@@ -1671,12 +1829,12 @@ Chapter 5.
 Chapter 6.
 )
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/Conclusion.tex" [19
+-master\chapters/Conclusion.tex" [26
 
 
 ]
 Chapter 7.
-) [20
+) [27
 
 
 ]
@@ -1686,7 +1844,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 55
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.lof")
 \tf@lof=\write7
- [21
+ [28
 
 
 ]
@@ -1696,17 +1854,30 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 56
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.lot")
 \tf@lot=\write8
-
-
-LaTeX Warning: Empty bibliography on input line 58.
-
-
-Package nag Warning: 1 complaints in total.
-
-[22
+ [29
 
 
 ]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplx/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 58.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [30
+
+
+]
+
+Package nag Warning: 1 complaints in total.
+
+[31]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 
@@ -1715,28 +1886,38 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7A84EF6D672005E6228A706A558A92B1;2989.
+(rerunfilecheck)             Checksum: BE4C96B44B839178479DDAC81B5059C6;3726.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 6 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 37268 strings out of 493921
- 825028 string characters out of 3144871
- 1399529 words of memory out of 3000000
- 39608 multiletter control sequences out of 15000+200000
- 47437 words of font info for 200 fonts, out of 3000000 for 9000
+ 37858 strings out of 493921
+ 837181 string characters out of 3144871
+ 1429771 words of memory out of 3000000
+ 40046 multiletter control sequences out of 15000+200000
+ 57352 words of font info for 275 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 75i,9n,83p,1373b,1888s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (29 pages, 962593 bytes).
+ 75i,9n,83p,2841b,2422s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Ankitaa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ectt1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/
+fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (38 pages, 1121761 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 27547 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 34280 words of extra memory for PDF output out of 35830 (max. 10000000)
 

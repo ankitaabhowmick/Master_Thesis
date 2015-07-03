@@ -1,0 +1,538 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{Ajila2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e14d8ed246679bd36b56b2928babd55a}{Ajila}{A\bibinitperiod}{Samuel\bibnamedelima A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=65027af5f4f54f2e6c7bb140253872e2}{Wu}{W\bibinitperiod}{Di}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5413f7e4e48963818a7329bf0adff968}
+      \strng{fullhash}{5413f7e4e48963818a7329bf0adff968}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we present the results of empirical study of the effects of open source software (OSS) components reuse on software development economics. Specifically, we examined three economic factors – cost, productivity, and quality. This study started with an extensive literature review followed by an exploratory study conducted through interviews with 18 senior project/quality managers, and senior software developers. Then, the result of the literature review and the exploratory study was used to formulate research model, hypotheses, and survey questionnaire. Software intensive companies from Canada and the US were targeted for this study. The period of study was between September 2004 and March 2006. Our findings show that there are strong significant statistical correlations between the factors of OSS components reuse and software development economics. The conclusion from this study shows that software organizations can achieve some economic gains in terms of software development productivity and product quality if they implement OSS components reuse adoption in a systematic way. A big lesson learned in this study is that OSS components are of highest quality and that open source community is not setting a bad example (contrary to some opinion) so far as ‘good practices’ are concerned.}
+      \field{issn}{01641212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{09}
+      \field{number}{9}
+      \field{title}{{Empirical study of the effects of open source adoption on software development economics}}
+      \field{volume}{80}
+      \field{year}{2007}
+      \field{pages}{1517\bibrangedash 1529}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jss.2007.01.011
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0164121207000076
+      \endverb
+      \keyw{Adoption,Measurement and economics,Open source software,Productivity,Quality,Reuse,Software process improvement}
+    \endentry
+    \entry{BachmannDocumentingSoftware2010}{book}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=b1cd17315cbad2bde9966d6a34ef0b97}{Bachmann}{B\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=97196c0aaced1368c3042b9299a9b34b}{Bass}{B\bibinitperiod}{Len}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=806866eee4e5b55ba7360bfe43f4f397}{Clements}{C\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5e93a0537dc9db010915acd5407760d4}{Garlan}{G\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d9fc5289d2c4e370f62a6bc793a54357}{Ivers}{I\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=97581c9cb3cf693bcb7d6cd479c7d06a}{Little}{L\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=62e303de918707d735cc9dcbfd652a5a}{Merson}{M\bibinitperiod}{Paulo}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6dcb0281b45ca74fc574826e4d48d94a}{Nord}{N\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7b72544908a41bc3c3c5b5b7fe0d5afd}{Stafford}{S\bibinitperiod}{Judith}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Professional}%
+      }
+      \strng{namehash}{de8b83d1754d0dd73ea16b784b6eba16}
+      \strng{fullhash}{832e5516dde5a16689d8f3f5b2fb0221}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second}
+      \field{title}{{Documenting Software Architectures: Views and Beyond}}
+      \field{year}{2010}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Bachmann et al. - 2010 - Documenting Software Architectures Views and Beyond.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Briand2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8852a6ac1b47165e3bbafad7e256a193}{Briand}{B\bibinitperiod}{L.C.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8852a6ac1b47165e3bbafad7e256a193}
+      \strng{fullhash}{8852a6ac1b47165e3bbafad7e256a193}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is a well-known fact that software documentation is, in practice, poor and incomplete. Though specification, design, and test documents-among other things-are required by standards and capability maturity models (e.g., SEI CMM), such documentation does not exist in a complete and consistent form in most organizations. When documents are produced, they tend to follow no defined standard and lack information that is crucial to make them understandable and usable by developers and maintainers. Then a fundamental practical question, which motivated this keynote address, is to better understand what type of documentation is required, what is needed to support its completeness and consistency, and what is the level of precision required for each type of document. These questions cannot be investigated at that level of generality though. Answers are likely to be very context-dependent if they are to be precise. We focus our attention here on object-oriented development and the Unified Modeling Language (UML).}
+      \field{isbn}{0-7695-1902-4}
+      \field{issn}{1534-5351}
+      \field{journaltitle}{Seventh European Conference onSoftware Maintenance and Reengineering, 2003. Proceedings.}
+      \field{title}{{Software documentation: how much is enough?}}
+      \field{year}{2003}
+      \verb{doi}
+      \verb 10.1109/CSMR.2003.1192406
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/briandswdoc.pdf:pdf
+      \endverb
+    \endentry
+    \entry{crouch_stephen_software_2013}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7e31612643d05aed915a3c21c64ee8ee}{Crouch}{C\bibinitperiod}{et.\bibnamedelimi al}{e\bibinitperiod\bibinitdelim a\bibinitperiod}{}{}{Stephen}{S\bibinitperiod}}%
+      }
+      \strng{namehash}{7e31612643d05aed915a3c21c64ee8ee}
+      \strng{fullhash}{7e31612643d05aed915a3c21c64ee8ee}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"The Software Sustainability Institute: Changing Research Software Attitudes and Practices,"}
+      \field{journaltitle}{The Software Sustainability Institute}
+      \field{month}{12}
+      \field{note}{Computing in Science \& Engineering , vol.15, no.6, pp.74,80, .}
+      \field{title}{The {Software} {Sustainability} {Institute}}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.software.ac.uk/
+      \endverb
+    \endentry
+    \entry{6923128}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=9a3131ca498ba863c0c6f33fa7baac32}{Ding}{D\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=41658c7f1126a9a84da600b357c5ceb5}{Liang}{L\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=71538236bcf84a31f15676359e7cc838}{Tang}{T\bibinitperiod}{Antony}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=85b89b612dea95e65e65200359afb85d}{Vliet}{V\bibinitperiod}{Hans\bibnamedelima Van}{H\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2463e3ddc010ccd007e782d30714ec00}{Shahin}{S\bibinitperiod}{Mojtaba}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7ce0417981f7c8952072c6a6a2b382fc}
+      \strng{fullhash}{5b1ad095c0d12dd402b4793517ece6a5}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 19th International Conference on Engineering of Complex Computer Systems}
+      \field{isbn}{978-1-4799-5482-7}
+      \field{month}{08}
+      \field{title}{{How Do Open Source Communities Document Software Architecture: An Exploratory Survey}}
+      \field{year}{2014}
+      \field{pages}{136\bibrangedash 145}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ICECCS.2014.26
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Ding et al. - 2014 - How Do Open Source Communities Document Software Architecture An Exploratory Survey.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6923128
+      \endverb
+      \keyw{OSS d,SAD,architecture document elements,architecture documentation,open source software,public domain software,software architecture}
+    \endentry
+    \entry{Fuggeffa1988}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=208c66b25c8673b7a0bdea51ac0425e6}{Fuggeffa}{F\bibinitperiod}{Alfonso}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=01bcc2fedee6e67afbeb32401cf90971}{Fuggetta}{F\bibinitperiod}{Alfonso}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b8fc23bdc6d91737df22b8532f779795}{Milano}{M\bibinitperiod}{Politecnico}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0263d3c47355899aa2b3123172502b39}
+      \strng{fullhash}{0263d3c47355899aa2b3123172502b39}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1581132530}
+      \field{title}{{Software Process : A Roadmap Software Process : A Roadmap}}
+      \field{volume}{97}
+      \field{year}{1988}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/TUM Studies/4th sem/software proess.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Garlan2011}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5e93a0537dc9db010915acd5407760d4}{Garlan}{G\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a71c8aa98b158fa0b3a629457cda1498}{Shaw}{S\bibinitperiod}{Mary}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{94627d1b95ba382f0e96d00a081554c3}
+      \strng{fullhash}{94627d1b95ba382f0e96d00a081554c3}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Software Architecture emerged in the 1990's as an important sub-field of software engineering. While good architectural design had long been recognized as critical to the success of any complex software system, before then the practice of architecting had relied largely on ad hoc, uncodified, and idiosyncratic techniques and knowledge. By the 2000's the field had matured to the point where there were widely-recognized taxonomies of architectural patterns, techniques for formally representing and analyzing architectures, methods for reviewing an architectural design, widespread adoption of architectural product lines and composition frameworks, and techniques for ensuring conformance between an architecture and an implementation of it. In this talk we reflect on the key enablers of a discipline of software architecture that led to these advances, the central ideas that form its core, and its enduring principles that continue to shape the field of software engineering. We consider both the important concepts on which it builds, as well as those that have built on top of it. Finally, we examine some of the important new trends and challenges that are likely to have an impact on how software architecture will evolve in the future.}
+      \field{isbn}{978-1-4503-0443-6}
+      \field{journaltitle}{Proceedings of the 19th ACM SIGSOFT Symposium and the 13th European Conference on Foundations of Software Engineering}
+      \field{title}{{Software Architecture: Reflections on an Evolving Discipline}}
+      \field{year}{2011}
+      \field{pages}{2}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1145/2025113.2025116
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Garlan, Shaw - 2011 - Software Architecture Reflections on an Evolving Discipline.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2025113.2025116
+      \endverb
+      \keyw{architecture,keynotes,software}
+    \endentry
+    \entry{SMR:SMR572}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1d00515fe991ba26ce9b4c5ca06934fa}{Kruchten}{K\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2047-7481}
+      \field{journaltitle}{Journal of Software: Evolution and Process}
+      \field{number}{4}
+      \field{title}{Contextualizing agile software development}
+      \field{volume}{25}
+      \field{year}{2013}
+      \field{pages}{351\bibrangedash 361}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/smr.572
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/smr.572
+      \endverb
+      \keyw{agile software development,software development process,process adaptation}
+    \endentry
+    \entry{bab2009}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1d00515fe991ba26ce9b4c5ca06934fa}{Kruchten}{K\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=9243cad38785ced3f1277aed46f89719}{{Ali\bibnamedelimb Babar}}{A\bibinitperiod}{Muhammad}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a44b8f626a54b0272df760ac3b3242d6}{Dingsøyr}{D\bibinitperiod}{Torgeir}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b7e3fc29bccdf8a7639daddb302e1545}{Lago}{L\bibinitperiod}{Patricia}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=e09d7b792fa1cc8b058030bfc8fabbff}{Vliet}{V\bibinitperiod}{Hans}{H\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this chapter we survey how architects have represented architectural 6 knowledge and in particular architectural design. This has evolved over the last 7 3 decades, from very intuitive and informal, to very structured, abstract and for- 8 mal, from simple diagrams and metaphors, design notations, and specific languages. 9 As our understanding of architectural knowledge evolved, the importance of de- 10 sign rationale and the decision process became more and more prominent. There is 11 however a constant through this evolution: the systematic use of metaphors. 12 3.1}
+      \field{booktitle}{Software Architecture Knowledge Management}
+      \field{chapter}{3}
+      \field{isbn}{978-3-642-02373-6}
+      \field{title}{{Documentation of Software Architecture from a Knowledge Management Perspective – Design Representation}}
+      \field{year}{2009}
+      \field{pages}{39\bibrangedash 57}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/978-3-642-02374-3\_3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kruchten - 2009 - Documentation of Software Architecture from a Knowledge Management Perspective – Design Representation.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-642-02374-3%5C_3
+      \endverb
+      \keyw{architecture knowledge,documenting rational}
+    \endentry
+    \entry{Mens2011}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=07e3dab71ff2bac06cd1ecf5b69ae028}{Mens}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=630a5af564bab9e44612560b2db6aec1}{Goeminne}{G\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bd3b72cc9742e55b4516de6dab74ee08}
+      \strng{fullhash}{bd3b72cc9742e55b4516de6dab74ee08}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Empirical software engineering is concerned with statistical studies that aim to understand and improve certain aspects of the soft- ware development process. Many of these focus on the evolution and maintenance of evolving software projects. They rely on repository min- ing techniques to extract relevant data from software repositories or other data sources frequently used by software developers. We enlarge these empirical studies by exploring social software engineering, study- ing the developer community, including the way developers work, coop- erate, communicate and share information. The underlying hypothesis is that social aspects significantly influence the way in which the software project will evolve over time. We present some preliminary results of an empirical study we are carrying out on the different types of activities of the community involved in the GNOME open source ecosystem, and we discuss suggestions for future work.}
+      \field{journaltitle}{Proc. 3rd Int. Workshop on Software Ecosystems}
+      \field{title}{{Analysing the evolution of social aspects of open source software ecosystems}}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/IWSECO2011-1-InvitedPaper-MensGoeminne.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ceur-ws.org/Vol-746/IWSECO2011-1-InvitedPaper-MensGoeminne.pdf
+      \endverb
+      \keyw{empirical software engi- neering,open source software,repository mining,social software engineering,software ecosystem,software evolution}
+    \endentry
+    \entry{michlmayr:quality_problems}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=fe3fd9f9210565ae34c1ec453eac466b}{Michlmayr}{M\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69a2e6729f3a6096a91d969281d8615b}{Hunt}{H\bibinitperiod}{Francis}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=036941c1a493b707956b2bd7c6d4567d}{Probert}{P\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=38c2c05633d8e5c14b8e7db9c5af16d1}{Scotto}{S\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ba7122735918fedd33253326a25c2e66}{Succi}{S\bibinitperiod}{Giancarlo}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Genova, Italy}%
+      }
+      \strng{namehash}{0b0374b4206c515b67c4a7077d640ab4}
+      \strng{fullhash}{0b0374b4206c515b67c4a7077d640ab4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the First International Conference on Open Source Systems}
+      \field{title}{Quality Practices and Problems in Free Software Projects}
+      \field{year}{2005}
+      \field{pages}{24\bibrangedash 28}
+      \range{pages}{5}
+    \endentry
+    \entry{Scacchi2007}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ad725bce9a60551cf361a36e69fdc0a9}{Scacchi}{S\bibinitperiod}{Walt}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ad725bce9a60551cf361a36e69fdc0a9}
+      \strng{fullhash}{ad725bce9a60551cf361a36e69fdc0a9}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Computers}
+      \field{isbn}{9780123737458}
+      \field{issn}{00652458}
+      \field{series}{Advances in Computers}
+      \field{title}{{Architectural Issues}}
+      \field{volume}{69}
+      \field{year}{2007}
+      \field{pages}{243\bibrangedash 295}
+      \range{pages}{53}
+      \verb{doi}
+      \verb 10.1016/S0065-2458(06)69005-0
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0065245806690050
+      \endverb
+    \endentry
+    \entry{SPM_2005}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ad725bce9a60551cf361a36e69fdc0a9}{Scacchi}{S\bibinitperiod}{Walt}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=f190e8ad23a42f6803947852b49cc576}{Acuña}{A\bibinitperiod}{SilviaT.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=bbb74d444592ba50e0d5876e8d406998}{Juristo}{J\bibinitperiod}{Natalia}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{ad725bce9a60551cf361a36e69fdc0a9}
+      \strng{fullhash}{ad725bce9a60551cf361a36e69fdc0a9}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Software Process Modeling}
+      \field{isbn}{978-0-387-24261-3}
+      \field{series}{International Series in Software Engineering}
+      \field{title}{Socio-Technical Interaction Networks in Free/Open Source Software Development Processes}
+      \field{volume}{10}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/0-387-24262-7_1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/0-387-24262-7_1
+      \endverb
+    \endentry
+    \entry{SCAMPITeam2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6b8742e49522ad01c979e41197ca9739}{{SCAMPI\bibnamedelimb Team}}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{6b8742e49522ad01c979e41197ca9739}
+      \strng{fullhash}{6b8742e49522ad01c979e41197ca9739}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{March}
+      \field{title}{{Standard CMMI Appraisal Method for Process Improvement (SCAMPI) Version 1.3a: Method Definition Document for SCAMPI A, B, and C}}
+      \field{year}{2013}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/11hb001.pdf:pdf
+      \endverb
+      \keyw{CMMI,Class A method,Document Description,MDD,Method,SCAMPI A,appraisal,appraisal method}
+    \endentry
+    \entry{Shahin2014}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=2463e3ddc010ccd007e782d30714ec00}{Shahin}{S\bibinitperiod}{Mojtaba}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=41658c7f1126a9a84da600b357c5ceb5}{Liang}{L\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d4d4fe4b84580d022e3c19b9f8421af5}{Babar}{B\bibinitperiod}{Muhammad\bibnamedelima Ali}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Inc.}%
+      }
+      \strng{namehash}{bbbdd396708fbc84881f7ba4a4fd9117}
+      \strng{fullhash}{bbbdd396708fbc84881f7ba4a4fd9117}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Context Given the increased interest in using visualization techniques (VTs) to help communicate and understand software architecture (SA) of large scale complex systems, several VTs and tools have been reported to represent architectural elements (such as architecture design, architectural patterns, and architectural design decisions). However, there is no attempt to systematically review and classify the VTs and associated tools reported for SA, and how they have been assessed and applied. Objective This work aimed at systematically reviewing the literature on software architecture visualization to develop a classification of VTs in SA, analyze the level of reported evidence and the use of different VTs for representing SA in different application domains, and identify the gaps for future research in the area. Method We used systematic literature review (SLR) method of the evidence-based software engineering (EBSE) for reviewing the literature on VTs for SA. We used both manual and automatic search strategies for searching the relevant papers published between 1 February 1999 and 1 July 2011. Results We selected 53 papers from the initially retrieved 23,056 articles for data extraction, analysis, and synthesis based on pre-defined inclusion and exclusion criteria. The results from the data analysis enabled us to classify the identified VTs into four types based on the usage popularity: graph-based, notation-based, matrix-based, and metaphor-based VTs. The VTs in SA are mostly used for architecture recovery and architectural evolution activities. We have also identified ten purposes of using VTs in SA. Our results also revealed that VTs in SA have been applied to a wide range of application domains, among which "graphics software" and "distributed system" have received the most attention. Conclusion SA visualization has gained significant importance in understanding and evolving software-intensive systems. However, only a few VTs have been employed in industrial practice. This review has enabled us to identify the following areas for further research and improvement: (i) it is necessary to perform more research on applying visualization techniques in architectural analysis, architectural synthesis, architectural implementation, and architecture reuse activities; (ii) it is essential to pay more attention to use more objective evaluation methods (e.g., controlled experiment) for providing more convincing evidence to support the promised benefits of using VTs in SA; (iii) it is important to conduct industrial surveys for investigating how software architecture practitioners actually employ VTs in architecting process and what are the issues that hinder and prevent them from adopting VTs in SA. ?? 2014 Elsevier Inc.}
+      \field{issn}{01641212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{title}{{A systematic review of software architecture visualization techniques}}
+      \field{volume}{94}
+      \field{year}{2014}
+      \field{pages}{161\bibrangedash 185}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1016/j.jss.2014.03.071
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Shahin, Liang, Babar - 2014 - A systematic review of software architecture visualization techniques.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jss.2014.03.071
+      \endverb
+      \keyw{Software architecture,Software architecture visualization,Visualization techniques}
+    \endentry
+    \entry{Shahin2009}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=2463e3ddc010ccd007e782d30714ec00}{Shahin}{S\bibinitperiod}{Mojtaba}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=41658c7f1126a9a84da600b357c5ceb5}{Liang}{L\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=95384e6fc3868d553809a5dfbf210c06}{Khayyambashi}{K\bibinitperiod}{Mohammad\bibnamedelima Reza}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ac049a7511a4b380cea5da4b107810d4}
+      \strng{fullhash}{ac049a7511a4b380cea5da4b107810d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the field of software architecture, there has been a paradigm shift from describing the outcome of architecting process mostly described by component and connector (know-what) to documenting architectural design decisions and their rationale (know-how) which leads to the production of an architecture. This paradigm shift results in emergence of various models and related tools for capturing, managing and sharing architectural design decisions and their rationale explicitly. This paper analyzes existing architectural design decisions models and provides a criteria-based comparison on tools that support these models. The major contribution of this paper is twofold: to show that all of these models have a consensus on capturing the essence of an architectural design decision; and to clarify the major difference among the tools and show what desired features are missing in these tools.}
+      \field{isbn}{978-1-4244-4984-2}
+      \field{journaltitle}{2009 Joint Working IEEE/IFIP Conference on Software Architecture \& European Conference on Software Architecture}
+      \field{title}{{Architectural design decision: Existing models and tools}}
+      \field{year}{2009}
+      \field{pages}{293\bibrangedash 296}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/WICSA.2009.5290823
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/05290823.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb 10.1109/WICSA.2009.5290823$%5Cbackslash$nhttp://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5290823
+      \endverb
+    \endentry
+    \entry{5314237}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e065b9d6c96b5b98ca6fe0d638ad1f3b}{Soto}{S\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9d72fe9f908d291acdaf75a3dc9e09cb}{Ciolkowski}{C\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7f24eee2c72e9213cb60373b80046e1a}
+      \strng{fullhash}{7f24eee2c72e9213cb60373b80046e1a}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Empirical Software Engineering and Measurement, 2009. ESEM 2009. 3rd International Symposium on}
+      \field{issn}{1938-6451}
+      \field{month}{10}
+      \field{title}{{The QualOSS open source assessment model measuring the performance of open source communities}}
+      \field{year}{2009}
+      \field{pages}{498\bibrangedash 501}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ESEM.2009.5314237
+      \endverb
+      \verb{file}
+      \verb ::
+      \endverb
+      \keyw{DP industry,EU project QualOSS open source assessment model,OSS community sustainability,OSS project,Software engineering,Software measurement,comprehensive measurement framework,open source community performance measurement,open source software,process maturity,product quality standard,project management,public domain software,software development management,software industry,software maintenance,software metrics,software quality}
+    \endentry
+    \entry{yeates_stuart_OSS_2008}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=70afaf7ca0a90e2b9a042ce42f35eb66}{Yeates}{Y\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{70afaf7ca0a90e2b9a042ce42f35eb66}
+      \strng{fullhash}{70afaf7ca0a90e2b9a042ce42f35eb66}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{06}
+      \field{title}{{OSS}{Watch}}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://oss-watch.ac.uk/resources/archived/documentation
+      \endverb
+    \endentry
+    \entry{Zhao2003}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=cf94dab22ad6b81d050cfdd56c0e5f36}{Zhao}{Z\bibinitperiod}{Luyin}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=31664d49e56e89a491d910b2042077aa}{Elbaum}{E\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f32948a88006a570ca83d4a66be5a9f6}
+      \strng{fullhash}{f32948a88006a570ca83d4a66be5a9f6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The open source development model has defied traditional software development practices by generating widely accepted products (e.g., Linux, Apache, Perl) while following unconventional principles such as the distribution of free source code and massive user participation. Those achievements have initiated and supported many declarations about the potential of the open source model to accelerate the development of reliable software. However, the pronouncements in favor or against this model have been usually argumentative, lacking of empirical evidence to support either position. Our work uses a survey to overcome those limitations. The study explores how software quality assurance is performed under the open source model, how it differs from more traditional software development models, and whether some of those differences could translate into practical advantages given the right circumstances. The findings indicate that open source has certainly introduced a new dimension in large-scale distributed software development. However, we also discovered that the potential of open source might not be exploitable under all scenarios. Furthermore, we found that many of the open source quality assurance activities are still evolving.}
+      \field{issn}{01641212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{04}
+      \field{number}{1}
+      \field{title}{{Quality assurance under the open source development model}}
+      \field{volume}{66}
+      \field{year}{2003}
+      \field{pages}{65\bibrangedash 75}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/S0164-1212(02)00064-X
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S016412120200064X
+      \endverb
+      \keyw{Open source,Quality assurance,Software development models,Survey}
+    \endentry
+  \endsortlist
+  \missing{Kruchten2008}
+\endrefsection
+\endinput
+
