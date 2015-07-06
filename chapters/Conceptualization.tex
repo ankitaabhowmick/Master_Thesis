@@ -1,15 +1,51 @@
 \chapter{Conceptualization}\label{chapter:Conceptualization}
 
 \section{Idea Generation and Evolution}
-\subsection{Initial Ideas}
+\indent This chapter outlines the approach that was taken to find answers to the research questions and conceptualize an optimal solution.
 
+\subsection{Initial Ideas}
+\indent Initial discussion were held with the developers / architects at Mediawiki to come to an understanding of their current community setup and to get a beginner's guide to the system. Following their suggestions and the advise of experienced developers, the following approaches were taken to kick-start the conceptualization phase.
+ 
 Analyse software architecture documentation
 Doxygen – tool for documenting S.A
 Who, what how ?
 Methodology for documentation
-
+Understand feature of mediawiki.org - template, extension, visualizations
 Different versions - arguments and decision-making, user scenarios discussions
+
+
+
+Using wiki for documentation disadvantage:
+Review not possible
+offline work not possible
+Tracking changes not possible
+A page save creates a new history entry. This may lead to unnecessary revision history 
+
+
+
+\section{Improved Process}
+Documentation health monitor
+Review of documents in a process-oriented structure - Gerrit review 
+
+\subsection{Roles and Responsibility definition and co-ordination}
+
+Key principles to address challenges of the task-centered collaboration approach are [Felix Master thesis]
+1.) the self-organization of the community through task decomposition, 
+2.) an on-line community support based on social design principles and best practices and
+ 3.) an open science process to enable unanticipated contributions
+
+	Solves issues identified previously
+ 	
+ 	streamline more people into a process
+ 	
+ 	
+\subsection{Document Maintenance Bot}
+Using bot to take on the responsibility of 
+maintainable/ visible
+
+
 \subsection{A proof of concept}
+figure : Bot in the system
 
 In \autoref{fig:MWDocBot}  we can see the 
 \begin{figure}[H]
@@ -17,9 +53,3 @@ In \autoref{fig:MWDocBot}  we can see the
   \includegraphics[width=\textwidth]{images/MWDocBot}
   \caption[Maintenace Bot Sequence diagram]{Maintenace Bot Sequence diagram.}\label{fig:MWDocBot}
 \end{figure}
-
-\section{Improved Process}
-
-\subsection{Process Details}
-	Solves issues identified previously
- 	maintainable/ visible/ streamline more people into a process

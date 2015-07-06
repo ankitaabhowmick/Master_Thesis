@@ -22,7 +22,7 @@
     \entry{Ajila2007}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=e14d8ed246679bd36b56b2928babd55a}{Ajila}{A\bibinitperiod}{Samuel\bibnamedelima A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=65027af5f4f54f2e6c7bb140253872e2}{Wu}{W\bibinitperiod}{Di}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=65027af5f4f54f2e6c7bb140253872e2}{Wu}{W\bibinitperiod}{Di}{D\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{5413f7e4e48963818a7329bf0adff968}
       \strng{fullhash}{5413f7e4e48963818a7329bf0adff968}
@@ -74,6 +74,30 @@
       \field{year}{2010}
       \verb{file}
       \verb :C$\backslash$:/Users/Ankitaa/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Bachmann et al. - 2010 - Documenting Software Architectures Views and Beyond.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Bachmann2005}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=b1cd17315cbad2bde9966d6a34ef0b97}{Bachmann}{B\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=62e303de918707d735cc9dcbfd652a5a}{Merson}{M\bibinitperiod}{Paulo}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=850a412bfe3dd69c3f6be7e7a8f250ed}{Architecture}{A\bibinitperiod}{Software}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b8bdffb06816c780312aabdb2c8ae0ab}{Initiative}{I\bibinitperiod}{Technology}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=19b7cb9e410cb1cb4d357a18103d9805}{Cmu}{C\bibinitperiod}{Technical\bibnamedelima Note}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d57af2fbc09e1651c0f1888186c603d6}
+      \strng{fullhash}{c8392e676b432de45e0f5cef4ee00e30}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In an organization that uses an architecture-centric development approach, it is the purpose of the software architecture, especially the product documentation to guide all stakeholders who contribute in one way or another to the development of the product(s). Unfortunately, in many organizations, this documentation ends up on the shelves, unused and collecting dust. This happens in part because it is difficult to keep the architecture documentation current, hard for nondevelopers to understand what the documents describe, and challenging for nondevelopers to use the tools necessary to access the documentation. This technical note discusses the benefits and challenges of using a wiki-based collaborative environment to create software architecture documentation. The findings are based on two experiences. The first was that of a team of Carnegie Mellon University Master of Software Engineering (MSE) program students that used the wiki tool in a real-world software project. For its customer, the team had to produce and document the architecture of a system that will be developed by many geographically distributed teams. The second experience was a study conducted by another MSE student to reconstruct and document the architecture of a multitier enterprise application using the wiki tool and UML 2.0.}
+      \field{issn}{1548-8837, 1548-8837}
+      \field{journaltitle}{Technology}
+      \field{number}{September}
+      \field{title}{{Experience Using the Web-Based Tool Wiki for Architecture Documentation}}
+      \field{year}{2005}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/TUM Studies/4th sem/Experience Using the Wiki for Software Arch Doc.pdf:pdf
       \endverb
     \endentry
     \entry{Briand2003}{article}{}
@@ -151,6 +175,18 @@
       \endverb
       \keyw{OSS d,SAD,architecture document elements,architecture documentation,open source software,public domain software,software architecture}
     \endentry
+    \entry{eclipse2013}{url}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=32f7222026696f30787889194dee83e5}{Eclipse}{E\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{32f7222026696f30787889194dee83e5}
+      \strng{fullhash}{32f7222026696f30787889194dee83e5}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{series}{https://eclipse.org/projects/dev_process/development_process.php}
+      \field{year}{2013}
+    \endentry
     \entry{Fuggeffa1988}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,hash=208c66b25c8673b7a0bdea51ac0425e6}{Fuggeffa}{F\bibinitperiod}{Alfonso}{A\bibinitperiod}{}{}{}{}}%
@@ -199,6 +235,27 @@
       \verb http://doi.acm.org/10.1145/2025113.2025116
       \endverb
       \keyw{architecture,keynotes,software}
+    \endentry
+    \entry{Kim:2000:CBW:518514}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6cd6a4ae7980b933d315964c1ed08601}{Kim}{K\bibinitperiod}{Amy\bibnamedelima Jo}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Longman Publishing Co., Inc.}%
+      }
+      \strng{namehash}{6cd6a4ae7980b933d315964c1ed08601}
+      \strng{fullhash}{6cd6a4ae7980b933d315964c1ed08601}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{isbn}{0201874849}
+      \field{title}{Community Building on the Web: Secret Strategies for Successful Online Communities}
+      \field{year}{2000}
     \endentry
     \entry{SMR:SMR572}{article}{}
       \name{author}{1}{}{%
@@ -264,6 +321,34 @@
       \endverb
       \keyw{architecture knowledge,documenting rational}
     \endentry
+    \entry{Kruchten2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1d00515fe991ba26ce9b4c5ca06934fa}{Kruchten}{K\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To be successful, a software architect—or a software architecture team, collectively—must strike a delicate balance between an external focus—both outwards: Listening to customers, users, watching technology, developing a long-term vision, and inwards: driving the development teams—and an internal, reflective focus: spending time to make the right design choices, validating them, and documenting them. Teams that stray too far away from this metastable equilibrium fall into some traps that we describe as antipatterns of software architecture teams.}
+      \field{issn}{01641212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{What do software architects really do?}}
+      \field{volume}{81}
+      \field{year}{2008}
+      \field{pages}{2413\bibrangedash 2416}
+      \range{pages}{4}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kruchten - 2008 - What do software architects really do.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0164121208002057
+      \endverb
+      \keyw{(roles,),Antipattern,Software architect,Software architecture,Time-management,activities}
+    \endentry
     \entry{Mens2011}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=07e3dab71ff2bac06cd1ecf5b69ae028}{Mens}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
@@ -313,6 +398,37 @@
       \field{year}{2005}
       \field{pages}{24\bibrangedash 28}
       \range{pages}{5}
+    \endentry
+    \entry{Mockus2000}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=5bc6a8ef3ae875c77c9af3a4635e7e12}{Mockus}{M\bibinitperiod}{a}{a\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=59344fa99fdcfa64da850d5fedddb3df}{Fielding}{F\bibinitperiod}{R\bibnamedelima T}{R\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e8e10bcbaace83e60c0fc7f699c00bb1}{Herbsleb}{H\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{59ed112a6d1d03342bdb651f1007200a}
+      \strng{fullhash}{59ed112a6d1d03342bdb651f1007200a}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{According to its proponents, open source style software development has the capacity to compete successfully, and perhaps in many cases displace, traditional commercial development methods. In order to begin investigating such claims, we examine the development process of a major open source application, the Apache web server. By using email archives of source code change history and problem reports we quantify aspects of developer participation, core team size, code ownership, productivity, defect density, and problem resolution interval for this OSS project. This analysis reveals a unique process, which performs well on important measures. We conclude that hybrid forms of development that borrow the most effective techniques from both the OSS and commercial worlds may lead to high performance software processes.}
+      \field{isbn}{1581132069}
+      \field{issn}{02705257}
+      \field{journaltitle}{Proceedings of the 2000 International Conference on Software Engineering ICSE 2000 the New Millennium}
+      \field{title}{{A case study of open source software development: the Apache server}}
+      \field{year}{2000}
+      \field{pages}{263\bibrangedash 272}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ICSE.2000.870417
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/p263-mockus.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=870417
+      \endverb
+      \keyw{code,defect density,open source,ownership,repair interval,software process}
     \endentry
     \entry{Scacchi2007}{book}{}
       \name{author}{1}{}{%
@@ -377,6 +493,37 @@
       \verb{url}
       \verb http://dx.doi.org/10.1007/0-387-24262-7_1
       \endverb
+    \endentry
+    \entry{Scacchi2006}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=ad725bce9a60551cf361a36e69fdc0a9}{Scacchi}{S\bibinitperiod}{Walt}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=65dcfaa8f4ee5f69825897d1eb2ddaf8}{Feller}{F\bibinitperiod}{Joseph}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=038ef18bc52b7b68063e5ed2ea44c461}{Fitzgerald}{F\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2cbf75f31e039db5b5fd0260ad96653f}{Hissam}{H\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fa23c8bdf17ec55e9f4a8be73fad5529}{Lakhani}{L\bibinitperiod}{Karim}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bc9225375e9145941f9df9c7b96dac5d}
+      \strng{fullhash}{2c84a7890ccf5ab8f34dd13d991009fb}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article introduces a special issue of Software Process – Improvement and Practice focusing on processes found in free or open source software development (F/OSSD) projects. It seeks to provide a background overview of research in this area through a review of selected empirical studies of F/OSSD processes. The results and findings from a survey of empirical studies of F/OSSD give rise to an interesting variety of opportunities and challenges for understanding these processes, which are identified along the way. Overall, what becomes clear is that studies of F/OSSDprocesses reveal a more diverse set of different types of processes than have typically been examined in conventional software development projects. The articles in this special issue further advance understanding of what processes characterize and shape F/OSSD. Copyright}
+      \field{isbn}{1099-1670}
+      \field{issn}{10774866}
+      \field{journaltitle}{Software Process Improvement and Practice}
+      \field{title}{{Understanding free/open source software development processes}}
+      \field{volume}{11}
+      \field{year}{2006}
+      \field{pages}{95\bibrangedash 105}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/spip.255
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Scacchi et al. - 2006 - Understanding freeopen source software development processes.pdf:pdf
+      \endverb
+      \keyw{Free software development,Free/open source software processes,Open source software development}
     \endentry
     \entry{SCAMPITeam2013}{article}{}
       \name{author}{1}{}{%
@@ -485,6 +632,23 @@
       \endverb
       \keyw{DP industry,EU project QualOSS open source assessment model,OSS community sustainability,OSS project,Software engineering,Software measurement,comprehensive measurement framework,open source community performance measurement,open source software,process maturity,product quality standard,project management,public domain software,software development management,software industry,software maintenance,software metrics,software quality}
     \endentry
+    \entry{Wu2001}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=b778d0f1c2dc2c99f0fe4dd5e4f9b603}{Wu}{W\bibinitperiod}{Ming-wei}{M\bibinithyphendelim w\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cda77f466210cc7552d973227e3c3361}{Lin}{L\bibinitperiod}{Ying-dar}{Y\bibinithyphendelim d\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{347d843194bf25cb1adccacbada8fe00}
+      \strng{fullhash}{347d843194bf25cb1adccacbada8fe00}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{June}
+      \field{title}{{Open Source Software Development : An Overview}}
+      \field{year}{2001}
+      \field{pages}{33\bibrangedash 38}
+      \range{pages}{6}
+    \endentry
     \entry{yeates_stuart_OSS_2008}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=70afaf7ca0a90e2b9a042ce42f35eb66}{Yeates}{Y\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
@@ -532,7 +696,6 @@
       \keyw{Open source,Quality assurance,Software development models,Survey}
     \endentry
   \endsortlist
-  \missing{Kruchten2008}
 \endrefsection
 \endinput
 
