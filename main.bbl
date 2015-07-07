@@ -175,6 +175,31 @@
       \endverb
       \keyw{OSS d,SAD,architecture document elements,architecture documentation,open source software,public domain software,software architecture}
     \endentry
+    \entry{Duijnhouwer2003}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=248864367f8f7e5e955468744ff39322}{Duijnhouwer}{D\bibinitperiod}{Frans-Willem}{F\bibinithyphendelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fe0aa37cbabfd60d7f9e096b9ecf069f}{Widdows}{W\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4e6a705114774052a4d84a817aea1365}
+      \strng{fullhash}{4e6a705114774052a4d84a817aea1365}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In order to be able to determine if an open source product is Frans-Willem Duijnhouwer suitable for an organisation, Capgemini has developed the Chris Widdows Open Source Maturity Model. This model allows you to determine if or which open source product is suitable using just seven clear steps. Not only a good way to keep interesting but immature products away from your business, but also an useful tool to objectify the discussion on applying Open Source in the workplace. Given the current strong political interest for Open Source, having a professional approach to open source products is an asset.}
+      \field{journaltitle}{Capgemini Expert Letter}
+      \field{number}{August}
+      \field{title}{{Open Surce Maturity Model}}
+      \field{year}{2003}
+      \field{pages}{18}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/GB\_Expert\_Letter\_Open\_Source\_Maturity\_Model\_1.5.3.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://bolsa.info.unlp.edu.ar/campamento/campamento/documentos/GB%5C_Expert%5C_Letter%5C_Open%5C_Source%5C_Maturity%5C_Model%5C_1.5.3.pdf
+      \endverb
+    \endentry
     \entry{eclipse2013}{url}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=32f7222026696f30787889194dee83e5}{Eclipse}{E\bibinitperiod}{}{}{}{}{}{}}%
@@ -235,6 +260,22 @@
       \verb http://doi.acm.org/10.1145/2025113.2025116
       \endverb
       \keyw{architecture,keynotes,software}
+    \endentry
+    \entry{Golden2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=131dfc90aab5cf2a765b87e6479a1c4b}{Golden}{G\bibinitperiod}{Bernard}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{131dfc90aab5cf2a765b87e6479a1c4b}
+      \strng{fullhash}{131dfc90aab5cf2a765b87e6479a1c4b}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Open Source in the Enterprise : From Invisible to Transparent The Litany of Enterprise Open Source Complaints}}
+      \field{year}{2006}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/Open Source in the Enterprise Paper.pdf:pdf
+      \endverb
     \endentry
     \entry{Kim:2000:CBW:518514}{book}{}
       \name{author}{1}{}{%
@@ -631,6 +672,24 @@
       \verb ::
       \endverb
       \keyw{DP industry,EU project QualOSS open source assessment model,OSS community sustainability,OSS project,Software engineering,Software measurement,comprehensive measurement framework,open source community performance measurement,open source software,process maturity,product quality standard,project management,public domain software,software development management,software industry,software maintenance,software metrics,software quality}
+    \endentry
+    \entry{Standard2007}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ba3d65d09c9e84642b9e35f2c0dbbf97}{Standard}{S\bibinitperiod}{International}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ba3d65d09c9e84642b9e35f2c0dbbf97}
+      \strng{fullhash}{ba3d65d09c9e84642b9e35f2c0dbbf97}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0738125180}
+      \field{title}{{INTERNATIONAL STANDARD ISO / IEC}}
+      \field{volume}{2007}
+      \field{year}{2007}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/4278472.pdf:pdf
+      \endverb
     \endentry
     \entry{Wu2001}{article}{}
       \name{author}{2}{}{%

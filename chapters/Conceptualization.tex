@@ -1,18 +1,23 @@
 \chapter{Conceptualization}\label{chapter:Conceptualization}
-
+\indent After framing of research question and sorting ideas from related work and literature, the thesis contribution aims to answer the questions posed initially and conceptualize an optimal solution. The solution should not only meet the stakeholder and community requirements but also confirm to some already established / deployed standards or tools. The ultimate aim is to find a solution that is evaluated and accepted by Mediawiki stakeholders as a deployable/ usable solution. 
 \section{Idea Generation and Evolution}
-\indent This chapter outlines the approach that was taken to find answers to the research questions and conceptualize an optimal solution.
+\indent This section outlines the approach that was taken to understand the existing system and derive solutions for improved documentation process. 
 
-\subsection{Initial Ideas}
-\indent Initial discussion were held with the developers / architects at Mediawiki to come to an understanding of their current community setup and to get a beginner's guide to the system. Following their suggestions and the advise of experienced developers, the following approaches were taken to kick-start the conceptualization phase.
- 
-Analyse software architecture documentation
-Doxygen – tool for documenting S.A
-Who, what how ?
-Methodology for documentation
-Understand feature of mediawiki.org - template, extension, visualizations
+\subsection{Preparatory Tasks}
+\indent During the initial weeks of conceptualization phase discussion were held and emails were exchanged with the developers / architects at Mediawiki to come to an understanding of their current community setup and to get a beginner's guide to the system. Their suggestions and the advise of experienced developers to kick-start included the following :
+\begin{itemize}
+\item Analyze the documentation that already exists on \enquote{Mediawiki.org} to get a high level understanding of the system and some low-level implementation details of certain components which are well-documented (e.g) Mediawiki APIs (\emph{https://www.mediawiki.org/wiki/API:Tutorial}), Extensions (\emph{https://www.mediawiki.org/wiki/Manual:Extensions}), etc.
+\item Look into \enquote{Doxygen} tool for documenting software architecture to check the level of details captured by auto-generated documentation.
+\item When understanding a software system, it is important to understand the \enquote{Who, What and How ?}. This refers to the identification and understanding of current roles, responsibilities and processes that are practiced in the community.
+\item Process for generating and maintaining documentation by mediawiki community was important to understand in order to know its shortfalls.
+\item It was suggested that in order to understand the wiki platform \enquote{mediawiki.org} it was important to use various features like templates, extensions, visualizations.
+\end{itemize}
+
+
+
+\subsection{Initial ideas }
+
 Different versions - arguments and decision-making, user scenarios discussions
-
 
 
 Using wiki for documentation disadvantage:
@@ -20,8 +25,6 @@ Review not possible
 offline work not possible
 Tracking changes not possible
 A page save creates a new history entry. This may lead to unnecessary revision history 
-
-
 
 \section{Improved Process}
 Documentation health monitor
@@ -38,7 +41,20 @@ Key principles to address challenges of the task-centered collaboration approach
  	
  	streamline more people into a process
  	
- 	
+ figure	
+ 
+ \begin{figure}[H]
+  \centering
+  \includegraphics[width=100mm]{images/Process_Roles}
+  \caption[Defining distinct roles and responsibilities in a process]{Defining distinct roles and responsibilities in a process.}\label{fig:Process_Roles}
+\end{figure}
+
+ \begin{figure}[H]
+  \centering
+  \includegraphics[width=100mm]{images/role_Maintainers}
+  \caption[The sphere of Maintainer's roles and responsibilities]{The sphere of Maintainer's roles and responsibilities.}\label{fig:role_Maintainers}
+\end{figure}
+
 \subsection{Document Maintenance Bot}
 Using bot to take on the responsibility of 
 maintainable/ visible

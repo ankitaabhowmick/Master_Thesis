@@ -1,18 +1,18 @@
 [1] Config.pm:324> INFO - This is Biber 2.1
 [2] Config.pm:327> INFO - Logfile is 'main.blg'
-[244] biber-MSWIN:273> INFO - === %a %b %e, %Y, %H:%M:%S
-[245] Biber.pm:333> INFO - Reading 'main.bcf'
-[1406] Biber.pm:645> INFO - Found 26 citekeys in bib section 0
-[1503] Biber.pm:2977> INFO - Processing section 0
-[1605] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography/literature.bib' for section 0
-[2425] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[3094] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography/literature.bib'
-[3103] Utils.pm:146> WARN - Duplicate entry key: 'BachmannDocumentingSoftware2010' in file 'bibliography/literature.bib', skipping ...
-[3623] Utils.pm:146> WARN - I didn't find a database entry for crossref 'https://wiki.eclipse.org/Main_Page' in entry 'eclipse2013' - ignoring (section 0)
-[5112] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[5113] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[5113] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
-[5114] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
-[5443] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[6445] bbl.pm:596> INFO - Output to main.bbl
-[6458] Biber.pm:106> INFO - WARNINGS: 2
+[269] biber-MSWIN:273> INFO - === %a %b %e, %Y, %H:%M:%S
+[271] Biber.pm:333> INFO - Reading 'main.bcf'
+[1519] Biber.pm:645> INFO - Found 29 citekeys in bib section 0
+[1616] Biber.pm:2977> INFO - Processing section 0
+[1712] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography/literature.bib' for section 0
+[2672] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[3421] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography/literature.bib'
+[3430] Utils.pm:146> WARN - Duplicate entry key: 'BachmannDocumentingSoftware2010' in file 'bibliography/literature.bib', skipping ...
+[4032] Utils.pm:146> WARN - I didn't find a database entry for crossref 'https://wiki.eclipse.org/Main_Page' in entry 'eclipse2013' - ignoring (section 0)
+[5746] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5747] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5748] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[5748] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[6127] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[7061] bbl.pm:596> INFO - Output to main.bbl
+[7071] Biber.pm:106> INFO - WARNINGS: 2
