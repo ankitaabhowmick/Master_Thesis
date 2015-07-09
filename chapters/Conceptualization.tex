@@ -5,26 +5,132 @@
 
 \subsection{Preparatory Tasks}
 \indent During the initial weeks of conceptualization phase discussion were held and emails were exchanged with the developers / architects at Mediawiki to come to an understanding of their current community setup and to get a beginner's guide to the system. Their suggestions and the advise of experienced developers to kick-start included the following :
+\begin{enumerate}
+\item \textbf{Understand and use the Software : } It was important to download and locally install Mediawiki open source software to understand the basic components of the software architecture. The installation guide (\emph{https://www.mediawiki.org/wiki/Manual:Installation\_guide\#Main\_installation\_guide}) helped in understanding the system requirements and successfully configuring and setting up the executable code on the \enquote{localhost} under the the name \enquote{en} to denote the english language version of the setup. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/Mediawiki}
+  \caption[Mediawiki source code and configuration file]{Mediawiki source code and configuration file.}\label{fig:Mediawiki}
+\end{figure}
+
+In \autoref{fig:Mediawiki}  we can see the The Mediawiki code is completely written in PHP. The first approach to understand the architecture was to dive into the \enquote{\textbackslash{includes}} folder which comprises the code for the basic architectural components of the Mediawiki software like \enquote{api}, \enquote{cache}, \enquote{db} and many more. 
+\indent 
+\indent The successful setup of Mediawiki software and configuring the necessary database and server setup, the main page of the local installation powered by the Mediawiki engine could be launched as seen in the \autoref{fig:Mediawiki_mainpage}.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/Mediawiki_mainpage}
+  \caption[Main page of the local Mediawiki installation]{Main page of the local Mediawiki installation.}\label{fig:Mediawiki_mainpage}
+\end{figure}
+This complete setup now helped to play around the software and the wiki to understand, use and modify its features.
+\item \textbf{Analyze the documentation that already exists : } It was important to understand the documentation that is already available on \enquote{Mediawiki.org} in order to analyze the pros and cons of the existing structure and process of the software architecture documentation. The existing documentation helped to get a high level understanding of the system and some low-level implementation details of certain components which are well-documented (e.g) Mediawiki APIs (\emph{https://www.mediawiki.org/wiki/API:Tutorial}), Extensions (\emph{https://www.mediawiki.org/wiki/Manual:Extensions}), etc. Documentation is also available for developers and system administrators at
+\emph{https://www.mediawiki.org/wiki/Documentation}
+\\\indent  During code analysis the important architectural components and modules were identified as candidates that were in need of an improved, organized, detailed and structured architecture documentation :
 \begin{itemize}
-\item Analyze the documentation that already exists on \enquote{Mediawiki.org} to get a high level understanding of the system and some low-level implementation details of certain components which are well-documented (e.g) Mediawiki APIs (\emph{https://www.mediawiki.org/wiki/API:Tutorial}), Extensions (\emph{https://www.mediawiki.org/wiki/Manual:Extensions}), etc.
-\item Look into \enquote{Doxygen} tool for documenting software architecture to check the level of details captured by auto-generated documentation.
-\item When understanding a software system, it is important to understand the \enquote{Who, What and How ?}. This refers to the identification and understanding of current roles, responsibilities and processes that are practiced in the community.
-\item Process for generating and maintaining documentation by mediawiki community was important to understand in order to know its shortfalls.
-\item It was suggested that in order to understand the wiki platform \enquote{mediawiki.org} it was important to use various features like templates, extensions, visualizations.
+\item Installation, Update and Deployment
+\item Page processing, rendering and caching
+\item Extensions
+\item Architecture and Software Performance
+\item Internationalization / Localization
+\item Static and Dynamic Structure
+\item User and Access Control
+\item Database Design
+\item Security
 \end{itemize}
+It was advised to look into \enquote{Doxygen} tool's auto-generated documentation of the software that captures the code and function level details of the Mediawiki software architecture.
+As seen in \autoref{fig:doxygen}, it is clear that the the architecture details are captured at \enquote{Module}, \enquote{Class} and \enquote{File} level.
+\vspace{10mm}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/doxygen}
+  \caption[Auto-generated doxygen documentation]{Auto-generated doxygen documentation.}\label{fig:doxygen}
+\end{figure}
+Having realized the need for improved documentation of Mediawiki software architecture, the conscious demand arose for an improved process that could ensure the creation and maintenance of improved documents. Hence the scope of this thesis work was limited and set to the defined scope of \enquote{Improving the Software Architecture Documentation process of Mediawiki Software}.
+\item \textbf{Organizational structure : } When understanding a software system as an organization and the processes that drive its daily activities, it is important to understand the \enquote{Who, What and How ?} of the system. This helps to grasp the organizational behavior as a complex socio-technical system. Thus the initial phase of the thesis involved the identification and understanding of current roles, responsibilities and processes that are practiced in the Mediawiki community. The outline of the current state-of-the-art organizational components have been captured in \autoref{chapter:ResearchQuestions} Section 2.3. 
+\item \textbf{Documentation process as a part of the software process : } Every software development organization follows a process in order to manage, co-ordinate and streamline its daily SDLC (Software Development Life-Cycle) activities. Documentation itself is a part of this development process. Thus, it was important to analyze the process for generating and maintaining documentation by mediawiki community in order to assess its shortfalls and required improvements.
+\indent The software and documentation process components and an outline of their basic interaction can be seen in the figure \autoref{fig:MWProcess}  The important roles within the community that are a part of the software process have been captured in the blue ellipses. The interaction of these roles with the system components and the activities involved as a part of individual responsibility has been captured in the diagram. 
+\vspace{10mm}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MWProcess}
+  \caption[Mediawiki Software Process including Documentation process]{Mediawiki Software Process including Documentation process.}\label{fig:MWProcess}
+\end{figure}
+
+\item \textbf{Understanding wiki (Mediawiki.org) : }It was suggested that in order to understand the wiki platform provided by \enquote{mediawiki.org}, it was important to use various features like templates, extensions, visualizations, etc. that are used for rendering and structuring the content with better readability and navigability. Also, it is useful to understand the \enquote{namespaces} like \enquote{categories} that can help to organize the wiki pages into more understandable linearly-hierarchical structure. \enquote{Discussion pages} helps to improve the documentation where suggestions are given.
+\\\indent Other possibilities of documentation are also available on Mediawiki that prove the fact that conscious efforts have been made towards creation and maintenance of documentation in general and software architecture documentation in particular. 
+
+\begin{itemize}
+
+\item Suggestions from 3\textsuperscript{rd} party Mediawiki discussion pages can be used to create new requests that can be linked to \enquote{phabricator tasks} (\emph{https://www.mediawiki.org/wiki/Third-party\_MediaWiki\_users\_discussion})
+\item \enquote{Project:PD} intends to create documentation as help pages that reach out to the public domain (\emph{https://www.mediawiki.org/wiki/Project:PD\_help}).
+\indent The idea of this project is to provide a set of pages which can be copied into a fresh wiki installation, or included in the Mediawiki distribution. This will include basic user information and other \enquote{Meta information}, in a reasonably concise form. The basic concept is to create a compressed user guide which should focus on what users want and not explain other functions.
+\item Mediawiki manual on coding conventions mandates having a \enquote{.txt} file in \enquote{\textbackslash{docs}} folder (\emph{https://www.mediawiki.org/wiki/Manual:Coding\_conventions\#Documentation})
+
+\end{itemize}
+\end{enumerate}
+
+During these preparatory activities, different versions of the solutions were conceptualized and reasoned for their applicability and usability within the existing socio-technical environment of Mediawiki.
+Arguments made for and against the concepts, judging the user scenarios and assessing the scope and feasibility of the concept helped in the decision-making process.
 
 
+\subsection{Initial Ideas - Use case scenarios }
+In order to understand the documentation process and intended improvements, the use cases for document creation and maintenance activities were developed.
+\newline \newline
+\indent \textbf{Use Case 1 : When task for documentation is created by developer}
+\newline \textbf{User} : Developer / Reviewer
+\newline \textbf{Activity} : task to write code and add document
+\newline \textbf{System} : Phabricator
+\newline \textbf{Task Details} : Documentation task is added by code developer / reviewer. The task is tagged with the related code patch git commit id.
+\newline \newline
+\indent \textbf{Use Case 2 : When developer writes and commits a piece of code}
+\newline \textbf{User} : Developer
+\newline \textbf{Activity} : Software Development - write code
+\newline \textbf{System} : Mediawiki
+\newline \textbf{Task Details} : A usual development activity to add code which is then review and pushed into production. Documentation may or may not be created or updated
+\newline \newline
+\indent \textbf{Use Case 3 : When only document is added}
+\newline \textbf{User} : Documenter
+\newline \textbf{Activity} : Creating / updating / reviewing software architecture documentation of mediawiki.
+\newline \textbf{System} : Mediawiki
+\newline \textbf{Task Details} : A usual documentation activity to add software architecture documents for which may or may not be a part of maintenance activities
+\newline \newline
+\indent \textbf{Use Case 4 : Documentation task on phabricator}
+\newline \textbf{User} : Developer / Reviewer
+\newline \textbf{Activity} : task to Creating / updating / reviewing software architecture documentation of mediawiki.
+\newline \textbf{System} : Phabricator
+\newline \textbf{Task Details} : Task to add software architecture documents is created under the project \enquote{MediaWiki-Documentation} \emph{https://phabricator.wikimedia.org/tag/mediawiki-documentation/} and tagged as \enquote{documentation} to link all the tasks under this project. This task may or may not be assigned . Open comments section serves as a discussion forum to find related tasks or find people to complete the task.
+\newline
+\\\indent In the figure \autoref{fig:use-case-scenario} all the above use case have been considered in a single use-case diagram.
 
-\subsection{Initial ideas }
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/use-case-scenario}
+  \caption[Use-case scenarios explaining user roles and tasks]{Use-case scenarios explaining user roles and tasks.}\label{fig:use-case-scenario}
+\end{figure}
 
-Different versions - arguments and decision-making, user scenarios discussions
+
+\subsection{Pros and Cons of the initial ideas}
+
+As a part of the literature survey Section 3.2.1, it was observed that documentation of wiki had several advantages over traditional documentation. But the concept of improved documentation process using only wiki as the platform may pose certain downsides. The following table compares the wiki with a version controlled platform on certain important criteria.
+
+\begin{table}[]
+\centering
+\caption{Table to compare the wiki and other version control system}
+\label{wiki-VC_compare}
+\begin{tabular}{|l|l|l|ll}
+\hline
+{\bf }                                                                                            & \cellcolor[HTML]{FFFC9E}Documentation on Wiki (Disadvantages)                                              & \cellcolor[HTML]{FFFFC7}Documentation as a part of Version Controlled source code (Advantages)                                                   &  &  \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFC7}{\color[HTML]{333333} }}                             & Review is not possible. Anyone who has access to the wiki pages can edit and save pages.                   & If source code is part of a review system then documentation also becomes part of the commits and is reviewed before final push.                 &  &  \\ \cline{2-5} 
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{FFFFC7}{\color[HTML]{333333} Maintenace}}} & Tracking major changes is not possible.                                                                    & The version control system provides novel solutions to identify differences.                                                                     &  &  \\ \hline
+\cellcolor[HTML]{FFFC9E}                                                                          & Offline work not possible.                                                                                 & Coding / documentation on the Mediawiki engine suite can be performed online until the "commit" stage. Only the final "push" needs connectivity. &  &  \\ \cline{2-5} 
+\multirow{-2}{*}{\cellcolor[HTML]{FFFC9E}Usability}                                               & A page save creates a new history entry. An insignificant change may lead to unnecessary revision history. & No history entry needs to be managed.                                                                                                            &  &  \\ \hline
+\end{tabular}
+\end{table}
 
 
-Using wiki for documentation disadvantage:
-Review not possible
-offline work not possible
-Tracking changes not possible
-A page save creates a new history entry. This may lead to unnecessary revision history 
+The table \autoref{wiki-VC_compare} projects the cons of wiki and the pros of version control, hence, suggesting the need for version controlled documentation. 
+\subsection{Define feasibility and scope}
+
 
 \section{Improved Process}
 Documentation health monitor
@@ -33,23 +139,22 @@ Review of documents in a process-oriented structure - Gerrit review
 \subsection{Roles and Responsibility definition and co-ordination}
 
 Key principles to address challenges of the task-centered collaboration approach are [Felix Master thesis]
-1.) the self-organization of the community through task decomposition, 
-2.) an on-line community support based on social design principles and best practices and
- 3.) an open science process to enable unanticipated contributions
 
-	Solves issues identified previously
- 	
- 	streamline more people into a process
- 	
- figure	
- 
- \begin{figure}[H]
+
+\begin{enumerate}
+\item the self-organization of the community through task decomposition
+\item an on-line community support based on social design principles and best practices
+\item an open science process to enable unanticipated contributions
+\end{enumerate}
+
+\indent Solves issues identified previously
+streamline more people into a process
+\begin{figure}[H]
   \centering
   \includegraphics[width=100mm]{images/Process_Roles}
   \caption[Defining distinct roles and responsibilities in a process]{Defining distinct roles and responsibilities in a process.}\label{fig:Process_Roles}
 \end{figure}
-
- \begin{figure}[H]
+\begin{figure}[H]
   \centering
   \includegraphics[width=100mm]{images/role_Maintainers}
   \caption[The sphere of Maintainer's roles and responsibilities]{The sphere of Maintainer's roles and responsibilities.}\label{fig:role_Maintainers}
@@ -59,6 +164,7 @@ Key principles to address challenges of the task-centered collaboration approach
 Using bot to take on the responsibility of 
 maintainable/ visible
 
+\subsection{Guidelines for the future process orientation}
 
 \subsection{A proof of concept}
 figure : Bot in the system
