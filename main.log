@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  9 JUL 2015 11:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  11 JUL 2015 12:26
 entering extended mode
 **main.tex
 
@@ -1469,7 +1469,7 @@ Package nag Info: Command \topcaption not defined, skipping amendment on input
 line 16.
 
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\pages/cover.tex" <logos/tum.jpg, id=246, 319.1925pt x 176.91093pt>
+-master\pages/cover.tex" <logos/tum.jpg, id=238, 319.1925pt x 176.91093pt>
 File: logos/tum.jpg Graphic file (type jpg)
 
 <use logos/tum.jpg>
@@ -1477,7 +1477,7 @@ Package pdftex.def Info: logos/tum.jpg used on input line 13.
 (pdftex.def)             Requested size: 170.71652pt x 94.61806pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 26.
- <logos/faculty.pdf, id=247, 34.14326pt x 36.98859pt>
+ <logos/faculty.pdf, id=239, 34.14326pt x 36.98859pt>
 File: logos/faculty.pdf Graphic file (type pdf)
 
 <use logos/faculty.pdf>
@@ -1572,12 +1572,11 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
  [5
 
 
-]
-LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 123.
- [6])
+])
 \tf@toc=\write6
- [7]
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 30.
+ [6] [7]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 33.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1605,7 +1604,7 @@ Chapter 2.
 [4
 
 
-] <images/arch_doc_level.jpg, id=418, 709.14937pt x 422.32782pt>
+] <images/arch_doc_level.jpg, id=408, 709.14937pt x 422.32782pt>
 File: images/arch_doc_level.jpg Graphic file (type jpg)
 
 <use images/arch_doc_level.jpg>
@@ -1618,14 +1617,14 @@ Overfull \hbox (0.35437pt too wide) in paragraph at lines 37--38
 -ties that may be time-consuming
  []
 
-[7] <images/MWSoftwareProcess.jpg, id=444, 600.8046pt x 632.3625pt>
+[7] <images/MWSoftwareProcess.jpg, id=434, 600.8046pt x 632.3625pt>
 File: images/MWSoftwareProcess.jpg Graphic file (type jpg)
 
 <use images/MWSoftwareProcess.jpg>
 Package pdftex.def Info: images/MWSoftwareProcess.jpg used on input line 51.
 (pdftex.def)             Requested size: 284.52756pt x 299.47795pt.
  [8]
-<images/MWDocProc.jpg, id=453, 392.9079pt x 415.5525pt>
+<images/MWDocProc.jpg, id=443, 392.9079pt x 415.5525pt>
 File: images/MWDocProc.jpg Graphic file (type jpg)
 
 <use images/MWDocProc.jpg>
@@ -1694,7 +1693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--53
 
  []
 
-[16] <images/ALM_process_roles.jpg, id=514, 542.025pt x 242.40562pt>
+[16] <images/ALM_process_roles.jpg, id=504, 542.025pt x 242.40562pt>
 File: images/ALM_process_roles.jpg Graphic file (type jpg)
 
 <use images/ALM_process_roles.jpg>
@@ -1721,7 +1720,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
-<images/OSS_documentation_stat.jpg, id=533, 853.68938pt x 430.60875pt>
+<images/OSS_documentation_stat.jpg, id=523, 853.68938pt x 430.60875pt>
 File: images/OSS_documentation_stat.jpg Graphic file (type jpg)
 
 <use images/OSS_documentation_stat.jpg>
@@ -1729,7 +1728,7 @@ Package pdftex.def Info: images/OSS_documentation_stat.jpg used on input line 8
 1.
 (pdftex.def)             Requested size: 284.52756pt x 143.52055pt.
  [18] [19 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
-sis-latex-master/images/OSS_documentation_stat.jpg>] <images/4+1View.jpg, id=56
+sis-latex-master/images/OSS_documentation_stat.jpg>] <images/4+1View.jpg, id=55
 3, 413.29407pt x 346.29375pt>
 File: images/4+1View.jpg Graphic file (type jpg)
 
@@ -1788,7 +1787,7 @@ Overfull \hbox (198.63681pt too wide) in paragraph at lines 9--10
 ide#Main_installation_guide\T1/pplx/m/n/10.95 (-20) )
  []
 
-<images/Mediawiki.jpg, id=602, 748.29562pt x 458.46281pt>
+<images/Mediawiki.jpg, id=592, 748.29562pt x 458.46281pt>
 File: images/Mediawiki.jpg Graphic file (type jpg)
 
 <use images/Mediawiki.jpg>
@@ -1798,7 +1797,7 @@ Package pdftex.def Info: images/Mediawiki.jpg used on input line 13.
 
 
 ]
-<images/Mediawiki_mainpage.jpg, id=610, 1022.31938pt x 466.74374pt>
+<images/Mediawiki_mainpage.jpg, id=600, 1022.31938pt x 466.74374pt>
 File: images/Mediawiki_mainpage.jpg Graphic file (type jpg)
 
 <use images/Mediawiki_mainpage.jpg>
@@ -1815,14 +1814,14 @@ iki/API:Tutorial\T1/pplx/m/n/10.95 (-20) ), Ex-ten-sions (\T1/pplx/m/it/10.95 (
 
 [27 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
 tex-master/images/Mediawiki_mainpage.jpg>]
-<images/doxygen.jpg, id=623, 1016.29688pt x 317.68687pt>
+<images/doxygen.jpg, id=613, 1016.29688pt x 317.68687pt>
 File: images/doxygen.jpg Graphic file (type jpg)
 
 <use images/doxygen.jpg>
 Package pdftex.def Info: images/doxygen.jpg used on input line 45.
 (pdftex.def)             Requested size: 418.25555pt x 130.74205pt.
 
-<images/MWProcess.jpg, id=626, 627.09282pt x 394.47375pt>
+<images/MWProcess.jpg, id=616, 627.09282pt x 394.47375pt>
 File: images/MWProcess.jpg Graphic file (type jpg)
 
 <use images/MWProcess.jpg>
@@ -1844,41 +1843,46 @@ w.mediawiki.org/wiki/Manual:Coding_conventions#Documentation\T1/pplx/m/n/10.95
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--104
+Underfull \hbox (badness 10000) in paragraph at lines 77--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--104
+Underfull \hbox (badness 10000) in paragraph at lines 77--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--104
+Underfull \hbox (badness 10000) in paragraph at lines 77--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--104
+Underfull \hbox (badness 10000) in paragraph at lines 77--107
 
  []
 
 
-Overfull \hbox (1.33931pt too wide) in paragraph at lines 77--104
+Overfull \hbox (1.33931pt too wide) in paragraph at lines 77--107
 \T1/pplx/m/n/10.95 (-20)   MediaWiki-Documentation \T1/pplx/m/it/10.95 (-20) 
 https://phabricator.wikimedia.org/tag/mediawiki-documentation/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--104
+Underfull \hbox (badness 10000) in paragraph at lines 77--107
 
  []
 
-[30] <images/use-case-scenario.jpg, id=646, 703.87968pt x 377.91188pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--107
+
+ []
+
+[30] <images/use-case-scenario.jpg, id=636, 703.87968pt x 377.91188pt>
 File: images/use-case-scenario.jpg Graphic file (type jpg)
 
 <use images/use-case-scenario.jpg>
-Package pdftex.def Info: images/use-case-scenario.jpg used on input line 107.
+Package pdftex.def Info: images/use-case-scenario.jpg used on input line 110.
 (pdftex.def)             Requested size: 418.25555pt x 224.55762pt.
  [31]
 
@@ -1887,7 +1891,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 122.
+(nag)                Use \bfseries or \textbf instead on input line 126.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -1901,51 +1905,285 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 122.
+(scrbook)              by `\normalfont \bfseries ' on input line 126.
 
 
-Overfull \hbox (943.11816pt too wide) in paragraph at lines 120--128
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 126.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 126.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 126.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 126.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 126.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 126.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 127.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 127.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 128.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 128.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 129.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 129.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 130.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 130.
+
+
+Overfull \hbox (44.39967pt too wide) in paragraph at lines 120--132
  [][] 
  []
 
-
-LaTeX Warning: Reference `wiki-VC_compare' on page 32 undefined on input line 1
-31.
-
 [32 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
 tex-master/images/use-case-scenario.jpg>]
-<images/Process_Roles.jpg, id=657, 352.31625pt x 364.36125pt>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 146.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 155.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 155.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 155.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 155.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]\T1/pplx/b/n/10.95 Documentation on Wiki
+ []
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 155.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 155.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]\T1/pplx/b/n/10.95 Version Con-trolled doc-u-
+ []
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 157.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 157.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 159.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 159.
+
+[33] <images/Process_Roles.jpg, id=654, 352.31625pt x 364.36125pt>
 File: images/Process_Roles.jpg Graphic file (type jpg)
 
 <use images/Process_Roles.jpg>
-Package pdftex.def Info: images/Process_Roles.jpg used on input line 154.
+Package pdftex.def Info: images/Process_Roles.jpg used on input line 194.
 (pdftex.def)             Requested size: 284.52756pt x 294.25255pt.
 
-<images/role_Maintainers.jpg, id=658, 390.70969pt x 353.82187pt>
+<images/role_Maintainers.jpg, id=655, 390.70969pt x 353.82187pt>
 File: images/role_Maintainers.jpg Graphic file (type jpg)
 
 <use images/role_Maintainers.jpg>
-Package pdftex.def Info: images/role_Maintainers.jpg used on input line 159.
+Package pdftex.def Info: images/role_Maintainers.jpg used on input line 199.
 (pdftex.def)             Requested size: 284.52756pt x 257.67773pt.
- [33] [34 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
+ [34] [35 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
 sis-latex-master/images/Process_Roles.jpg>]
-<images/MWDocBot.jpg, id=672, 575.9919pt x 569.2467pt>
+<images/Bot_in_system.jpg, id=669, 564.60938pt x 388.45125pt>
+File: images/Bot_in_system.jpg Graphic file (type jpg)
+
+<use images/Bot_in_system.jpg>
+Package pdftex.def Info: images/Bot_in_system.jpg used on input line 213.
+(pdftex.def)             Requested size: 418.25555pt x 287.76355pt.
+ [36 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/role_Maintainers.jpg>]
+<images/MWDocBot.jpg, id=676, 575.9919pt x 569.2467pt>
 File: images/MWDocBot.jpg Graphic file (type jpg)
 
 <use images/MWDocBot.jpg>
-Package pdftex.def Info: images/MWDocBot.jpg used on input line 175.
+Package pdftex.def Info: images/MWDocBot.jpg used on input line 220.
 (pdftex.def)             Requested size: 418.25555pt x 413.36646pt.
 )
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/Implementation.tex" [35 <C:/Users/Ankitaa/Desktop/TUM Studies/
-tum-thesis-latex-master/tum-thesis-latex-master/images/role_Maintainers.jpg>]
-[36 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+-master\chapters/Implementation.tex" [37 <C:/Users/Ankitaa/Desktop/TUM Studies/
+tum-thesis-latex-master/tum-thesis-latex-master/images/Bot_in_system.jpg>]
+[38 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
 tex-master/images/MWDocBot.jpg>]
 Chapter 5.
-) [37
+) [39
 
 
-] [38
+] [40
 
 
 ]
@@ -1954,12 +2192,12 @@ Chapter 5.
 Chapter 6.
 )
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/Conclusion.tex" [39
+-master\chapters/Conclusion.tex" [41
 
 
 ]
 Chapter 7.
-) [40
+) [42
 
 
 ]
@@ -1969,7 +2207,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 55
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.lof")
 \tf@lof=\write7
- [41
+ [43
 
 
 ]
@@ -1979,7 +2217,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 56
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.lot")
 \tf@lot=\write8
- [42
+ [44
 
 
 ]
@@ -2000,14 +2238,14 @@ Package microtype Info: Loading generic settings for font family
 Package biblatex Warning: No driver for entry type 'url'.
 (biblatex)                Using fallback driver on input line 58.
 
-[43
+[45
 
 
-] [44]
+] [46]
 
-Package nag Warning: 2 complaints in total.
+Package nag Warning: 14 complaints in total.
 
-[45]
+[47]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 
@@ -2015,20 +2253,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 -master\main.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 18DC8F68E8572B05C358A190BAEC598D;4044.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 6CF68EC113F3D3FAC2ECDD64B2852671;4190
-(rerunfilecheck)             After:  07C50D25840A27AFF6ACAAC9677DB325;4190.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2040,29 +2269,23 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 6 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 38030 strings out of 493921
- 840580 string characters out of 3144871
- 1430776 words of memory out of 3000000
- 40136 multiletter control sequences out of 15000+200000
+ 38035 strings out of 493921
+ 840703 string characters out of 3144871
+ 1431077 words of memory out of 3000000
+ 40140 multiletter control sequences out of 15000+200000
  60897 words of font info for 291 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 75i,11n,83p,2841b,3217s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.15} has been referen
-ced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.18} has been referenced but does not exis
-t, replaced by a fixed one
-
- <C:\Users\Ankitaa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ectt1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (53 pages, 1945440 bytes).
+ 75i,11n,83p,2841b,2509s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Ankitaa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ectt1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/
+fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (55 pages, 2039429 bytes).
 PDF statistics:
- 868 PDF objects out of 1000 (max. 8388607)
+ 874 PDF objects out of 1000 (max. 8388607)
  178 named destinations out of 1000 (max. 500000)
- 34877 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 34866 words of extra memory for PDF output out of 35830 (max. 10000000)
 

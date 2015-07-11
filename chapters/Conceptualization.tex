@@ -28,7 +28,7 @@ This complete setup now helped to play around the software and the wiki to under
 \\\indent  During code analysis the important architectural components and modules were identified as candidates that were in need of an improved, organized, detailed and structured architecture documentation :
 \begin{itemize}
 \item Installation, Update and Deployment
-\item Page processing, rendering and caching
+\item Page processing, parsing, rendering and caching
 \item Extensions
 \item Architecture and Software Performance
 \item Internationalization / Localization
@@ -70,13 +70,13 @@ Having realized the need for improved documentation of Mediawiki software archit
 \end{enumerate}
 
 During these preparatory activities, different versions of the solutions were conceptualized and reasoned for their applicability and usability within the existing socio-technical environment of Mediawiki.
-Arguments made for and against the concepts, judging the user scenarios and assessing the scope and feasibility of the concept helped in the decision-making process.
+Arguments made for several concepts, judging the user scenarios and assessing the scope and feasibility of the concept helped in the decision-making process for the final solution.
 
 
-\subsection{Initial Ideas - Use case scenarios }
+\subsection{Identifying Use case scenarios }
 In order to understand the documentation process and intended improvements, the use cases for document creation and maintenance activities were developed.
 \newline \newline
-\indent \textbf{Use Case 1 : When task for documentation is created by developer}
+\indent \textbf{Use Case 1 : When task for documentation is created by developer as a sub-task of code development}
 \newline \textbf{User} : Developer / Reviewer
 \newline \textbf{Activity} : task to write code and add document
 \newline \textbf{System} : Phabricator
@@ -96,11 +96,14 @@ In order to understand the documentation process and intended improvements, the 
 \newline \newline
 \indent \textbf{Use Case 4 : Documentation task on phabricator}
 \newline \textbf{User} : Developer / Reviewer
-\newline \textbf{Activity} : task to Creating / updating / reviewing software architecture documentation of mediawiki.
+\newline \textbf{Activity} : task to Create / update / review software architecture documentation of mediawiki.
 \newline \textbf{System} : Phabricator
 \newline \textbf{Task Details} : Task to add software architecture documents is created under the project \enquote{MediaWiki-Documentation} \emph{https://phabricator.wikimedia.org/tag/mediawiki-documentation/} and tagged as \enquote{documentation} to link all the tasks under this project. This task may or may not be assigned . Open comments section serves as a discussion forum to find related tasks or find people to complete the task.
 \newline
-\\\indent In the figure \autoref{fig:use-case-scenario} all the above use case have been considered in a single use-case diagram.
+\newline
+\indent These use cases clearly identify the responsibilities as a part of current process and need to be considered for their roles in the improved process as well. The improvement will not require the complete change in roles and responsibilities. Rather, the same use cases need to be satisfied with a better process.
+\newline
+\\\indent In the \autoref{fig:use-case-scenario} all the above use case have been considered in a single use-case diagram to visually understand the actors and their activities in the system.
 
 \begin{figure}[H]
   \centering
@@ -108,31 +111,68 @@ In order to understand the documentation process and intended improvements, the 
   \caption[Use-case scenarios explaining user roles and tasks]{Use-case scenarios explaining user roles and tasks.}\label{fig:use-case-scenario}
 \end{figure}
 
-
-\subsection{Pros and Cons of the initial ideas}
-
-As a part of the literature survey Section 3.2.1, it was observed that documentation of wiki had several advantages over traditional documentation. But the concept of improved documentation process using only wiki as the platform may pose certain downsides. The following table compares the wiki with a version controlled platform on certain important criteria.
+In the Table \autoref{Role-doc-manitenace} the previously identified \enquote{roles} in the documentation process have been listed as per the use-case scenarios. The column \enquote{Maintainability} captures the possibility and scope of documentation maintenance. As understood by the responsibility field, the use cases where maintenance is \enquote{possible}, human involvement is obligatorily required as a part of the task cretion and documentation process. This means that the Developer / Reviewer needs to be actively involved in the regular review and creation of tasks whenever the software architecture (source code) is being developed.
 
 \begin{table}[]
 \centering
-\caption{Table to compare the wiki and other version control system}
-\label{wiki-VC_compare}
-\begin{tabular}{|l|l|l|ll}
-\hline
-{\bf }                                                                                            & \cellcolor[HTML]{FFFC9E}Documentation on Wiki (Disadvantages)                                              & \cellcolor[HTML]{FFFFC7}Documentation as a part of Version Controlled source code (Advantages)                                                   &  &  \\ \hline
-\multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFC7}{\color[HTML]{333333} }}                             & Review is not possible. Anyone who has access to the wiki pages can edit and save pages.                   & If source code is part of a review system then documentation also becomes part of the commits and is reviewed before final push.                 &  &  \\ \cline{2-5} 
-\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{FFFFC7}{\color[HTML]{333333} Maintenace}}} & Tracking major changes is not possible.                                                                    & The version control system provides novel solutions to identify differences.                                                                     &  &  \\ \hline
-\cellcolor[HTML]{FFFC9E}                                                                          & Offline work not possible.                                                                                 & Coding / documentation on the Mediawiki engine suite can be performed online until the "commit" stage. Only the final "push" needs connectivity. &  &  \\ \cline{2-5} 
-\multirow{-2}{*}{\cellcolor[HTML]{FFFC9E}Usability}                                               & A page save creates a new history entry. An insignificant change may lead to unnecessary revision history. & No history entry needs to be managed.                                                                                                            &  &  \\ \hline
+\caption{Maintenance of documentation in different user scenarios}
+\label{Role-doc-manitenace}
+\begin{tabular}{@{}
+>{\columncolor[HTML]{F8A102}}c |
+>{\columncolor[HTML]{FFFFC7}}c |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFC7}}c |@{}}
+\toprule
+\multicolumn{1}{l|}{\cellcolor[HTML]{F8A102}{\bf Use Cases}} & \cellcolor[HTML]{FFFC9E}{\bf Role} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Responsibility}} & \cellcolor[HTML]{FFFC9E}{\bf Maintainability} \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 1}}        & Developer/ Reviwer                 & Documentation as a follow-on task                                 & possible                                      \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 2}}        & Developer                          & Coding - software development                                     & not possible                                  \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 3}}        & Documentor                         & Create documentation on mediawiki                                 & not possible                                  \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 4}}        & Developer/ Reviewer                & Task for documentation                                            & possible                                      \\ \bottomrule
 \end{tabular}
 \end{table}
 
+\textbf{Requirement for the Improved Documentation process : }The above tabular categorization helps to understand the need for a semi-automated process where the developer is not completely burdened with the responsibility of review and maintenance of documentation on \enquote{mediawiki.org}.
 
-The table \autoref{wiki-VC_compare} projects the cons of wiki and the pros of version control, hence, suggesting the need for version controlled documentation. 
-\subsection{Define feasibility and scope}
+
+\subsection{Assessing the Initial ideas }
+
+This subsection helps to understand the initial ideas and the need to build upon them by discussing their pros-cons and feasibility of implementation within the thesis scope.
+
+
+\begin{itemize}
+\item \textbf{Creating software architecture documents on \enquote{Mediawiki.org}}
+\indent As a part of the literature survey Section 3.2.1, it was observed that documentation of wiki had several advantages over traditional documentation. But the concept of improved documentation process using only wiki as the platform may pose certain downsides. The following table compares the wiki with a version controlled platform on certain important criteria.
+
+\begin{table}[]
+\centering
+\caption{Comparing wiki-documents and Version-controlled documentation }
+\label{wiki-VC_compare}
+\begin{tabular}{@{}
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFC7}}l |
+>{\columncolor[HTML]{FFFFFF}}l |@{}}
+\toprule
+{\bf Requirement}                                                                     & \multicolumn{1}{c|}{{\bf \parbox{5cm}{Documentation on Wiki (Disadvantages)}}}                             & \multicolumn{1}{c|}{{\bf \parbox{5cm}{Version Controlled documentation (Advantages)}}}                                   \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}}                                        & \parbox{5cm}{Formal review is not possible. Anyone who has access to the wiki pages can edit and save pages.}                      & \parbox{5cm}{If source code is part of a review system then documentation also becomes part of the commits and is reviewed before final "push".} \\ \cmidrule(l){2-3} 
+\multicolumn{1}{|c|}{\multirow{-2}{*}{{\bf Maintainability}}} & \parbox{5cm}{Tracking major changes is not possible.}                                                                              & \parbox{5cm}{The version control system provides novel solutions to identify textual differences.}                                               \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}}                                        & \parbox{5cm}{Offline work is not possible.}                                                                                        & \parbox{5cm}{Coding / documentation can be performed online until the "commit" stage. Only the final "push" needs connectivity.}                 \\ \cmidrule(l){2-3} 
+\multicolumn{1}{|c|}{\multirow{-2}{*}{{\bf Usability}}}       & \parbox{5cm}{Every page save creates a new history entry. An insignificant change may lead to unnecessary revision history entry.} & \parbox{5cm}{No history entry needs to be managed.}                                                                                              \\ \bottomrule
+\end{tabular}
+\end{table}
+
+ The table \autoref{wiki-VC_compare} projects the cons of wiki and the pros of version control, hence, suggesting the need for version controlled documentation.
+ 
+\item \textbf{Creating new \enquote{namespace} on Mediawiki for Software Architecture Documentation}
+
+
+\item \textbf{Building an extension}
+
+
+\end{itemize}
 
 
 \section{Improved Process}
+The final concept : 
 Documentation health monitor
 Review of documents in a process-oriented structure - Gerrit review 
 
@@ -160,14 +200,19 @@ streamline more people into a process
   \caption[The sphere of Maintainer's roles and responsibilities]{The sphere of Maintainer's roles and responsibilities.}\label{fig:role_Maintainers}
 \end{figure}
 
-\subsection{Document Maintenance Bot}
+\subsection{Guidelines for the future process orientation}
+How can the process be mandated / followed within the community?
+
+\subsection{Document Maintenance Bot - A proof of concept}
+
 Using bot to take on the responsibility of 
 maintainable/ visible
 
-\subsection{Guidelines for the future process orientation}
-
-\subsection{A proof of concept}
-figure : Bot in the system
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/Bot_in_system}
+  \caption[Introducing the doumentation maintenance BOT in the Mediawiki software process]{Introducing the doumentation maintenance BOT in the Mediawiki software process.}\label{fig:/Bot_in_system}
+\end{figure}
 
 In \autoref{fig:MWDocBot}  we can see the 
 \begin{figure}[H]

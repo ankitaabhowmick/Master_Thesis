@@ -70,54 +70,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}Preparatory Tasks}{25}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Initial Ideas - Use case scenarios}{30}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Identifying Use case scenarios}{30}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Pros and Cons of the initial ideas}{32}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}Assessing the Initial ideas}{33}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Define feasibility and scope}{33}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Improved Process}{34}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Improved Process}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Roles and Responsibility definition and co-ordination}{34}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Roles and Responsibility definition and co-ordination}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Guidelines for the future process orientation}{36}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Document Maintenance Bot}{35}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Document Maintenance Bot - A proof of concept}{36}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Guidelines for the future process orientation}{35}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Implementation}{39}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}A proof of concept}{35}{subsection.4.2.4}
+\contentsline {section}{\numberline {5.1}Assumptions}{39}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Implementation}{37}{chapter.5}
+\contentsline {section}{\numberline {5.2}Architecture and Technical outline}{39}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Assumptions}{37}{section.5.1}
+\contentsline {section}{\numberline {5.3}Details of the implemention}{39}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Architecture and Technical outline}{37}{section.5.2}
+\contentsline {section}{\numberline {5.4}Future implementation}{39}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Details of the implemention}{37}{section.5.3}
+\contentsline {part}{\numberline {III}Evaluation and Conclusion}{40}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Future implementation}{37}{section.5.4}
+\contentsline {chapter}{\numberline {6}Evaluation}{41}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {III}Evaluation and Conclusion}{38}{part.3}
+\contentsline {section}{\numberline {6.1}Meetings and Discuassions}{41}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Evaluation}{39}{chapter.6}
+\contentsline {section}{\numberline {6.2}Survey}{41}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Meetings and Discuassions}{39}{section.6.1}
+\contentsline {section}{\numberline {6.3}Evaluation}{41}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Survey}{39}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{42}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Evaluation}{39}{section.6.3}
+\contentsline {section}{\numberline {7.1}Challenges}{42}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{40}{chapter.7}
+\contentsline {section}{\numberline {7.2}Benefits of implemented solution}{42}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Challenges}{40}{section.7.1}
+\contentsline {section}{\numberline {7.3}arguments to support the idea}{42}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Benefits of implemented solution}{40}{section.7.2}
+\contentsline {section}{\numberline {7.4}Concluding Remanks}{42}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}arguments to support the idea}{40}{section.7.3}
+\contentsline {chapter}{\nonumberline List of Figures}{43}{appendix*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Concluding Remanks}{40}{section.7.4}
+\contentsline {chapter}{\nonumberline List of Tables}{44}{appendix*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{41}{appendix*.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{42}{appendix*.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{43}{appendix*.21}
+\contentsline {chapter}{\nonumberline Bibliography}{45}{appendix*.23}
