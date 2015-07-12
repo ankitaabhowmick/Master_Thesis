@@ -76,32 +76,38 @@ Arguments made for several concepts, judging the user scenarios and assessing th
 \subsection{Identifying Use case scenarios }
 In order to understand the documentation process and intended improvements, the use cases for document creation and maintenance activities were developed.
 \newline \newline
-\indent \textbf{Use Case 1 : When task for documentation is created by developer as a sub-task of code development}
-\newline \textbf{User} : Developer / Reviewer
-\newline \textbf{Activity} : task to write code and add document
-\newline \textbf{System} : Phabricator
-\newline \textbf{Task Details} : Documentation task is added by code developer / reviewer. The task is tagged with the related code patch git commit id.
-\newline \newline
-\indent \textbf{Use Case 2 : When developer writes and commits a piece of code}
-\newline \textbf{User} : Developer
-\newline \textbf{Activity} : Software Development - write code
-\newline \textbf{System} : Mediawiki
-\newline \textbf{Task Details} : A usual development activity to add code which is then review and pushed into production. Documentation may or may not be created or updated
-\newline \newline
-\indent \textbf{Use Case 3 : When only document is added}
-\newline \textbf{User} : Documenter
-\newline \textbf{Activity} : Creating / updating / reviewing software architecture documentation of mediawiki.
-\newline \textbf{System} : Mediawiki
-\newline \textbf{Task Details} : A usual documentation activity to add software architecture documents for which may or may not be a part of maintenance activities
-\newline \newline
-\indent \textbf{Use Case 4 : Documentation task on phabricator}
-\newline \textbf{User} : Developer / Reviewer
-\newline \textbf{Activity} : task to Create / update / review software architecture documentation of mediawiki.
-\newline \textbf{System} : Phabricator
-\newline \textbf{Task Details} : Task to add software architecture documents is created under the project \enquote{MediaWiki-Documentation} \emph{https://phabricator.wikimedia.org/tag/mediawiki-documentation/} and tagged as \enquote{documentation} to link all the tasks under this project. This task may or may not be assigned . Open comments section serves as a discussion forum to find related tasks or find people to complete the task.
-\newline
-\newline
-\indent These use cases clearly identify the responsibilities as a part of current process and need to be considered for their roles in the improved process as well. The improvement will not require the complete change in roles and responsibilities. Rather, the same use cases need to be satisfied with a better process.
+\begin{mdframed}[leftmargin=10pt,rightmargin=-10pt]
+\textbf{Use Case 1 : When task for documentation is created by developer as a sub-task of code development}
+\newline\newline \indent \textbf{User} : Developer / Reviewer
+\newline \newline \indent \textbf{Activity} : task to write code and add document
+\newline \newline \indent \textbf{System} : Phabricator
+\newline \newline \indent \textbf{Task Details} : Documentation task is added by code developer / reviewer. The task is tagged with the related code patch git commit id.
+\end{mdframed}
+
+\begin{mdframed}[leftmargin=10pt,rightmargin=-10pt]
+\textbf{Use Case 2 : When developer writes and commits a piece of code}
+\newline \newline \indent \textbf{User} : Developer
+\newline \newline \indent \textbf{Activity} : Software Development - write code
+\newline \newline \indent \textbf{System} : Mediawiki
+\newline \newline \indent \textbf{Task Details} : A usual development activity to add code which is then review and pushed into production. Documentation may or may not be created or updated
+\end{mdframed}
+
+\begin{mdframed}[leftmargin=10pt,rightmargin=-10pt]
+\textbf{Use Case 3 : When only document is added}
+ \newline \newline \indent \textbf{User} : Documenter
+ \newline \newline \indent \textbf{Activity} : Creating / updating / reviewing software architecture documentation of mediawiki.
+ \newline \newline \indent \textbf{System} : Mediawiki
+ \newline \newline \indent \textbf{Task Details} : A usual documentation activity to add software architecture documents for which may or may not be a part of maintenance activities
+\end{mdframed}
+
+\begin{mdframed}[leftmargin=10pt,rightmargin=-10pt]
+\textbf{Use Case 4 : Documentation task on phabricator}
+\newline \newline \indent \textbf{User} : Developer / Reviewer
+\newline \newline \indent \textbf{Activity} : task to Create / update / review software architecture documentation of mediawiki.
+\newline \newline \indent \textbf{System} : Phabricator
+\newline \newline \indent \textbf{Task Details} : Task to add software architecture documents is created under the project \enquote{MediaWiki-Documentation} \emph{https://phabricator.wikimedia.org/tag/mediawiki-documentation/} and tagged as \enquote{documentation} to link all the tasks under this project. This task may or may not be assigned . Open comments section serves as a discussion forum to find related tasks or find people to complete the task.
+\end{mdframed}
+These use cases clearly identify the responsibilities as a part of current process and need to be considered for their roles in the improved process as well. The improvement will not require the complete change in roles and responsibilities. Rather, the same use cases need to be satisfied with a better process.
 \newline
 \\\indent In the \autoref{fig:use-case-scenario} all the above use case have been considered in a single use-case diagram to visually understand the actors and their activities in the system.
 
@@ -111,12 +117,12 @@ In order to understand the documentation process and intended improvements, the 
   \caption[Use-case scenarios explaining user roles and tasks]{Use-case scenarios explaining user roles and tasks.}\label{fig:use-case-scenario}
 \end{figure}
 
-In the Table \autoref{Role-doc-manitenace} the previously identified \enquote{roles} in the documentation process have been listed as per the use-case scenarios. The column \enquote{Maintainability} captures the possibility and scope of documentation maintenance. As understood by the responsibility field, the use cases where maintenance is \enquote{possible}, human involvement is obligatorily required as a part of the task cretion and documentation process. This means that the Developer / Reviewer needs to be actively involved in the regular review and creation of tasks whenever the software architecture (source code) is being developed.
+In the Table \autoref{Role-doc-maintenance} the previously identified \enquote{roles} in the documentation process have been listed as per the use-case scenarios. The column \enquote{Maintainability} captures the possibility and scope of documentation maintenance. As understood by the responsibility field, the use cases where maintenance is \enquote{possible}, human involvement is obligatorily required as a part of the task cretion and documentation process. This means that the Developer / Reviewer needs to be actively involved in the regular review and creation of tasks whenever the software architecture (source code) is being developed.
 
 \begin{table}[]
 \centering
 \caption{Maintenance of documentation in different user scenarios}
-\label{Role-doc-manitenace}
+\label{Role-doc-maintenance}
 \begin{tabular}{@{}
 >{\columncolor[HTML]{F8A102}}c |
 >{\columncolor[HTML]{FFFFC7}}c |
@@ -139,7 +145,8 @@ In the Table \autoref{Role-doc-manitenace} the previously identified \enquote{ro
 This subsection helps to understand the initial ideas and the need to build upon them by discussing their pros-cons and feasibility of implementation within the thesis scope.
 
 
-\begin{itemize}
+\begin{enumerate}
+
 \item \textbf{Creating software architecture documents on \enquote{Mediawiki.org}}
 \indent As a part of the literature survey Section 3.2.1, it was observed that documentation of wiki had several advantages over traditional documentation. But the concept of improved documentation process using only wiki as the platform may pose certain downsides. The following table compares the wiki with a version controlled platform on certain important criteria.
 
@@ -162,20 +169,111 @@ This subsection helps to understand the initial ideas and the need to build upon
 
  The table \autoref{wiki-VC_compare} projects the cons of wiki and the pros of version control, hence, suggesting the need for version controlled documentation.
  
-\item \textbf{Creating new \enquote{namespace} on Mediawiki for Software Architecture Documentation}
+\item \textbf{Creating new \enquote{namespace} on \enquote{mediawiki.org} for Software Architecture Documentation}
+
+\indent \enquote{Mediawiki.org} already provides many \enquote{namespaces} like \enquote{Manual} that are used for documentation as already mentioned in the previous chapters. Adding another namespace to this pool would add to the confusion of categorization and document organization This thesis aims at structured software architecture documentation as a part of the wiki page and does not aim to introduce unnecessary inclusions to \enquote{mediawiki.org}.
+\\\indent The same categorization efficiency can be achieved by using the Mediawiki feature : \enquote{Category} instead of introducing a new namespace. The table \autoref{Category-namespace} captures a few advantages of categories in this regard.
 
 
-\item \textbf{Building an extension}
+\begin{table}[]
+\centering
+\caption{Comparing "Categories" and "Namespaces" for documentation pages categorization}
+\label{Category-namespace}
+\begin{tabular}{@{}
+>{\columncolor[HTML]{F8A102}}c |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |@{}}
+\toprule
+\cellcolor[HTML]{FFFFFF}{\bf }                                  & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Namespace (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Category (Advantages)}}                                                                              \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Creatioin}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Namespace cannot be directly added as a special page (feature not available yet). It needs to be added along with the namespace array index to "LocalSeetings.php" file in a Mediawiki installation}                       }  & \multicolumn{1}{|c|}{\parbox{5cm}{Category can be easily added to the pool of categories via the wiki web page. It is equivalent to creating a new page on the wiki}}                    \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Description}} & \multicolumn{1}{|c|}{\parbox{5cm}{No explanation is available on the use and purpose of a particular namespace. Hence it may me confulsing and may lead to unintended use or categorization.}}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{Category pages are like a usual page which can contain description of its purpose and usage and the list of other pages that belong to that category.}} \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Usage}}       & \multicolumn{1}{|c|}{\parbox{5cm}{It is difficult to handle pages under a namespace. The page has to be created with the right format (namespace:pageName). To change the namespace the existing page needs to be deleted an d a new page needs to be created}} & \multicolumn{1}{|c|}{\parbox{5cm}{It is easy to add, delete, update the category of a page. Only an edit page is required.}}                                                            \\ \bottomrule
+\end{tabular}
+\end{table}
 
+This clarifies and explains the need to create a new category like \enquote{Software Architecture Documentation} for categorizing the intended documentation pages on \enquote{mediawiki.org}
 
+\item \textbf{Provide guidelines for task management on Phabricator}
+\indent An initial idea considered the provision of guidelines for stakeholders to \enquote{tag} documentation tasks on Phabricator and categorize them as \enquote{Software architecture documentation} task . These guidelines were meant to provide suggestions and helpful tips to identify potential documentation tasks as candidates for \enquote{software architecture document}. This would assist in creation of more meaningful tasks and result in production of more structured and complete architecture documents.
+\\\indent But the idea of \enquote{guidelines for tagging software architecture documentation tasks} was not pursued for the following reasons :
+
+\begin{itemize}
+\item Difficult to define the guidelines within this thesis scope
+\item Might not be complete (capture all architectural components, interfaces or modules )
+\item Might be ambiguous in its purpose and use.
+\item Cannot ensure that guidelines are followed.
+\item External users may not be aware.
+\item Guidelines can only suggest and not mandate a process
+\item Location / placement of guidelines may be inaccessible/ unknown to all users. 
 \end{itemize}
+Hence, the idea of providing developers/ architects with a guideline for is not practical or feasible solution. Instead a more strict review process is required which ensures structure software architecture document creation and maintenance.
 
+
+\item \textbf{Defining Responsibilities for Role : Maintainer}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=100mm]{images/role_Maintainers}
+  \caption[The sphere of Maintainer's roles and responsibilities]{The sphere of Maintainer's roles and responsibilities.}\label{fig:role_Maintainers}
+\end{figure}
+
+An initial ides of document process improvement focused on the human \enquote{Maintainer} role to ensure a project-level co-ordination for documentation process. In \autoref{fig:role_Maintainers} it can be seen that the sphere of a Maintainer's responsibility encompasses the responsibilities of all the roles in the Software architecture documentation process. Thus, a dedicated \enquote{maintainer} can be a person who is an experienced developer or architect associated with particular architectural components with the task of documenting or reviewing the corresponding documents. A Maintainer's job is to periodically examine the software architecture document quality and availability on \enquote{mediawiki.org}. The table \autoref{human-bot} compares the human maintainer role to that of a Mediawiki BOT user role for responsibility assignment and handling.
+
+
+\begin{table}[]
+\centering
+\caption{Comparing "Human-maintainer" role and "BOTs" for documentation maintenance responsibility}
+\label{human-bot}
+\begin{tabular}{@{}
+>{\columncolor[HTML]{F8A102}}c |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |@{}}
+\toprule
+\cellcolor[HTML]{FFFFFF}{\bf }                                  & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Human-Maintainer (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Role}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Maintainer is not a dedicated user role in the wiki community. }}  & \multicolumn{1}{|c|}{\parbox{5cm}{A dedicated BOT user can be created as a Maintainer}}                    \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Responsibility}} & \multicolumn{1}{|c|}{\parbox{5cm}{Since a human maintainer is not a dedicated role, the person is vested with multiple responsibilities apart from documentation maintenance }}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{A Documentation maintenance BOT is a dedicated user with a single defined responsibility}} \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Process}}       & \multicolumn{1}{|c|}{\parbox{5cm}{Fitting a new human role in the existing community structure as a part of an improved process may be challenging}} & \multicolumn{1}{|c|}{\parbox{5cm}{On the other hand, the community is open in adopting BOTs for automated activities within the software process.}}                                                           
+\\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Activity}} & \multicolumn{1}{|c|}{\parbox{5cm}{The periodic maintenance task may not fit into the schedule of a user who executes multiple activities.}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{The BOT can be configured to run a tedious activity at a desired schedule and duration (repeatedly).}}
+\\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Efficiency}} & \multicolumn{1}{|c|}{\parbox{5cm}{Rigid - Heavily dependent on project schedule, activities and other factors}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{Flexible - Independent, configurable, reliable}}
+ \\ \bottomrule
+\end{tabular}
+\end{table}
+
+The idea of an architectural module / component owner as its \enquote{documenter} and \enquote{maintainer} is difficult to achieve and thus, a Bot provides a more practical solution.
+
+\item \textbf{Building an extension for document maintenance}
+\indent As initial suggestion from the Mediawiki developers, it was understood that the best way to understand and document the software architecture of Mediawiki was to build an \enquote{extension}. It could not only help to understand the interfaces of architectural components but also some of their intrinsic functionalities and complexities. This generated an idea for building a documentation maintenance extension. 
+
+\begin{table}[]
+\centering
+\caption{Comparing "Mediawiki extensionsr" and "BOTs" for documentation maintenance activity}
+\label{extension-bot}
+\begin{tabular}{@{}
+>{\columncolor[HTML]{F8A102}}c |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |@{}}
+\toprule
+\cellcolor[HTML]{FFFFFF}{\bf } & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Extensions (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Setup}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Complex setup. Requires database configuration, setting up localization, preparing autoloadable classes and defining additional hooks.}}  & \multicolumn{1}{|c|}{\parbox{5cm}{No setup is required within the Mediawiki engine}}                    \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Implementation}} & \multicolumn{1}{|c|}{\parbox{5cm}{Rigid : extensions should be implemented as subclasses of a MediaWiki-provided base class }}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{Flexible : Bots have no such restrictions and inter-dependency with the Mediawiki engine}} \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Assistance}} & \multicolumn{1}{|c|}{\parbox{5cm}{NO feature of manual assistance is available. The code can be modified, but once added, the extension behaves independently}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{BOTs can be configured to add manual assistance to reduce chances of mass errors}}
+ \\ \bottomrule
+\end{tabular}
+\end{table}
+
+But the \autoref{extension-bot} highlights the complexity involved in building a Mediawiki extension as compared to a creating a BOT user assigned with a specific activity. Thus, it strengthens the concept of using a maintenance BOT for improving the Mediawiki software architecture documentation process.
+
+\end{enumerate}
 
 \section{Improved Process}
+\indent After assesing all the ideas and concepts in the previous section, the final concept for this thesis contribution was conceived.
+
 The final concept : 
 Documentation health monitor
 Review of documents in a process-oriented structure - Gerrit review 
-
+Documentation as an intrinsic Software process
 \subsection{Roles and Responsibility definition and co-ordination}
 
 Key principles to address challenges of the task-centered collaboration approach are [Felix Master thesis]
@@ -193,11 +291,6 @@ streamline more people into a process
   \centering
   \includegraphics[width=100mm]{images/Process_Roles}
   \caption[Defining distinct roles and responsibilities in a process]{Defining distinct roles and responsibilities in a process.}\label{fig:Process_Roles}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=100mm]{images/role_Maintainers}
-  \caption[The sphere of Maintainer's roles and responsibilities]{The sphere of Maintainer's roles and responsibilities.}\label{fig:role_Maintainers}
 \end{figure}
 
 \subsection{Guidelines for the future process orientation}

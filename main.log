@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  11 JUL 2015 12:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  12 JUL 2015 15:43
 entering extended mode
 **main.tex
 
@@ -1347,7 +1347,252 @@ Package scrhack Info: undefining \float@addtolists on input line 161.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\breakcites\breakcites.sty")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen197
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty"
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+Package: expl3 2015/06/15 v5630 L3 programming layer (loader) 
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2015/06/15 v5630 L3 programming layer (code) 
+L3 Module: l3bootstrap 2015/05/20 v5608 L3 Bootstrap code
+L3 Module: l3names 2015/02/24 v5535 L3 Namespace for primitives
+L3 Module: l3basics 2015/01/27 v5500 L3 Basic definitions
+L3 Module: l3expan 2014/11/27 v5472 L3 Argument expansion
+L3 Module: l3tl 2015/01/27 v5500 L3 Token lists
+L3 Module: l3str 2015/03/01 v5545 L3 Strings
+L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
+L3 Module: l3int 2015/02/21 v5529 L3 Integers
+\c_max_int=\count318
+\l_tmpa_int=\count319
+\l_tmpb_int=\count320
+\g_tmpa_int=\count321
+\g_tmpb_int=\count322
+L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
+L3 Module: l3prg 2015/04/13 v5566 L3 Control structures
+\g__prg_map_int=\count323
+L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
+L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
+L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
+L3 Module: l3msg 2015/02/26 v5537 L3 Messages
+L3 Module: l3file 2015/06/07 v5627 L3 File and I/O operations
+\l_iow_line_count_int=\count324
+\l__iow_target_count_int=\count325
+\l__iow_current_line_int=\count326
+\l__iow_current_word_int=\count327
+\l__iow_current_indentation_int=\count328
+L3 Module: l3skip 2015/05/18 v5607 L3 Dimensions and skips
+\c_zero_dim=\dimen198
+\c_max_dim=\dimen199
+\l_tmpa_dim=\dimen200
+\l_tmpb_dim=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\g_tmpa_dim=\dimen256
+\g_tmpb_dim=\dimen257
+\c_zero_skip=\skip67
+\c_max_skip=\skip68
+\l_tmpa_skip=\skip69
+\l_tmpb_skip=\skip70
+\g_tmpa_skip=\skip71
+\g_tmpb_skip=\skip72
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2015/06/14 v5629 L3 Key-value interfaces
+\g__keyval_level_int=\count329
+\l_keys_choice_int=\count330
+L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
+\c__fp_leading_shift_int=\count331
+\c__fp_middle_shift_int=\count332
+\c__fp_trailing_shift_int=\count333
+\c__fp_big_leading_shift_int=\count334
+\c__fp_big_middle_shift_int=\count335
+\c__fp_big_trailing_shift_int=\count336
+\c__fp_Bigg_leading_shift_int=\count337
+\c__fp_Bigg_middle_shift_int=\count338
+\c__fp_Bigg_trailing_shift_int=\count339
+L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
+\c_empty_box=\box43
+\l_tmpa_box=\box44
+\l_tmpb_box=\box45
+\g_tmpa_box=\box46
+\g_tmpb_box=\box47
+L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
+\l__coffin_internal_box=\box48
+\l__coffin_internal_dim=\dimen258
+\l__coffin_offset_x_dim=\dimen259
+\l__coffin_offset_y_dim=\dimen260
+\l__coffin_x_dim=\dimen261
+\l__coffin_y_dim=\dimen262
+\l__coffin_x_prime_dim=\dimen263
+\l__coffin_y_prime_dim=\dimen264
+\c_empty_coffin=\box49
+\l__coffin_aligned_coffin=\box50
+\l__coffin_aligned_internal_coffin=\box51
+\l_tmpa_coffin=\box52
+\l_tmpb_coffin=\box53
+\l__coffin_display_coffin=\box54
+\l__coffin_display_coord_coffin=\box55
+\l__coffin_display_pole_coffin=\box56
+\l__coffin_display_offset_dim=\dimen265
+\l__coffin_display_x_dim=\dimen266
+\l__coffin_display_y_dim=\dimen267
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3candidates 2015/05/21 v5613 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen268
+\l__box_bottom_dim=\dimen269
+\l__box_left_dim=\dimen270
+\l__box_right_dim=\dimen271
+\l__box_top_new_dim=\dimen272
+\l__box_bottom_new_dim=\dimen273
+\l__box_left_new_dim=\dimen274
+\l__box_right_new_dim=\dimen275
+\l__box_internal_box=\box57
+\l__coffin_bounding_shift_dim=\dimen276
+\l__coffin_left_corner_dim=\dimen277
+\l__coffin_right_corner_dim=\dimen278
+\l__coffin_bottom_corner_dim=\dimen279
+\l__coffin_top_corner_dim=\dimen280
+\l__coffin_scaled_total_height_dim=\dimen281
+\l__coffin_scaled_width_dim=\dimen282
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3unicode-data.def"
+File: l3unicode-data.def 2015/03/01 v5544 L3 Unicode data
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+File: l3pdfmode.def 2015/05/21 v5613 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count340
 ))
+Package: xparse 2015/06/15 v5630 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count341
+\l__xparse_m_args_int=\count342
+\l__xparse_mandatory_args_int=\count343
+\l__xparse_processor_int=\count344
+\l__xparse_v_nesting_int=\count345
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count346
+Package zref Info: New property: abspage on input line 62.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip73
+\c@mdf@globalstyle@cnt=\count347
+\mdf@skipabove@length=\skip74
+\mdf@skipbelow@length=\skip75
+\mdf@leftmargin@length=\skip76
+\mdf@rightmargin@length=\skip77
+\mdf@innerleftmargin@length=\skip78
+\mdf@innerrightmargin@length=\skip79
+\mdf@innertopmargin@length=\skip80
+\mdf@innerbottommargin@length=\skip81
+\mdf@splittopskip@length=\skip82
+\mdf@splitbottomskip@length=\skip83
+\mdf@outermargin@length=\skip84
+\mdf@innermargin@length=\skip85
+\mdf@linewidth@length=\skip86
+\mdf@innerlinewidth@length=\skip87
+\mdf@middlelinewidth@length=\skip88
+\mdf@outerlinewidth@length=\skip89
+\mdf@roundcorner@length=\skip90
+\mdf@footenotedistance@length=\skip91
+\mdf@userdefinedwidth@length=\skip92
+\mdf@needspace@length=\skip93
+\mdf@frametitleaboveskip@length=\skip94
+\mdf@frametitlebelowskip@length=\skip95
+\mdf@frametitlerulewidth@length=\skip96
+\mdf@frametitleleftmargin@length=\skip97
+\mdf@frametitlerightmargin@length=\skip98
+\mdf@shadowsize@length=\skip99
+\mdf@extratopheight@length=\skip100
+\mdf@subtitleabovelinewidth@length=\skip101
+\mdf@subtitlebelowlinewidth@length=\skip102
+\mdf@subtitleaboveskip@length=\skip103
+\mdf@subtitlebelowskip@length=\skip104
+\mdf@subtitleinneraboveskip@length=\skip105
+\mdf@subtitleinnerbelowskip@length=\skip106
+\mdf@subsubtitleabovelinewidth@length=\skip107
+\mdf@subsubtitlebelowlinewidth@length=\skip108
+\mdf@subsubtitleaboveskip@length=\skip109
+\mdf@subsubtitlebelowskip@length=\skip110
+\mdf@subsubtitleinneraboveskip@length=\skip111
+\mdf@subsubtitleinnerbelowskip@length=\skip112
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mdframed\md-frame-0.mdf"
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box58
+\mdf@footnotebox=\box59
+\mdf@splitbox@one=\box60
+\mdf@splitbox@two=\box61
+\mdf@splitbox@save=\box62
+\mdfsplitboxwidth=\skip113
+\mdfsplitboxtotalwidth=\skip114
+\mdfsplitboxheight=\skip115
+\mdfsplitboxdepth=\skip116
+\mdfsplitboxtotalheight=\skip117
+\mdfframetitleboxwidth=\skip118
+\mdfframetitleboxtotalwidth=\skip119
+\mdfframetitleboxheight=\skip120
+\mdfframetitleboxdepth=\skip121
+\mdfframetitleboxtotalheight=\skip122
+\mdffootnoteboxwidth=\skip123
+\mdffootnoteboxtotalwidth=\skip124
+\mdffootnoteboxheight=\skip125
+\mdffootnoteboxdepth=\skip126
+\mdffootnoteboxtotalheight=\skip127
+\mdftotallinewidth=\skip128
+\mdfboundingboxwidth=\skip129
+\mdfboundingboxtotalwidth=\skip130
+\mdfboundingboxheight=\skip131
+\mdfboundingboxdepth=\skip132
+\mdfboundingboxtotalheight=\skip133
+\mdf@freevspace@length=\skip134
+\mdf@horizontalwidthofbox@length=\skip135
+\mdf@verticalmarginwhole@length=\skip136
+\mdf@horizontalspaceofbox=\skip137
+\mdfsubtitleheight=\skip138
+\mdfsubsubtitleheight=\skip139
+\c@mdfcountframes=\count348
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
+.................................................
+\mdf@envdepth=\count349
+\c@mdf@env@i=\count350
+\c@mdf@env@ii=\count351
+\c@mdf@zref@counter=\count352
+Package zref Info: New property: mdf@pagevalue on input line 895.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count353
+)
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\settings/settings.tex")
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
@@ -1369,6 +1614,9 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 -master\main.aux"
 
 LaTeX Warning: Label `fig:MWDocProc' multiply defined.
+
+
+LaTeX Warning: Label `fig:BOT_comp_diag' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -1394,7 +1642,7 @@ Package nag Info: Command \RaggedLeft not defined, skipping amendment on input
 line 16.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
  line 16.
-\big@size=\dimen198
+\big@size=\dimen283
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1408,19 +1656,19 @@ Package biblatex Info: Reference segment=0 on input line 16.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
-\scratchdimen=\dimen199
-\scratchbox=\box43
-\nofMPsegments=\count319
-\nofMParguments=\count320
+\scratchcounter=\count354
+\scratchdimen=\dimen284
+\scratchbox=\box63
+\nofMPsegments=\count355
+\nofMParguments=\count356
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count321
-\MPscratchDim=\dimen200
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen285
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
 \everyMPtoPDFconversion=\toks42
 )
-\c@lstlisting=\count324
+\c@lstlisting=\count360
 Package scrhack Info: undefining \float@addtolists on input line 16.
  ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
@@ -1443,7 +1691,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box44
+\AtBeginShipoutBox=\box64
 Package hyperref Info: Link coloring OFF on input line 16.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
@@ -1452,7 +1700,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count325
+\c@section@level=\count361
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
@@ -1843,55 +2091,115 @@ w.mediawiki.org/wiki/Manual:Coding_conventions#Documentation\T1/pplx/m/n/10.95
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--107
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--107
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--107
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--107
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
 
-Overfull \hbox (1.33931pt too wide) in paragraph at lines 77--107
-\T1/pplx/m/n/10.95 (-20)   MediaWiki-Documentation \T1/pplx/m/it/10.95 (-20) 
-https://phabricator.wikimedia.org/tag/mediawiki-documentation/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--107
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--107
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
-[30] <images/use-case-scenario.jpg, id=636, 703.87968pt x 377.91188pt>
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 110--113
+
+ []
+
+<images/use-case-scenario.jpg, id=640, 703.87968pt x 377.91188pt>
 File: images/use-case-scenario.jpg Graphic file (type jpg)
 
 <use images/use-case-scenario.jpg>
-Package pdftex.def Info: images/use-case-scenario.jpg used on input line 110.
+Package pdftex.def Info: images/use-case-scenario.jpg used on input line 116.
 (pdftex.def)             Requested size: 418.25555pt x 224.55762pt.
- [31]
+ [32 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/use-case-scenario.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 116.
+               Default added (so using `tbp') on input line 122.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 126.
+(nag)                Use \bfseries or \textbf instead on input line 132.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -1905,11 +2213,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 126.
+(scrbook)              by `\normalfont \bfseries ' on input line 132.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 126.
+(nag)                Use \bfseries or \textbf instead on input line 132.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -1923,11 +2231,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 126.
+(scrbook)              by `\normalfont \bfseries ' on input line 132.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 126.
+(nag)                Use \bfseries or \textbf instead on input line 132.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -1941,11 +2249,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 126.
+(scrbook)              by `\normalfont \bfseries ' on input line 132.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 126.
+(nag)                Use \bfseries or \textbf instead on input line 132.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -1959,11 +2267,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 126.
+(scrbook)              by `\normalfont \bfseries ' on input line 132.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 127.
+(nag)                Use \bfseries or \textbf instead on input line 133.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -1977,11 +2285,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 127.
+(scrbook)              by `\normalfont \bfseries ' on input line 133.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 128.
+(nag)                Use \bfseries or \textbf instead on input line 134.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -1995,11 +2303,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 128.
+(scrbook)              by `\normalfont \bfseries ' on input line 134.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 129.
+(nag)                Use \bfseries or \textbf instead on input line 135.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2013,11 +2321,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 129.
+(scrbook)              by `\normalfont \bfseries ' on input line 135.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 130.
+(nag)                Use \bfseries or \textbf instead on input line 136.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2031,22 +2339,20 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 130.
+(scrbook)              by `\normalfont \bfseries ' on input line 136.
 
 
-Overfull \hbox (44.39967pt too wide) in paragraph at lines 120--132
+Overfull \hbox (44.39967pt too wide) in paragraph at lines 126--138
  [][] 
  []
 
-[32 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
-tex-master/images/use-case-scenario.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 146.
+               Default added (so using `tbp') on input line 153.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 155.
+(nag)                Use \bfseries or \textbf instead on input line 162.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2060,11 +2366,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 155.
+(scrbook)              by `\normalfont \bfseries ' on input line 162.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 155.
+(nag)                Use \bfseries or \textbf instead on input line 162.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2078,16 +2384,16 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 155.
+(scrbook)              by `\normalfont \bfseries ' on input line 162.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\T1/pplx/b/n/10.95 Documentation on Wiki
  []
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 155.
+(nag)                Use \bfseries or \textbf instead on input line 162.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2101,16 +2407,16 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 155.
+(scrbook)              by `\normalfont \bfseries ' on input line 162.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\T1/pplx/b/n/10.95 Version Con-trolled doc-u-
  []
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 157.
+(nag)                Use \bfseries or \textbf instead on input line 164.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2124,11 +2430,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 157.
+(scrbook)              by `\normalfont \bfseries ' on input line 164.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 159.
+(nag)                Use \bfseries or \textbf instead on input line 166.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2142,48 +2448,473 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 159.
+(scrbook)              by `\normalfont \bfseries ' on input line 166.
 
-[33] <images/Process_Roles.jpg, id=654, 352.31625pt x 364.36125pt>
-File: images/Process_Roles.jpg Graphic file (type jpg)
+[33] [34]
 
-<use images/Process_Roles.jpg>
-Package pdftex.def Info: images/Process_Roles.jpg used on input line 194.
-(pdftex.def)             Requested size: 284.52756pt x 294.25255pt.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 178.
 
-<images/role_Maintainers.jpg, id=655, 390.70969pt x 353.82187pt>
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 187.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 187.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 187.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 187.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 187.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 187.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 188.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 188.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 189.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 189.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 190.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 190.
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 190--190
+\T1/pplx/m/n/10.95 (+20) the right for-mat (names-
+ []
+
+[35] <images/role_Maintainers.jpg, id=668, 444.91219pt x 357.58594pt>
 File: images/role_Maintainers.jpg Graphic file (type jpg)
 
 <use images/role_Maintainers.jpg>
-Package pdftex.def Info: images/role_Maintainers.jpg used on input line 199.
-(pdftex.def)             Requested size: 284.52756pt x 257.67773pt.
- [34] [35 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
-sis-latex-master/images/Process_Roles.jpg>]
-<images/Bot_in_system.jpg, id=669, 564.60938pt x 388.45125pt>
+Package pdftex.def Info: images/role_Maintainers.jpg used on input line 216.
+(pdftex.def)             Requested size: 284.52756pt x 228.67961pt.
+ [36]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 223.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 232.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 232.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 232.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 232.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 232.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 232.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 233.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 233.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 234.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 234.
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 234--234
+[]\T1/pplx/m/n/10.95 (+20) A Doc-u-men-ta-tion main-te-
+ []
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 235.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 235.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 237.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 237.
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 237--237
+[]\T1/pplx/m/n/10.95 (+20) The pe-ri-odic main-te-nance
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 237--237
+\T1/pplx/m/n/10.95 (+20) task may not fit into the
+ []
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 239.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 239.
+
+
+Overfull \hbox (25.43562pt too wide) in paragraph at lines 227--242
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 249.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 258.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 258.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 258.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 258.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 258.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 258.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 259.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 259.
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 259--259
+[]\T1/pplx/m/n/10.95 (+20) Complex setup. Re-quires
+ []
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 260.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 260.
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 260--260
+[]\T1/pplx/m/n/10.95 (+20) Flexible : Bots have no
+ []
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 261.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 261.
+
+[37 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+tex-master/images/role_Maintainers.jpg>] [38] [39]
+<images/Process_Roles.jpg, id=694, 352.31625pt x 364.36125pt>
+File: images/Process_Roles.jpg Graphic file (type jpg)
+
+<use images/Process_Roles.jpg>
+Package pdftex.def Info: images/Process_Roles.jpg used on input line 292.
+(pdftex.def)             Requested size: 284.52756pt x 294.25255pt.
+
+<images/Bot_in_system.jpg, id=695, 564.60938pt x 388.45125pt>
 File: images/Bot_in_system.jpg Graphic file (type jpg)
 
 <use images/Bot_in_system.jpg>
-Package pdftex.def Info: images/Bot_in_system.jpg used on input line 213.
+Package pdftex.def Info: images/Bot_in_system.jpg used on input line 306.
 (pdftex.def)             Requested size: 418.25555pt x 287.76355pt.
- [36 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
-atex-master/images/role_Maintainers.jpg>]
-<images/MWDocBot.jpg, id=676, 575.9919pt x 569.2467pt>
+ [40 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/Process_Roles.jpg>]
+<images/MWDocBot.jpg, id=704, 575.9919pt x 569.2467pt>
 File: images/MWDocBot.jpg Graphic file (type jpg)
 
 <use images/MWDocBot.jpg>
-Package pdftex.def Info: images/MWDocBot.jpg used on input line 220.
+Package pdftex.def Info: images/MWDocBot.jpg used on input line 313.
 (pdftex.def)             Requested size: 418.25555pt x 413.36646pt.
 )
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/Implementation.tex" [37 <C:/Users/Ankitaa/Desktop/TUM Studies/
+-master\chapters/Implementation.tex" [41 <C:/Users/Ankitaa/Desktop/TUM Studies/
 tum-thesis-latex-master/tum-thesis-latex-master/images/Bot_in_system.jpg>]
-[38 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+[42 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
 tex-master/images/MWDocBot.jpg>]
 Chapter 5.
-) [39
+<images/BOT_comp_diag.jpg, id=716, 632.3625pt x 363.60844pt>
+File: images/BOT_comp_diag.jpg Graphic file (type jpg)
+
+<use images/BOT_comp_diag.jpg>
+Package pdftex.def Info: images/BOT_comp_diag.jpg used on input line 12.
+(pdftex.def)             Requested size: 418.25555pt x 240.49829pt.
+ [43
 
 
-] [40
+]
+<images/BOT_state_diagram.jpg, id=721, 589.4522pt x 379.4175pt>
+File: images/BOT_state_diagram.jpg Graphic file (type jpg)
+
+<use images/BOT_state_diagram.jpg>
+Package pdftex.def Info: images/BOT_state_diagram.jpg used on input line 19.
+(pdftex.def)             Requested size: 418.25555pt x 269.2262pt.
+ [44 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/BOT_comp_diag.jpg>])
+[45 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+tex-master/images/BOT_state_diagram.jpg>] [46
 
 
 ]
@@ -2192,12 +2923,12 @@ Chapter 5.
 Chapter 6.
 )
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/Conclusion.tex" [41
+-master\chapters/Conclusion.tex" [47
 
 
 ]
 Chapter 7.
-) [42
+) [48
 
 
 ]
@@ -2207,7 +2938,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 55
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.lof")
 \tf@lof=\write7
- [43
+ [49
 
 
 ]
@@ -2217,7 +2948,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 56
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.lot")
 \tf@lot=\write8
- [44
+ [50
 
 
 ]
@@ -2238,14 +2969,14 @@ Package microtype Info: Loading generic settings for font family
 Package biblatex Warning: No driver for entry type 'url'.
 (biblatex)                Using fallback driver on input line 58.
 
-[45
+[51
 
 
-] [46]
+] [52]
 
-Package nag Warning: 14 complaints in total.
+Package nag Warning: 34 complaints in total.
 
-[47]
+[53]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 
@@ -2254,7 +2985,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 18DC8F68E8572B05C358A190BAEC598D;4044.
+(rerunfilecheck)             Checksum: 6134DA8C17ACC2781A991D6852C53500;4044.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2269,13 +3000,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 6 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 38035 strings out of 493921
- 840703 string characters out of 3144871
- 1431077 words of memory out of 3000000
- 40140 multiletter control sequences out of 15000+200000
+ 44803 strings out of 493921
+ 981556 string characters out of 3144871
+ 1657116 words of memory out of 3000000
+ 46851 multiletter control sequences out of 15000+200000
  60897 words of font info for 291 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 75i,11n,83p,2841b,2509s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 75i,11n,83p,10438b,2511s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Ankitaa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\ectt1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/
 fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
@@ -2283,9 +3014,9 @@ cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (55 pages, 2039429 bytes).
+Output written on main.pdf (61 pages, 2185657 bytes).
 PDF statistics:
- 874 PDF objects out of 1000 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
- 34866 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 927 PDF objects out of 1000 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
+ 34876 words of extra memory for PDF output out of 35830 (max. 10000000)
 
