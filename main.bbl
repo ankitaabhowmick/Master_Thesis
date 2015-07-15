@@ -100,6 +100,38 @@
       \verb :C$\backslash$:/Users/Ankitaa/Desktop/TUM Studies/4th sem/Experience Using the Wiki for Software Arch Doc.pdf:pdf
       \endverb
     \endentry
+    \entry{Berander2005}{article}{}
+      \name{author}{14}{}{%
+        {{uniquename=0,hash=b3df3d446c91b5c4868a3c8822b153c4}{Berander}{B\bibinitperiod}{Patrik}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=13b5b14234eb9fedbbe918fbba125d1a}{Damm}{D\bibinitperiod}{Lars-ola}{L\bibinithyphendelim o\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e864c884d251b5d7293fb209a8c8d94d}{Eriksson}{E\bibinitperiod}{Jeanette}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=30f2708900112a4da4d6b99b5324ef30}{Gorschek}{G\bibinitperiod}{Tony}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1b840cc3ae0ade9bc97a2093e11d8006}{Henningsson}{H\bibinitperiod}{Kennet}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d24e8bc9b23302c63c08012a17c0e985}{Jönsson}{J\bibinitperiod}{Per}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6d2445d74b38d5e56daa1c4243d9cbe0}{Kågström}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3383205ef241bcb06aef9f42316b9e35}{Milicic}{M\bibinitperiod}{Drazen}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=33a0f78b3565389b7169e0342fe771d9}{Mårtensson}{M\bibinitperiod}{Frans}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=01651a69702f8680b97b4a99621a5a09}{Rönkkö}{R\bibinitperiod}{Kari}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1184bf8a759511ff1cf99b93fff19fa9}{Tomaszewski}{T\bibinitperiod}{Piotr}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bbe7ef2f1dfe247b7c1b905272bb8da2}{Lundberg}{L\bibinitperiod}{Lars}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4b4a0beb3b7bdd6eb5fc29b0a7f036f4}{Mattsson}{M\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e1ce15e2eeb53e3fc8c6035fd761594b}{Wohlin}{W\bibinitperiod}{Claes}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4e5bced29e38bcc0a78ed03ccdd75ae6}
+      \strng{fullhash}{9f1d17cfe5c6d8a2441063dbcc4ff4d2}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{June}
+      \field{title}{{Software quality attributes and trade-offs}}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 100}
+      \range{pages}{100}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/10.1.1.101.5016.pdf:pdf
+      \endverb
+    \endentry
     \entry{Briand2003}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=8852a6ac1b47165e3bbafad7e256a193}{Briand}{B\bibinitperiod}{L.C.}{L\bibinitperiod}{}{}{}{}}%

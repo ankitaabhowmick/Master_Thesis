@@ -129,11 +129,11 @@ In the Table \autoref{Role-doc-maintenance} the previously identified \enquote{r
 >{\columncolor[HTML]{FFFFFF}}l |
 >{\columncolor[HTML]{FFFFC7}}c |@{}}
 \toprule
-\multicolumn{1}{l|}{\cellcolor[HTML]{F8A102}{\bf Use Cases}} & \cellcolor[HTML]{FFFC9E}{\bf Role} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Responsibility}} & \cellcolor[HTML]{FFFC9E}{\bf Maintainability} \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 1}}        & Developer/ Reviwer                 & Documentation as a follow-on task                                 & possible                                      \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 2}}        & Developer                          & Coding - software development                                     & not possible                                  \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 3}}        & Documentor                         & Create documentation on mediawiki                                 & not possible                                  \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 4}}        & Developer/ Reviewer                & Task for documentation                                            & possible                                      \\ \bottomrule
+\multicolumn{1}{l|}{\cellcolor[HTML]{F8A102}{\bf \parbox{2cm}{Use Cases}}} & \cellcolor[HTML]{FFFC9E}{\bf \parbox{2cm}{Role}} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Responsibility}} & \cellcolor[HTML]{FFFC9E}{\bf Maintainability} \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 1}}        & Developer/ Reviwer                 & \parbox{4cm}{Documentation task as a follow-on of development task}                                & possible                                      \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 2}}        & Developer                          & \parbox{4cm}{Coding (software development): branch / push / merge / commit}                                     & not possible                                  \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 3}}        & Documentor                         & \parbox{4cm}{Create documentation on wiki platform - mediawiki.org}                                 & not possible                                  \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 4}}        & Developer/ Reviewer                & \parbox{4cm}{Task specially created/ assigned for documentation}                                            & possible                                      \\ \bottomrule
 \end{tabular}
 \end{table}
 
@@ -213,7 +213,7 @@ Hence, the idea of providing developers/ architects with a guideline for is not 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=100mm]{images/role_Maintainers}
+  \includegraphics[width=60mm]{images/role_Maintainers}
   \caption[The sphere of Maintainer's roles and responsibilities]{The sphere of Maintainer's roles and responsibilities.}\label{fig:role_Maintainers}
 \end{figure}
 
@@ -263,43 +263,65 @@ The idea of an architectural module / component owner as its \enquote{documenter
 \end{tabular}
 \end{table}
 
-But the \autoref{extension-bot} highlights the complexity involved in building a Mediawiki extension as compared to a creating a BOT user assigned with a specific activity. Thus, it strengthens the concept of using a maintenance BOT for improving the Mediawiki software architecture documentation process.
-
+But, the \autoref{extension-bot} highlights the complexity involved in building a Mediawiki extension as compared to a creating a BOT user assigned with a specific activity. Thus, it strengthens the concept of using a maintenance BOT for improving the Mediawiki software architecture documentation process.
 \end{enumerate}
 
-\section{Improved Process}
-\indent After assesing all the ideas and concepts in the previous section, the final concept for this thesis contribution was conceived.
+\section{Improved Documentation Process}
+\indent After assessing all the ideas and concepts in the previous section, the final concept for this thesis contribution was conceived.
 
-The final concept : 
-Documentation health monitor
-Review of documents in a process-oriented structure - Gerrit review 
-Documentation as an intrinsic Software process
+\textbf{The Final Concept : }
+\newline
+\indent The final concept for improving the software architecture documentation process of mediawiki software is to build  a \enquote{Documentation Health Monitor} that can track the maintenance activity of documents on \enquote{mediawiki.org} with the use of BOTs and organization of developer's responsibilities
+\\\indent The concept aims to solve issues identified previously and to streamline the community people into a process.
+\\\indent The improved documentation process is oriented with the salient features and intrinsic activities of a standard software processes. These dimensions of documentation process are captured in the \autoref{fig:doc_process_dimensions} and explained in the \autoref{PorcDimension}.
+\\\indent The following sub-sections explain the idea and concept behind the improved documentation process which involves the interaction and co-ordination of human maintainers and a maintainer BOT in order to achieve the intended purpose of structure, up-to-date, useful software architecture documents.
+
+
 \subsection{Roles and Responsibility definition and co-ordination}
 
-Key principles to address challenges of the task-centered collaboration approach are [Felix Master thesis]
-
-
+\indent The crux of every software organization process constitutes the personnel belonging to the organization who are actively involved in the execution of the process. To successfully implement and execute the activities within the improved documentation process at Mediawiki, it is important to outline and define the roles an responsibility of the community stakeholders. 
+\\\indent The concept involves a task-centered collaboration approach where the responsibilities of the defined roles are bound by explicit and implicit tasks. 
+\begin{itemize}
+\item \enquote{Explicit tasks} refer to the role-bound tasks created and assigned on the \enquote{Phabricator} or the well defined responsibilities for a particular user-role.
+\item \enquote{Implicit tasks} refer to the activities that are an intrinsic part of community and organizational responsibility (e.g) community collaboration and acceptance.
+\end{itemize}
+Defining new responsibilities for existing roles may pose certain challenges pertaining to the implicit tasks . These challenges refer to the social aspects of defining new responsibilities within an existing community structure.The key principles to address these challenges are [Felix Master thesis]
 \begin{enumerate}
 \item the self-organization of the community through task decomposition
 \item an on-line community support based on social design principles and best practices
 \item an open science process to enable unanticipated contributions
 \end{enumerate}
 
-\indent Solves issues identified previously
-streamline more people into a process
+But these challenges are implicitly handled by the organization of the explicit tasks. 
+\newline
+\indent \textbf{Challenge 1 : }  Gracefully handled - Task decomposition by role-responsibility organization
 \begin{figure}[H]
   \centering
   \includegraphics[width=100mm]{images/Process_Roles}
   \caption[Defining distinct roles and responsibilities in a process]{Defining distinct roles and responsibilities in a process.}\label{fig:Process_Roles}
 \end{figure}
 
-\subsection{Guidelines for the future process orientation}
-How can the process be mandated / followed within the community?
+As seen in the \autoref{fig:Process_Roles} the key roles identified within Mediawiki for the improved documentation process are :
+\begin{itemize}
+\item Architect - Outlines/ defines/ upgrades/maintains the Mediawiki software architecture
+\item Developer - Writes/ updates / creates / maintains the Mediawiki software.
+\end{itemize}
+As a part of the software architecture documentation process, these existing roles have been vested with the added responsibility (explicit tasks) pertaining to software architecture documents:
+\begin{itemize}
+\item Developer - The prime responsibility of the software developers as a part of the documentation process is to create (write) the software architecture documents as a part of their regular development activity. This means that they are responsible for maintaining the up-to-date architecture information.
+\item Architect - Since architects design the software architecture, they best understand the description of the architectural components and their design and implementation. Hence, as a part of the documentations process, the architect is responsible for reviewing the documents written by the developers before they are finally \enquote{pushed} and also published on \enquote{mediawiki.org}
+\end{itemize}
+
+\textbf{Challenge 2 : }On-line community support - Not a challenge 
+\indent The Mediawiki community is a part of the larger open source community where it has succeeded to prove its presence over the years of its existence. Based on its success metrics, it can be very well assumed that the social design principles and best practices are inherently followed within Mediawiki community. Thus, introduction of an improved documentation process would be aided and assisted by the existing support structure.
+\newline \newline
+\textbf{Challenge 3 : } Unanticipated contributions - Not a challenge
+\indent An open science (open knowledge base) process is the central paradigm of the Mediawiki community structure. Yet again, the improved documentation process will not be effected by this challenge. In fact, the external contributions in the form of open discussions will help improve the quality of the Mediawiki software architecture documents, which is the ultimate goal of the proposed concept
 
 \subsection{Document Maintenance Bot - A proof of concept}
-
-Using bot to take on the responsibility of 
-maintainable/ visible
+\indent The previous section capture the human resource organization aspect of the improved software architecture documentation process.
+\\\indent Organizing roles-responsibilities helps to achieve better quality of software architecture documents. But, an important component of the improved process is document maintainability on \enquote{mediawiki.org}. To  
+Using bot to take on the responsibility of maintainable/ visible
 
 \begin{figure}[H]
   \centering
@@ -313,3 +335,35 @@ In \autoref{fig:MWDocBot}  we can see the
   \includegraphics[width=\textwidth]{images/MWDocBot}
   \caption[Maintenace Bot Sequence diagram]{Maintenace Bot Sequence diagram.}\label{fig:MWDocBot}
 \end{figure}
+\subsection{Guidelines for the future process orientation}
+How can the process be mandated / followed within the community?
+
+
+\section{Dimensions of the Improved Documentation Process} \label{PorcDimension}
+\indent This section highlights the key factors that contribute to the improvement of the documentation process. These factors have been identifies as dimensional facets of the documentation process structure. 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/doc_process_dimensions}
+  \caption[Dimensions of documentation process features]{Dimensions of documentation process features.}\label{fig:doc_process_dimensions}
+\end{figure}
+\textbf{Capturing the dimensions of the improved documentation process in a nutshell} 
+
+\begin{itemize}
+\item \textbf{Review : } Any standard software process involves a strict review process at every stage of its lifecycle. Thus, it is important for the documentation process also to involve a review phase. This review involves the definition and interaction of the following:
+\begin{enumerate}
+\item Role - The role of a \enquote{Reviewer} has been defined as a part of the improved documentation process. Mediawiki clearly defines the user role of a reviewer for its software development process. The same or other users can be assigned the role of a \enquote{Document Reviewer}. An experienced developer or an architect is the best candidate for the role of a software architecture document reviewer.
+\item Responsibility - The \enquote{Reviewer} has the responsibility of reviewing the software architecture documents when they are \enquote{pushed} as a part of the source code into the \enquote{Gerrit} review system. Only when the reviewer accepts/ approves the documentation, it is added to the \enquote{authoritative repository}. Once the document is approved, it can be copied/ added to \enquote{mediawiki.org}
+\item Organization - The Roles and Responsibilities need to be assigned and defined as a part of the documentation process. This dimension of software project organization is ensured by the existing \enquote{Gerrit} Review system.
+\end{enumerate}
+\item \textbf{Maturity} - A higher maturity of a software process ensures the quality of a software and its organization
+\begin{enumerate}
+\item Compatibility - A standard consistent process that fits in with the existing matured processes is considered matured enough for its intended purpose. In case of the improved documentation process, it is compatible with the existing software process, with interfaces that blend into the existing system.
+\item Operability - A user's effort in the operation control of a process determines its operarbility \cite{Berander2005}. In case of the improved documentation process, maintenance operation effort is shared by the BOT, thus making it highly operable.
+\end{enumerate}
+\item \textbf{Community} - The improved documentation process targets the open source community iin general and the Mediawiki software in particular. Pertinent to the community, it is important that the process is conceptualized bearing all the socio-technical factors in mind. 
+\begin{enumerate}
+\item Acceptance - A process serves its purpose when it is readily accepted in the community for which it has been defined and conceptualized. As the improved documentation process satisfies the stakeholder requirements, its acceptance is guaranteed within the community. 
+\item Adaptability - To evaluate whether an improved process will be sustained within the community over a period of time, its adaptability needs to be assessed. Since the suggested process is an improvement over the existing process, it always leaves scope for further improvement as and when the software evolves.
+\item Adoptability - Acquiring and fitting in a new/ improved process refers to the adoption of the process within the community. In the current scenario, the need and demand for software architecture documentation within Mediawiki suggests that the artifacts are highly desired and the process to maintain them will be adopted readily by the stakeholders. 
+\end{enumerate}
+\end{itemize}
