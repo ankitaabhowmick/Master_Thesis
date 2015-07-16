@@ -76,7 +76,7 @@ Arguments made for several concepts, judging the user scenarios and assessing th
 \subsection{Identifying Use case scenarios }
 In order to understand the documentation process and intended improvements, the use cases for document creation and maintenance activities were developed.
 \newline \newline
-\begin{mdframed}[leftmargin=10pt,rightmargin=-10pt]
+\begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Use Case 1 : When task for documentation is created by developer as a sub-task of code development}
 \newline\newline \indent \textbf{User} : Developer / Reviewer
 \newline \newline \indent \textbf{Activity} : task to write code and add document
@@ -84,7 +84,7 @@ In order to understand the documentation process and intended improvements, the 
 \newline \newline \indent \textbf{Task Details} : Documentation task is added by code developer / reviewer. The task is tagged with the related code patch git commit id.
 \end{mdframed}
 
-\begin{mdframed}[leftmargin=10pt,rightmargin=-10pt]
+\begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Use Case 2 : When developer writes and commits a piece of code}
 \newline \newline \indent \textbf{User} : Developer
 \newline \newline \indent \textbf{Activity} : Software Development - write code
@@ -92,7 +92,7 @@ In order to understand the documentation process and intended improvements, the 
 \newline \newline \indent \textbf{Task Details} : A usual development activity to add code which is then review and pushed into production. Documentation may or may not be created or updated
 \end{mdframed}
 
-\begin{mdframed}[leftmargin=10pt,rightmargin=-10pt]
+\begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Use Case 3 : When only document is added}
  \newline \newline \indent \textbf{User} : Documenter
  \newline \newline \indent \textbf{Activity} : Creating / updating / reviewing software architecture documentation of mediawiki.
@@ -100,7 +100,7 @@ In order to understand the documentation process and intended improvements, the 
  \newline \newline \indent \textbf{Task Details} : A usual documentation activity to add software architecture documents for which may or may not be a part of maintenance activities
 \end{mdframed}
 
-\begin{mdframed}[leftmargin=10pt,rightmargin=-10pt]
+\begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Use Case 4 : Documentation task on phabricator}
 \newline \newline \indent \textbf{User} : Developer / Reviewer
 \newline \newline \indent \textbf{Activity} : task to Create / update / review software architecture documentation of mediawiki.
@@ -209,7 +209,7 @@ This clarifies and explains the need to create a new category like \enquote{Soft
 Hence, the idea of providing developers/ architects with a guideline for is not practical or feasible solution. Instead a more strict review process is required which ensures structure software architecture document creation and maintenance.
 
 
-\item \textbf{Defining Responsibilities for Role : Maintainer}
+\item \textbf{Defining Responsibilities for the Role : Maintainer}
 
 \begin{figure}[H]
   \centering
@@ -271,7 +271,7 @@ But, the \autoref{extension-bot} highlights the complexity involved in building 
 
 \textbf{The Final Concept : }
 \newline
-\indent The final concept for improving the software architecture documentation process of mediawiki software is to build  a \enquote{Documentation Health Monitor} that can track the maintenance activity of documents on \enquote{mediawiki.org} with the use of BOTs and organization of developer's responsibilities
+\indent The final concept for improving the software architecture documentation process of mediawiki software is to build  a \enquote{Documentation Monitor} that can track the maintenance activity of documents on \enquote{mediawiki.org} with the use of BOTs and with the organization of developer's responsibilities
 \\\indent The concept aims to solve issues identified previously and to streamline the community people into a process.
 \\\indent The improved documentation process is oriented with the salient features and intrinsic activities of a standard software processes. These dimensions of documentation process are captured in the \autoref{fig:doc_process_dimensions} and explained in the \autoref{PorcDimension}.
 \\\indent The following sub-sections explain the idea and concept behind the improved documentation process which involves the interaction and co-ordination of human maintainers and a maintainer BOT in order to achieve the intended purpose of structure, up-to-date, useful software architecture documents.
@@ -292,9 +292,9 @@ Defining new responsibilities for existing roles may pose certain challenges per
 \item an open science process to enable unanticipated contributions
 \end{enumerate}
 
-But these challenges are implicitly handled by the organization of the explicit tasks. 
+But the challenges are implicitly handled by the organization of the explicit tasks as suggested by hte above principles. 
 \newline
-\indent \textbf{Challenge 1 : }  Gracefully handled - Task decomposition by role-responsibility organization
+\indent \textbf{Principle 1 : }  Gracefully handle challenges regarding assignment of responsibility  - Task decomposition by role-responsibility organization
 \begin{figure}[H]
   \centering
   \includegraphics[width=100mm]{images/Process_Roles}
@@ -312,31 +312,60 @@ As a part of the software architecture documentation process, these existing rol
 \item Architect - Since architects design the software architecture, they best understand the description of the architectural components and their design and implementation. Hence, as a part of the documentations process, the architect is responsible for reviewing the documents written by the developers before they are finally \enquote{pushed} and also published on \enquote{mediawiki.org}
 \end{itemize}
 
-\textbf{Challenge 2 : }On-line community support - Not a challenge 
+\textbf{Principle 2 : }On-line community support helps to overcome the challenges of missing knowledge base.  
 \indent The Mediawiki community is a part of the larger open source community where it has succeeded to prove its presence over the years of its existence. Based on its success metrics, it can be very well assumed that the social design principles and best practices are inherently followed within Mediawiki community. Thus, introduction of an improved documentation process would be aided and assisted by the existing support structure.
 \newline \newline
-\textbf{Challenge 3 : } Unanticipated contributions - Not a challenge
+\textbf{Principle 3 : } Unanticipated contributions are a in the face of a challenging socio-technical environment of open source software development:
 \indent An open science (open knowledge base) process is the central paradigm of the Mediawiki community structure. Yet again, the improved documentation process will not be effected by this challenge. In fact, the external contributions in the form of open discussions will help improve the quality of the Mediawiki software architecture documents, which is the ultimate goal of the proposed concept
 
 \subsection{Document Maintenance Bot - A proof of concept}
 \indent The previous section capture the human resource organization aspect of the improved software architecture documentation process.
-\\\indent Organizing roles-responsibilities helps to achieve better quality of software architecture documents. But, an important component of the improved process is document maintainability on \enquote{mediawiki.org}. To  
-Using bot to take on the responsibility of maintainable/ visible
+\\\indent Organizing roles-responsibilities helps to achieve better quality of software architecture documents. But, an important aspect of the improved documentation process is document maintainability on \enquote{mediawiki.org}. To streamline this maintenance process wherein, the documents on \enquote{mediawiki.org} are kept up-to-date, a more regular audit needs to be performed. Since this task is time consuming and adds to the burden of human maintainers, it is logical to use a BOT. A defined in \emph{https://www.mediawiki.org/wiki/Manual:Bots} - "Bots are automated tools that can be used to perform tedious work or certain repetitive tasks related to a wiki." This reasoning perfectly fits our requirement. Using a bot to take on the responsibility of maintainable / visible / sustainable documents, not only relieves the human effort but also regularizes the mandatory task of documentation.
+
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/Bot_in_system}
   \caption[Introducing the doumentation maintenance BOT in the Mediawiki software process]{Introducing the doumentation maintenance BOT in the Mediawiki software process.}\label{fig:/Bot_in_system}
 \end{figure}
-
-In \autoref{fig:MWDocBot}  we can see the 
+The \autoref{fig:/Bot_in_system} introduces the BOT into the existing Mediawiki software and documentation process and shows the interactions between the different roles and systems that were captured in \autoref{fig:MWProcess}.
+\indent The idea is to use the BOT as a maintenance assistant in the documentation process. As seen in the figure the BOT seamlessly interacts with different systems that are a part of the existing software process in order to improve the documentation process:
+\begin{itemize}
+\item Mediawiki software source code repository (/docs folder)
+\item Pages on \enquote{Mediawiki.org}
+\item Phabricator task management system
+\end{itemize}
+As shown by the dashed red lined, the BOT replaces a few activities and assists the human maintainer with his responsibilities.
+This interaction and activities can be better-explained with a use-case scenario to understand the BOT's role in the documentation process. 
+\indent Use Case : An open task is created when the pages on mediawiki.org is not updated as compared to the latest documents in the source code.
+\\\indent  In \autoref{fig:MWDocBot} we can analyze this use-case as a sequence diagram where the BOT has been placed in the sequence of events in the process. The BOT is seen as the principal actor in this improved documentation process.
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/MWDocBot}
   \caption[Maintenace Bot Sequence diagram]{Maintenace Bot Sequence diagram.}\label{fig:MWDocBot}
 \end{figure}
-\subsection{Guidelines for the future process orientation}
-How can the process be mandated / followed within the community?
+Sequence Diagram in detail. 
+\begin{itemize}
+\item The BOT initially pulls the latest version of the source code from the Mediawiki repository master branch. Once pulled, the text file containing the documentation within the source code is extracted
+\item It then reads the text from the corresponding documentation page on\enquote{Mediawiki.org}
+\item The texts from source code and wiki page are compared for difference (plain text difference).
+\item If there is a mismatch (web page is not up-to-date) then the bot checks the history of the wiki  page
+\item If the wiki page was not updated in the last few days, a task is created for its maintenance.
+\end{itemize}
+This sequence of events initiated and executed by the BOT helps to maintain an updated copy of the documentation of mediawiki software architecture on \enquote{mediawiki.org}.  
+
+\subsection{Guidelines for the process implementation and orientation}
+When an improved process is being conceptualized, it is important to understand its usability and usefulness within the target system. In the case of Mediawiki software architecture documentation process, similar questions arise. It is important to understand how the process can be mandated or followed within the community.
+\indent There are two scenarios where guidelines need to be provided in order to implement the improved process successfully \cite{Employee} :
+\begin{itemize}
+\item Orienting the existing community members to accept, understand and follow the process : 
+\newline This scenario is a greater challenge with respect to the existing community and stakeholders. The improved documentation process needs to be mandated by organizational heads in order to include it within the existing software process. All current developers need to be advised and instructed by architects to obligatorily include the documentation of architectural components in the source code before committing the code that they write or update. 
+\item Implementing the process by orienting new members to follow the process :
+\newline Coding conventions and guidelines will help new developers amd mediawiki stakeholders to understand the importance of documentation and mandate them to include the architecture documents as a part of the source code.
+\end{itemize}
+
+
+
 
 
 \section{Dimensions of the Improved Documentation Process} \label{PorcDimension}

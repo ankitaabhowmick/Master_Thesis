@@ -244,6 +244,25 @@
       \field{series}{https://eclipse.org/projects/dev_process/development_process.php}
       \field{year}{2013}
     \endentry
+    \entry{Employee}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=40d46d6125c0e522af1df51ba96e4afa}{Employee}{E\bibinitperiod}{Developing}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f2f3b54862333bc082dfc490bbe99a71}{Programs}{P\bibinitperiod}{Orientation}{O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c2435b615866145cbd87f0c76dd21119}{Ministers}{M\bibinitperiod}{Deputy}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{04667034778482eb29bae282aa166bd1}
+      \strng{fullhash}{04667034778482eb29bae282aa166bd1}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Employee Orientation Program Guidelines Purpose}}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/EmployeeOrientationProgramGuidelines.pdf:pdf
+      \endverb
+    \endentry
     \entry{Fuggeffa1988}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,hash=208c66b25c8673b7a0bdea51ac0425e6}{Fuggeffa}{F\bibinitperiod}{Alfonso}{A\bibinitperiod}{}{}{}{}}%
