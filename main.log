@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  16 JUL 2015 11:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  20 JUL 2015 01:55
 entering extended mode
 **main.tex
 
@@ -1588,10 +1588,16 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@env@ii=\count351
 \c@mdf@zref@counter=\count352
 Package zref Info: New property: mdf@pagevalue on input line 895.
-))
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count353
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count354
+\c@@ppsavesec=\count355
+\c@@ppsaveapp=\count356
 )
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\settings/settings.tex")
@@ -1612,9 +1618,6 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 ))
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.aux"
-
-LaTeX Warning: Label `fig:MWDocProc' multiply defined.
-
 
 LaTeX Warning: Label `fig:BOT_comp_diag' multiply defined.
 
@@ -1656,19 +1659,19 @@ Package biblatex Info: Reference segment=0 on input line 16.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
+\scratchcounter=\count357
 \scratchdimen=\dimen284
 \scratchbox=\box63
-\nofMPsegments=\count355
-\nofMParguments=\count356
+\nofMPsegments=\count358
+\nofMParguments=\count359
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count357
+\MPscratchCnt=\count360
 \MPscratchDim=\dimen285
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
+\MPnumerator=\count361
+\makeMPintoPDFobject=\count362
 \everyMPtoPDFconversion=\toks42
 )
-\c@lstlisting=\count360
+\c@lstlisting=\count363
 Package scrhack Info: undefining \float@addtolists on input line 16.
  ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
@@ -1700,7 +1703,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count361
+\c@section@level=\count364
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
@@ -1717,7 +1720,7 @@ Package nag Info: Command \topcaption not defined, skipping amendment on input
 line 16.
 
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\pages/cover.tex" <logos/tum.jpg, id=250, 319.1925pt x 176.91093pt>
+-master\pages/cover.tex" <logos/tum.jpg, id=282, 319.1925pt x 176.91093pt>
 File: logos/tum.jpg Graphic file (type jpg)
 
 <use logos/tum.jpg>
@@ -1725,7 +1728,7 @@ Package pdftex.def Info: logos/tum.jpg used on input line 13.
 (pdftex.def)             Requested size: 170.71652pt x 94.61806pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 26.
- <logos/faculty.pdf, id=251, 34.14326pt x 36.98859pt>
+ <logos/faculty.pdf, id=283, 34.14326pt x 36.98859pt>
 File: logos/faculty.pdf Graphic file (type pdf)
 
 <use logos/faculty.pdf>
@@ -1822,7 +1825,7 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 123.
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 125.
  [6])
 \tf@toc=\write6
  [7]
@@ -1843,186 +1846,199 @@ l.33 \part{Introduction}
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 3.
-[2
+<images/process_improvement.jpg, id=427, 316.18124pt x 261.22594pt>
+File: images/process_improvement.jpg Graphic file (type jpg)
+
+<use images/process_improvement.jpg>
+Package pdftex.def Info: images/process_improvement.jpg used on input line 16.
+(pdftex.def)             Requested size: 284.52756pt x 235.08919pt.
+ [2
 
 
-])
+] [3 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/process_improvement.jpg>])
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/ResearchQuestions.tex" [3]
+-master\chapters/ResearchQuestions.tex" [4]
 Chapter 2.
-[4
+[5
 
 
-] <images/arch_doc_level.jpg, id=423, 709.14937pt x 422.32782pt>
+] <images/arch_doc_level.jpg, id=474, 709.14937pt x 422.32782pt>
 File: images/arch_doc_level.jpg Graphic file (type jpg)
 
 <use images/arch_doc_level.jpg>
 Package pdftex.def Info: images/arch_doc_level.jpg used on input line 27.
 (pdftex.def)             Requested size: 284.52756pt x 169.4501pt.
- [5] [6 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesi
+ [6] [7 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesi
 s-latex-master/images/arch_doc_level.jpg>]
 Overfull \hbox (0.35437pt too wide) in paragraph at lines 37--38
 \T1/pplx/m/n/10.95 (-20) automated pro-cess to carry out main-te-nance ac-tiv-i
 -ties that may be time-consuming
  []
 
-[7] <images/MWSoftwareProcess.jpg, id=449, 600.8046pt x 632.3625pt>
+[8] <images/MWSoftwareProcess.jpg, id=499, 600.8046pt x 632.3625pt>
 File: images/MWSoftwareProcess.jpg Graphic file (type jpg)
 
 <use images/MWSoftwareProcess.jpg>
 Package pdftex.def Info: images/MWSoftwareProcess.jpg used on input line 51.
 (pdftex.def)             Requested size: 284.52756pt x 299.47795pt.
- [8]
-<images/MWDocProc.jpg, id=458, 392.9079pt x 415.5525pt>
+ [9]
+<images/MWDocProc.jpg, id=508, 392.9079pt x 415.5525pt>
 File: images/MWDocProc.jpg Graphic file (type jpg)
 
 <use images/MWDocProc.jpg>
 Package pdftex.def Info: images/MWDocProc.jpg used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 300.92227pt.
- [9 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
-tex-master/images/MWSoftwareProcess.jpg>] [10 <C:/Users/Ankitaa/Desktop/TUM Stu
-dies/tum-thesis-latex-master/tum-thesis-latex-master/images/MWDocProc.jpg>] [11
-])
+ [10 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/MWSoftwareProcess.jpg>] [11 <C:/Users/Ankitaa/Desktop/TUM St
+udies/tum-thesis-latex-master/tum-thesis-latex-master/images/MWDocProc.jpg>] [1
+2])
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/LiteratureSurvey.tex" [12] [13]
+-master\chapters/LiteratureSurvey.tex" [13] [14]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--18
+Underfull \hbox (badness 10000) in paragraph at lines 5--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--18
+Underfull \hbox (badness 10000) in paragraph at lines 5--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--18
+Underfull \hbox (badness 10000) in paragraph at lines 5--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--18
+Underfull \hbox (badness 10000) in paragraph at lines 5--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--18
+Underfull \hbox (badness 10000) in paragraph at lines 5--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--18
+Underfull \hbox (badness 10000) in paragraph at lines 5--21
 
  []
 
-[14
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--21
+
+ []
+
+[15
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 30.
 
-LaTeX Font Info:    No file OMSpplx.fd. on input line 27.
+LaTeX Font Info:    No file OMSpplx.fd. on input line 30.
 
 LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 27.
+(Font)              for symbol `textbullet' on input line 30.
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 45--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--53
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 48--56
 
  []
 
-[16] <images/ALM_process_roles.jpg, id=519, 542.025pt x 242.40562pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--56
+
+ []
+
+[17] <images/ALM_process_roles.jpg, id=574, 542.025pt x 242.40562pt>
 File: images/ALM_process_roles.jpg Graphic file (type jpg)
 
 <use images/ALM_process_roles.jpg>
-Package pdftex.def Info: images/ALM_process_roles.jpg used on input line 60.
+Package pdftex.def Info: images/ALM_process_roles.jpg used on input line 63.
 (pdftex.def)             Requested size: 284.52756pt x 127.25005pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--62
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
-[17 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+[19 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
 tex-master/images/ALM_process_roles.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
-
- []
-
-<images/OSS_documentation_stat.jpg, id=538, 853.68938pt x 430.60875pt>
+<images/OSS_documentation_stat.jpg, id=603, 853.68938pt x 430.60875pt>
 File: images/OSS_documentation_stat.jpg Graphic file (type jpg)
 
 <use images/OSS_documentation_stat.jpg>
 Package pdftex.def Info: images/OSS_documentation_stat.jpg used on input line 8
-1.
+4.
 (pdftex.def)             Requested size: 418.25555pt x 210.97385pt.
- [18] [19 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
-sis-latex-master/images/OSS_documentation_stat.jpg>] <images/4+1View.jpg, id=56
-8, 413.29407pt x 346.29375pt>
+ [20 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/OSS_documentation_stat.jpg>] [21] <images/4+1View.jpg, id=63
+5, 413.29407pt x 346.29375pt>
 File: images/4+1View.jpg Graphic file (type jpg)
 
 <use images/4+1View.jpg>
-Package pdftex.def Info: images/4+1View.jpg used on input line 109.
+Package pdftex.def Info: images/4+1View.jpg used on input line 112.
 (pdftex.def)             Requested size: 284.52756pt x 238.40396pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--111
+Underfull \hbox (badness 10000) in paragraph at lines 100--114
 
  []
 
-[20] [21 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thes
-is-latex-master/images/4+1View.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 124--143
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 127--146
 
  []
 
 
-Overfull \hbox (52.0721pt too wide) in paragraph at lines 124--143
+Overfull \hbox (52.0721pt too wide) in paragraph at lines 127--146
 \T1/pplx/m/n/10.95 (-20) mi-grate word doc-u-ments into wiki. Also XWiki (\T1/p
 plx/m/it/10.95 (-20) http://www.xwiki.org/xwiki/bin/view/Main/WebHome\T1/pplx/m
 /n/10.95 (-20) ),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--143
+Underfull \hbox (badness 10000) in paragraph at lines 127--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--143
+Underfull \hbox (badness 10000) in paragraph at lines 127--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--143
+Underfull \hbox (badness 10000) in paragraph at lines 127--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--143
+Underfull \hbox (badness 10000) in paragraph at lines 127--146
 
  []
 
-[22]) [23] [24
+[23 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+tex-master/images/4+1View.jpg>] [24]) [25] [26
 
 
 ]
@@ -2036,23 +2052,23 @@ Overfull \hbox (198.63681pt too wide) in paragraph at lines 9--10
 ide#Main_installation_guide\T1/pplx/m/n/10.95 (-20) )
  []
 
-<images/Mediawiki.jpg, id=607, 748.29562pt x 458.46281pt>
+<images/Mediawiki.jpg, id=673, 748.29562pt x 458.46281pt>
 File: images/Mediawiki.jpg Graphic file (type jpg)
 
 <use images/Mediawiki.jpg>
 Package pdftex.def Info: images/Mediawiki.jpg used on input line 13.
 (pdftex.def)             Requested size: 418.25555pt x 256.25471pt.
- [25
+ [27
 
 
 ]
-<images/Mediawiki_mainpage.jpg, id=615, 1022.31938pt x 466.74374pt>
+<images/Mediawiki_mainpage.jpg, id=681, 1022.31938pt x 466.74374pt>
 File: images/Mediawiki_mainpage.jpg Graphic file (type jpg)
 
 <use images/Mediawiki_mainpage.jpg>
 Package pdftex.def Info: images/Mediawiki_mainpage.jpg used on input line 22.
 (pdftex.def)             Requested size: 418.25555pt x 190.9531pt.
- [26 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+ [28 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
 atex-master/images/Mediawiki.jpg>]
 Overfull \hbox (107.71153pt too wide) in paragraph at lines 26--29
 \T1/pplx/m/n/10.95 (-20) (\T1/pplx/m/it/10.95 (-20) https://www.mediawiki.org/w
@@ -2061,23 +2077,23 @@ iki/API:Tutorial\T1/pplx/m/n/10.95 (-20) ), Ex-ten-sions (\T1/pplx/m/it/10.95 (
 ,
  []
 
-[27 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+[29 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
 tex-master/images/Mediawiki_mainpage.jpg>]
-<images/doxygen.jpg, id=628, 1016.29688pt x 317.68687pt>
+<images/doxygen.jpg, id=695, 1016.29688pt x 317.68687pt>
 File: images/doxygen.jpg Graphic file (type jpg)
 
 <use images/doxygen.jpg>
 Package pdftex.def Info: images/doxygen.jpg used on input line 45.
 (pdftex.def)             Requested size: 418.25555pt x 130.74205pt.
 
-<images/MWProcess.jpg, id=631, 627.09282pt x 394.47375pt>
+<images/MWProcess.jpg, id=698, 627.09282pt x 394.47375pt>
 File: images/MWProcess.jpg Graphic file (type jpg)
 
 <use images/MWProcess.jpg>
 Package pdftex.def Info: images/MWProcess.jpg used on input line 55.
 (pdftex.def)             Requested size: 418.25555pt x 263.11627pt.
- [28 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
-atex-master/images/doxygen.jpg>] [29 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-
+ [30 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/doxygen.jpg>] [31 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-
 thesis-latex-master/tum-thesis-latex-master/images/MWProcess.jpg>]
 Overfull \hbox (61.96996pt too wide) in paragraph at lines 64--65
 \T1/pplx/m/n/10.95 (-20) new re-quests that can be linked to   phabri-ca-tor t
@@ -2121,7 +2137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
-[30]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 88--93
 
  []
@@ -2187,18 +2203,18 @@ Overfull \hbox (28.14116pt too wide) in paragraph at lines 104--109
 10.95 (-20) https://phabricator.wikimedia.org/tag/mediawiki-
  []
 
-[31]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 110--113
 
  []
 
-<images/use-case-scenario.jpg, id=655, 703.87968pt x 377.91188pt>
+<images/use-case-scenario.jpg, id=721, 703.87968pt x 377.91188pt>
 File: images/use-case-scenario.jpg Graphic file (type jpg)
 
 <use images/use-case-scenario.jpg>
 Package pdftex.def Info: images/use-case-scenario.jpg used on input line 116.
 (pdftex.def)             Requested size: 418.25555pt x 224.55762pt.
- [32 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+ [34 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
 atex-master/images/use-case-scenario.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2457,7 +2473,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrbook)              by `\normalfont \bfseries ' on input line 166.
 
-[33] [34]
+[35] [36]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 178.
@@ -2575,7 +2591,7 @@ Underfull \hbox (badness 5622) in paragraph at lines 190--190
 \T1/pplx/m/n/10.95 (+20) the right for-mat (names-
  []
 
-[35] [36] <images/role_Maintainers.jpg, id=687, 390.70969pt x 353.82187pt>
+[37] [38] <images/role_Maintainers.jpg, id=753, 390.70969pt x 353.82187pt>
 File: images/role_Maintainers.jpg Graphic file (type jpg)
 
 <use images/role_Maintainers.jpg>
@@ -2872,109 +2888,126 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrbook)              by `\normalfont \bfseries ' on input line 261.
 
-[37 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
-tex-master/images/role_Maintainers.jpg>] [38] [39]
-<images/Process_Roles.jpg, id=710, 352.31625pt x 364.36125pt>
+[39 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+tex-master/images/role_Maintainers.jpg>] [40] [41]
+<images/Process_Roles.jpg, id=777, 352.31625pt x 364.36125pt>
 File: images/Process_Roles.jpg Graphic file (type jpg)
 
 <use images/Process_Roles.jpg>
 Package pdftex.def Info: images/Process_Roles.jpg used on input line 300.
 (pdftex.def)             Requested size: 284.52756pt x 294.25255pt.
- [40] [41 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
+ [42] [43 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
 sis-latex-master/images/Process_Roles.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 315--320
 
  []
 
-<images/Bot_in_system.jpg, id=726, 722.7pt x 542.025pt>
+<images/Bot_in_system.jpg, id=792, 722.7pt x 542.025pt>
 File: images/Bot_in_system.jpg Graphic file (type jpg)
 
 <use images/Bot_in_system.jpg>
 Package pdftex.def Info: images/Bot_in_system.jpg used on input line 328.
 (pdftex.def)             Requested size: 418.25555pt x 313.68825pt.
- [42]
-<images/MWDocBot.jpg, id=734, 575.9919pt x 569.2467pt>
+ [44]
+<images/MWDocBot.jpg, id=800, 575.9919pt x 569.2467pt>
 File: images/MWDocBot.jpg Graphic file (type jpg)
 
 <use images/MWDocBot.jpg>
 Package pdftex.def Info: images/MWDocBot.jpg used on input line 344.
 (pdftex.def)             Requested size: 418.25555pt x 413.36646pt.
- [43 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
-atex-master/images/Bot_in_system.jpg>] [44 <C:/Users/Ankitaa/Desktop/TUM Studie
+ [45 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+atex-master/images/Bot_in_system.jpg>] [46 <C:/Users/Ankitaa/Desktop/TUM Studie
 s/tum-thesis-latex-master/tum-thesis-latex-master/images/MWDocBot.jpg>]
-<images/doc_process_dimensions.jpg, id=746, 722.7pt x 542.025pt>
+<images/doc_process_dimensions.jpg, id=812, 722.7pt x 542.025pt>
 File: images/doc_process_dimensions.jpg Graphic file (type jpg)
 
 <use images/doc_process_dimensions.jpg>
 Package pdftex.def Info: images/doc_process_dimensions.jpg used on input line 3
 75.
 (pdftex.def)             Requested size: 418.25555pt x 313.68825pt.
- [45] [46 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
-sis-latex-master/images/doc_process_dimensions.jpg>] [47])
+ [47] [48 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-the
+sis-latex-master/images/doc_process_dimensions.jpg>] [49])
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/Implementation.tex" [48]
+-master\chapters/Implementation.tex" [50]
 Chapter 5.
-<images/BOT_comp_diag.jpg, id=775, 632.3625pt x 363.60844pt>
+<images/BOT_comp_diag.jpg, id=841, 632.3625pt x 363.60844pt>
 File: images/BOT_comp_diag.jpg Graphic file (type jpg)
 
 <use images/BOT_comp_diag.jpg>
 Package pdftex.def Info: images/BOT_comp_diag.jpg used on input line 13.
 (pdftex.def)             Requested size: 418.25555pt x 240.49829pt.
- [49
+ [51
 
 
 ]
-<images/BOT_state_diagram.jpg, id=780, 589.4522pt x 379.4175pt>
+<images/BOT_state_diagram.jpg, id=846, 589.4522pt x 379.4175pt>
 File: images/BOT_state_diagram.jpg Graphic file (type jpg)
 
 <use images/BOT_state_diagram.jpg>
 Package pdftex.def Info: images/BOT_state_diagram.jpg used on input line 20.
 (pdftex.def)             Requested size: 418.25555pt x 269.2262pt.
- [50 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
+ [52 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-l
 atex-master/images/BOT_comp_diag.jpg>])
-[51 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
-tex-master/images/BOT_state_diagram.jpg>] [52] [53
+[53 <C:/Users/Ankitaa/Desktop/TUM Studies/tum-thesis-latex-master/tum-thesis-la
+tex-master/images/BOT_state_diagram.jpg>] [54] [55
 
 
 ]
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\chapters/Evaluation.tex"
 Chapter 6.
+[56
+
+
+])
+("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
+-master\chapters/Conclusion.tex" [57]
+Chapter 7.
+) [58
+
+
+] [59
+
+
+]
+("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
+-master\chapters/appendixA.tex"
+Appendix A.
 )
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
--master\chapters/Conclusion.tex" [54
+-master\chapters/appendixB.tex" [60
 
 
 ]
-Chapter 7.
-) [55
+Appendix B.
+) [61
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 55
+Package tocbasic Info: character protrusion at lof deactivated on input line 59
 .
 
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.lof")
 \tf@lof=\write7
- [56
+ [62
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 56
+Package tocbasic Info: character protrusion at lot deactivated on input line 60
 .
 
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.lot")
 \tf@lot=\write8
- [57
+ [63
 
 
 ]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 58.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 62.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -2983,28 +3016,24 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [64
 
 
-Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 58.
-
-[58
-
-
-] [59]
+] [65]
+[66]
 
 Package nag Warning: 34 complaints in total.
 
-[60]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+[67]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
 
 ("C:\Users\Ankitaa\Desktop\TUM Studies\tum-thesis-latex-master\tum-thesis-latex
 -master\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4B331226FFCD53917EB0971AEFD8A57D;4325.
+(rerunfilecheck)             Checksum: 16526FD0EBCA257CEA54354E7135D7B7;4947.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3019,11 +3048,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 6 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 44840 strings out of 493921
- 982099 string characters out of 3144871
- 1658294 words of memory out of 3000000
- 46862 multiletter control sequences out of 15000+200000
- 61107 words of font info for 294 fonts, out of 3000000 for 9000
+ 45029 strings out of 493921
+ 985348 string characters out of 3144871
+ 1659071 words of memory out of 3000000
+ 46987 multiletter control sequences out of 15000+200000
+ 62307 words of font info for 311 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  75i,11n,83p,10438b,3217s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Ankitaa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
@@ -3033,9 +3062,9 @@ cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (68 pages, 2217566 bytes).
+Output written on main.pdf (75 pages, 2273919 bytes).
 PDF statistics:
- 994 PDF objects out of 1000 (max. 8388607)
- 215 named destinations out of 1000 (max. 500000)
- 34905 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1122 PDF objects out of 1200 (max. 8388607)
+ 247 named destinations out of 1000 (max. 500000)
+ 34974 words of extra memory for PDF output out of 35830 (max. 10000000)
 

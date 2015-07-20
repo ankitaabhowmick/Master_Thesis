@@ -48,6 +48,29 @@
       \endverb
       \keyw{Adoption,Measurement and economics,Open source software,Productivity,Quality,Reuse,Software process improvement}
     \endentry
+    \entry{ALM2009}{incollection}{}
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Pro Visual Studio Team System Application Lifecycle Management}
+      \field{isbn}{978-1-4302-1080-1}
+      \field{title}{Application Lifecycle Management}
+      \field{year}{2009}
+      \field{pages}{23\bibrangedash 41}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/978-1-4302-1079-5_2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-1-4302-1079-5_2
+      \endverb
+    \endentry
     \entry{BachmannDocumentingSoftware2010}{book}{}
       \name{author}{9}{}{%
         {{uniquename=0,hash=b1cd17315cbad2bde9966d6a34ef0b97}{Bachmann}{B\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
@@ -232,17 +255,15 @@
       \verb http://bolsa.info.unlp.edu.ar/campamento/campamento/documentos/GB%5C_Expert%5C_Letter%5C_Open%5C_Source%5C_Maturity%5C_Model%5C_1.5.3.pdf
       \endverb
     \endentry
-    \entry{eclipse2013}{url}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=32f7222026696f30787889194dee83e5}{Eclipse}{E\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \strng{namehash}{32f7222026696f30787889194dee83e5}
-      \strng{fullhash}{32f7222026696f30787889194dee83e5}
+    \entry{eclipse2013}{online}{}
       \field{sortinit}{E}
       \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
-      \field{labelnamesource}{author}
-      \field{series}{https://eclipse.org/projects/dev_process/development_process.php}
+      \field{labeltitlesource}{title}
+      \field{title}{{Eclipse}}
       \field{year}{2013}
+      \verb{url}
+      \verb https://eclipse.org/projects/dev_process/development_process.php
+      \endverb
     \endentry
     \entry{Employee}{article}{}
       \name{author}{3}{}{%
@@ -326,6 +347,23 @@
       \field{year}{2006}
       \verb{file}
       \verb :C$\backslash$:/Users/Ankitaa/Desktop/Open Source in the Enterprise Paper.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gorschek2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=30f2708900112a4da4d6b99b5324ef30}{Gorschek}{G\bibinitperiod}{Tony}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{30f2708900112a4da4d6b99b5324ef30}
+      \strng{fullhash}{30f2708900112a4da4d6b99b5324ef30}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Development}
+      \field{title}{{The Economics of Success Evaluation and Measures in Software Process Improvement}}
+      \field{year}{2006}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/10.1.1.95.6735.pdf:pdf
       \endverb
     \endentry
     \entry{Kim:2000:CBW:518514}{book}{}
@@ -441,6 +479,35 @@
       \endverb
       \keyw{(roles,),Antipattern,Software architect,Software architecture,Time-management,activities}
     \endentry
+    \entry{Lavallee2011}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b1aac6c23fbbe105e52b9fb4cb720bbb}{Lavallée}{L\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fbd10a98a61b0d78c79f4105f42bee55}{Robillard}{R\bibinitperiod}{Pierre\bibnamedelima N}{P\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{14522ff04ac790e8bf862da60aa463d0}
+      \strng{fullhash}{14522ff04ac790e8bf862da60aa463d0}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents preliminary results of a systematic review performed to determine the impacts of Software Process Improvements (SPI) on developers' activities and on architectural quality. The analysis shows that most SPI research focuses on the motivations of developers like quality of work life and participation incentives, but provides little detail on the impacts of SPI on their day-to-day tasks. The impacts on product quality are limited to defect reduction, and do not consider architectural quality factors, such as changeability and stability. This study shows a very weak link between process quality, as defined by the CMMI, and architectural quality, as defined by ISO 9126. The SPI literature found by this review is mostly concerned with requirement process improvements, which are related to problem definition quality, but not to architectural quality. Future quality-oriented SPI research should therefore focus on improving design and development processes with an eye to considering architectural quality factors, or what the ISO 9126 terms architectural capabilities.}
+      \field{isbn}{9781450308519}
+      \field{journaltitle}{Proceedings of the 8th international workshop on Software quality WoSQ 11}
+      \field{title}{{Do software process improvements lead to ISO 9126 architectural quality factor improvement}}
+      \field{year}{2011}
+      \field{pages}{11\bibrangedash 17}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/2024587.2024592
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/p11-lavallee.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?doid=2024587.2024592
+      \endverb
+      \keyw{capability maturity model,impacts developers,process improvement,quality improvement,software,systematic}
+    \endentry
     \entry{Mens2011}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=07e3dab71ff2bac06cd1ecf5b69ae028}{Mens}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
@@ -521,6 +588,25 @@
       \verb http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=870417
       \endverb
       \keyw{code,defect density,open source,ownership,repair interval,software process}
+    \endentry
+    \entry{munch2012software}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=ce27e94467d0457370844e86b072ffef}{Münch}{M\bibinitperiod}{Jürgen}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5247acca578dfe747143b365476b0149}{Armbrust}{A\bibinitperiod}{Ove}{O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a306a2b0d453e9a47c507bda247139de}{Kowalczyk}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a07e3bad02dcb5d7772bc91d2d9b19e8}{Soto}{S\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{2839211aca83c0d350a5fb71d6613c95}
+      \strng{fullhash}{2839211aca83c0d350a5fb71d6613c95}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software Process Definition and Management}
+      \field{year}{2012}
     \endentry
     \entry{Scacchi2007}{book}{}
       \name{author}{1}{}{%
@@ -740,6 +826,40 @@
       \field{year}{2007}
       \verb{file}
       \verb :C$\backslash$:/Users/Ankitaa/Desktop/4278472.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Unterkalmsteiner2011}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=568154751fd8b2416e68d5bdf2997691}{Unterkalmsteiner}{U\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=30f2708900112a4da4d6b99b5324ef30}{Gorschek}{G\bibinitperiod}{Tony}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=35eeb29614a29cdecaa528f537cfd40e}{Islam}{I\bibinitperiod}{a\bibnamedelima K\bibnamedelimb M\bibnamedelima Moinul}{a\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bb4ad64f3a5f97adbacaa9659267f6e7}{Cheng}{C\bibinitperiod}{Chow\bibnamedelima Kian}{C\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5e502be8e6b8a391b684dce34f283d3e}{Permadi}{P\bibinitperiod}{Rahadian\bibnamedelima Bayu}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=586e398faf79549b53f97ca8d2463143}{Feldt}{F\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b2c08c6a65586199f6e695d2f85bf6a1}
+      \strng{fullhash}{bfb8ca972f45186049198687fbd7eac3}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BACKGROUND\&x2014;Software Process Improvement (SPI) is a systematic approach to increase the efficiency and effectiveness of a software development organization and to enhance software products. OBJECTIVE\&x2014;This paper aims to identify and characterize evaluation strategies and measurements used to assess the impact of different SPI initiatives. METHOD-The systematic literature review includes 148 papers published between 1991 and 2008. The selected papers were classified according to SPI initiative, applied evaluation strategies and measurement perspectives. Potential confounding factors interfering with the evaluation of the improvement effort were assessed. RESULTS-Seven distinct evaluation strategies were identified, whereas the most common one,}
+      \field{isbn}{0098-5589 VO - 38}
+      \field{issn}{00985589}
+      \field{journaltitle}{IEEE Transactions on Software Engineering}
+      \field{title}{{Evaluation and Measurement of Software Process Improvement - A Systematic Literature Review}}
+      \field{volume}{X}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 29}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1109/TSE.2011.26
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/unterkalmsteiner\_2011\_tse\_spi\_sysrev.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.computer.org/portal/web/csdl/doi/10.1109/TSE.2011.26
       \endverb
     \endentry
     \entry{Wu2001}{article}{}
