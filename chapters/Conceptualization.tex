@@ -6,25 +6,16 @@
 \subsection{Preparatory Tasks}
 \indent During the initial weeks of conceptualization phase discussion were held and emails were exchanged with the developers / architects at Mediawiki to come to an understanding of their current community setup and to get a beginner's guide to the system. Their suggestions and the advise of experienced developers to kick-start included the following :
 \begin{enumerate}
-\item \textbf{Understand and use the Software : } It was important to download and locally install Mediawiki open source software to understand the basic components of the software architecture. The installation guide (\emph{https://www.mediawiki.org/wiki/Manual:Installation\_guide\#Main\_installation\_guide}) helped in understanding the system requirements and successfully configuring and setting up the executable code on the \enquote{localhost} under the the name \enquote{en} to denote the english language version of the setup. 
-
+\item \textbf{Understand and use the Software : } It was important to download and locally install Mediawiki open source software to understand the basic components of the software architecture. The installation guide \cite{Installation_guide} helped in understanding the system requirements and successfully configuring and setting up the executable code on the \enquote{localhost} under the the name \enquote{en} to denote the English language version of the setup. 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/Mediawiki}
-  \caption[Mediawiki source code and configuration file]{Mediawiki source code and configuration file.}\label{fig:Mediawiki}
+  \includegraphics[width=100mm]{images/code_stats}
+  \caption[Mediawiki code statistics \cite{openhub_MW}]{Mediawiki code statistics \cite{openhub_MW}.}\label{fig:code_stats}
 \end{figure}
-
-In \autoref{fig:Mediawiki}  we can see the The Mediawiki code is completely written in PHP. The first approach to understand the architecture was to dive into the \enquote{\textbackslash{includes}} folder which comprises the code for the basic architectural components of the Mediawiki software like \enquote{api}, \enquote{cache}, \enquote{db} and many more. 
-\indent 
-\indent The successful setup of Mediawiki software and configuring the necessary database and server setup, the main page of the local installation powered by the Mediawiki engine could be launched as seen in the \autoref{fig:Mediawiki_mainpage}.
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=\textwidth]{images/Mediawiki_mainpage}
-  \caption[Main page of the local Mediawiki installation]{Main page of the local Mediawiki installation.}\label{fig:Mediawiki_mainpage}
-\end{figure}
+The Mediawiki open source package is written in PHP (originally written for use on Wikipedia) - \autoref{fig:code_stats} \cite{openhub_MW}. The first approach to understand the architecture was to dive into the \enquote{\textbackslash{includes}} folder which comprises the code for the basic architectural components of the Mediawiki software like \enquote{api}, \enquote{cache}, \enquote{db} and many more. 
+\indent On successful setup of Mediawiki software and configuring the necessary database and server setup, the main page of the local installation powered by the Mediawiki engine can be launched as seen in the \autoref{fig:Mediawiki_mainpage}.
 This complete setup now helped to play around the software and the wiki to understand, use and modify its features.
-\item \textbf{Analyze the documentation that already exists : } It was important to understand the documentation that is already available on \enquote{Mediawiki.org} in order to analyze the pros and cons of the existing structure and process of the software architecture documentation. The existing documentation helped to get a high level understanding of the system and some low-level implementation details of certain components which are well-documented (e.g) Mediawiki APIs (\emph{https://www.mediawiki.org/wiki/API:Tutorial}), Extensions (\emph{https://www.mediawiki.org/wiki/Manual:Extensions}), etc. Documentation is also available for developers and system administrators at
-\emph{https://www.mediawiki.org/wiki/Documentation}
+\item \textbf{Analyze the documentation that already exists : } It was important to understand the documentation that is already available on \enquote{Mediawiki.org} in order to analyze the pros and cons of the existing structure and process of the software architecture documentation. The existing documentation helped to get a high level understanding of the system and some low-level implementation details of certain components which are well-documented (e.g) Mediawiki APIs \cite{api_tutorial}, Extensions \cite{manual_extensions}, etc. Documentation is also available for developers and system administrators \cite{MW_doc}
 \\\indent  During code analysis the important architectural components and modules were identified as candidates that were in need of an improved, organized, detailed and structured architecture documentation :
 \begin{itemize}
 \item Installation, Update and Deployment
@@ -61,10 +52,10 @@ Having realized the need for improved documentation of Mediawiki software archit
 
 \begin{itemize}
 
-\item Suggestions from 3\textsuperscript{rd} party Mediawiki discussion pages can be used to create new requests that can be linked to \enquote{phabricator tasks} (\emph{https://www.mediawiki.org/wiki/Third-party\_MediaWiki\_users\_discussion})
-\item \enquote{Project:PD} intends to create documentation as help pages that reach out to the public domain (\emph{https://www.mediawiki.org/wiki/Project:PD\_help}).
+\item Suggestions from 3\textsuperscript{rd} party Mediawiki discussion pages can be used to create new requests that can be linked to \enquote{phabricator tasks} \cite{3P_users}
+\item \enquote{Project:PD} intends to create documentation as help pages that reach out to the public domain \cite{Project_pd}.
 \indent The idea of this project is to provide a set of pages which can be copied into a fresh wiki installation, or included in the Mediawiki distribution. This will include basic user information and other \enquote{Meta information}, in a reasonably concise form. The basic concept is to create a compressed user guide which should focus on what users want and not explain other functions.
-\item Mediawiki manual on coding conventions mandates having a \enquote{.txt} file in \enquote{\textbackslash{docs}} folder (\emph{https://www.mediawiki.org/wiki/Manual:Coding\_conventions\#Documentation})
+\item Mediawiki manual on coding conventions mandates having a \enquote{.txt} file in \enquote{\textbackslash{docs}} folder \cite{manual_cc}
 
 \end{itemize}
 \end{enumerate}
@@ -77,23 +68,23 @@ Arguments made for several concepts, judging the user scenarios and assessing th
 In order to understand the documentation process and intended improvements, the use cases for document creation and maintenance activities were developed.
 \newline \newline
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
-\textbf{Use Case 1 : When task for documentation is created by developer as a sub-task of code development}
+\textbf{Use Case 1 : Task for documentation is created by developer as a sub-task of code development}
 \newline\newline \indent \textbf{User} : Developer / Reviewer
-\newline \newline \indent \textbf{Activity} : task to write code and add document
+\newline \newline \indent \textbf{Activity} : task to write code and add document on \enquote{mediawiki.org}
 \newline \newline \indent \textbf{System} : Phabricator
 \newline \newline \indent \textbf{Task Details} : Documentation task is added by code developer / reviewer. The task is tagged with the related code patch git commit id.
 \end{mdframed}
 
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
-\textbf{Use Case 2 : When developer writes and commits a piece of code}
+\textbf{Use Case 2 : Developer writes and commits a piece of code}
 \newline \newline \indent \textbf{User} : Developer
-\newline \newline \indent \textbf{Activity} : Software Development - write code
+\newline \newline \indent \textbf{Activity} : Software development - write code
 \newline \newline \indent \textbf{System} : Mediawiki
 \newline \newline \indent \textbf{Task Details} : A usual development activity to add code which is then review and pushed into production. Documentation may or may not be created or updated
 \end{mdframed}
 
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
-\textbf{Use Case 3 : When only document is added}
+\textbf{Use Case 3 : Only document is added}
  \newline \newline \indent \textbf{User} : Documenter
  \newline \newline \indent \textbf{Activity} : Creating / updating / reviewing software architecture documentation of mediawiki.
  \newline \newline \indent \textbf{System} : Mediawiki
@@ -103,9 +94,9 @@ In order to understand the documentation process and intended improvements, the 
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Use Case 4 : Documentation task on phabricator}
 \newline \newline \indent \textbf{User} : Developer / Reviewer
-\newline \newline \indent \textbf{Activity} : task to Create / update / review software architecture documentation of mediawiki.
+\newline \newline \indent \textbf{Activity} : Creating / updating / reviewing software architecture documentation of mediawiki.
 \newline \newline \indent \textbf{System} : Phabricator
-\newline \newline \indent \textbf{Task Details} : Task to add software architecture documents is created under the project \enquote{MediaWiki-Documentation} \emph{https://phabricator.wikimedia.org/tag/mediawiki-documentation/} and tagged as \enquote{documentation} to link all the tasks under this project. This task may or may not be assigned . Open comments section serves as a discussion forum to find related tasks or find people to complete the task.
+\newline \newline \indent \textbf{Task Details} : Task to add software architecture documents is created under the project \enquote{MediaWiki-Documentation} \cite{MW_doc_phab} and tagged as \enquote{documentation} to link all the tasks under this project. This task may or may not be assigned . Open comments section serves as a discussion forum to find related tasks or find people to complete the task.
 \end{mdframed}
 These use cases clearly identify the responsibilities as a part of current process and need to be considered for their roles in the improved process as well. The improvement will not require the complete change in roles and responsibilities. Rather, the same use cases need to be satisfied with a better process.
 \newline
@@ -236,7 +227,7 @@ An initial ides of document process improvement focused on the human \enquote{Ma
 \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Activity}} & \multicolumn{1}{|c|}{\parbox{5cm}{The periodic maintenance task may not fit into the schedule of a user who executes multiple activities.}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{The BOT can be configured to run a tedious activity at a desired schedule and duration (repeatedly).}}
 \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Efficiency}} & \multicolumn{1}{|c|}{\parbox{5cm}{Rigid - Heavily dependent on project schedule, activities and other factors}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{Flexible - Independent, configurable, reliable}}
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Efficiency}} & \multicolumn{1}{|c|}{\parbox{5cm}{Rigid - heavily dependent on project schedule, activities and other factors}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{Flexible - independent, configurable, reliable}}
  \\ \bottomrule
 \end{tabular}
 \end{table}
@@ -248,7 +239,7 @@ The idea of an architectural module / component owner as its \enquote{documenter
 
 \begin{table}[]
 \centering
-\caption{Comparing "Mediawiki extensionsr" and "BOTs" for documentation maintenance activity}
+\caption{Comparing "Mediawiki extensions" and "BOTs" for documentation maintenance activity}
 \label{extension-bot}
 \begin{tabular}{@{}
 >{\columncolor[HTML]{F8A102}}c |
@@ -257,11 +248,12 @@ The idea of an architectural module / component owner as its \enquote{documenter
 \toprule
 \cellcolor[HTML]{FFFFFF}{\bf } & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Extensions (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Setup}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Complex setup. Requires database configuration, setting up localization, preparing autoloadable classes and defining additional hooks.}}  & \multicolumn{1}{|c|}{\parbox{5cm}{No setup is required within the Mediawiki engine}}                    \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Implementation}} & \multicolumn{1}{|c|}{\parbox{5cm}{Rigid : extensions should be implemented as subclasses of a MediaWiki-provided base class }}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{Flexible : Bots have no such restrictions and inter-dependency with the Mediawiki engine}} \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Implementation}} & \multicolumn{1}{|c|}{\parbox{5cm}{Rigid : extensions should be implemented as subclasses of a MediaWiki-provided base class }}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{Flexible :	 Bots have no such restrictions and inter-dependency with the Mediawiki engine}} \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Assistance}} & \multicolumn{1}{|c|}{\parbox{5cm}{NO feature of manual assistance is available. The code can be modified, but once added, the extension behaves independently}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{BOTs can be configured to add manual assistance to reduce chances of mass errors}}
  \\ \bottomrule
 \end{tabular}
 \end{table}
+
 
 But, the \autoref{extension-bot} highlights the complexity involved in building a Mediawiki extension as compared to a creating a BOT user assigned with a specific activity. Thus, it strengthens the concept of using a maintenance BOT for improving the Mediawiki software architecture documentation process.
 \end{enumerate}
@@ -285,14 +277,14 @@ But, the \autoref{extension-bot} highlights the complexity involved in building 
 \item \enquote{Explicit tasks} refer to the role-bound tasks created and assigned on the \enquote{Phabricator} or the well defined responsibilities for a particular user-role.
 \item \enquote{Implicit tasks} refer to the activities that are an intrinsic part of community and organizational responsibility (e.g) community collaboration and acceptance.
 \end{itemize}
-Defining new responsibilities for existing roles may pose certain challenges pertaining to the implicit tasks . These challenges refer to the social aspects of defining new responsibilities within an existing community structure.The key principles to address these challenges are [Felix Master thesis]
+Defining new responsibilities for existing roles may pose certain challenges pertaining to the implicit tasks . These challenges refer to the social aspects of defining new responsibilities within an existing community structure.The key principles to address these challenges are [\cite{Michel_2014}
 \begin{enumerate}
 \item the self-organization of the community through task decomposition
 \item an on-line community support based on social design principles and best practices
 \item an open science process to enable unanticipated contributions
 \end{enumerate}
 
-But the challenges are implicitly handled by the organization of the explicit tasks as suggested by hte above principles. 
+But the challenges are implicitly handled by the organization of the explicit tasks as suggested by the above principles. 
 \newline
 \indent \textbf{Principle 1 : }  Gracefully handle challenges regarding assignment of responsibility  - Task decomposition by role-responsibility organization
 \begin{figure}[H]
@@ -303,24 +295,25 @@ But the challenges are implicitly handled by the organization of the explicit ta
 
 As seen in the \autoref{fig:Process_Roles} the key roles identified within Mediawiki for the improved documentation process are :
 \begin{itemize}
-\item Architect - Outlines/ defines/ upgrades/maintains the Mediawiki software architecture
-\item Developer - Writes/ updates / creates / maintains the Mediawiki software.
+\item Architect - outlines/ defines/ upgrades/maintains the Mediawiki software architecture
+\item Developer - writes/ updates / creates / maintains the Mediawiki software.
 \end{itemize}
 As a part of the software architecture documentation process, these existing roles have been vested with the added responsibility (explicit tasks) pertaining to software architecture documents:
 \begin{itemize}
-\item Developer - The prime responsibility of the software developers as a part of the documentation process is to create (write) the software architecture documents as a part of their regular development activity. This means that they are responsible for maintaining the up-to-date architecture information.
-\item Architect - Since architects design the software architecture, they best understand the description of the architectural components and their design and implementation. Hence, as a part of the documentations process, the architect is responsible for reviewing the documents written by the developers before they are finally \enquote{pushed} and also published on \enquote{mediawiki.org}
+\item Developer - the prime responsibility of the software developers as a part of the documentation process is to create (write) the software architecture documents as a part of their regular development activity. This means that they are responsible for maintaining the up-to-date architecture information.
+\item Architect - Documentation is medium for architects to communicate the description of the architectural components and their design decisions and implementation to the developers. Architects could expect the developers to produce a documentation aligned to the recommended guidelines and agreed specifications for understandability among readers of the documentation. The architect, owing to his responsibilities and experience, is capable of checking whether description of the component (view, style) suits the overall documentation and can be published. Hence, as a part of the documentations process, the architect is responsible for reviewing the documents written by the developers before they are finally \enquote{pushed} and also published on \enquote{mediawiki.org}
+
 \end{itemize}
 
 \textbf{Principle 2 : }On-line community support helps to overcome the challenges of missing knowledge base.  
 \indent The Mediawiki community is a part of the larger open source community where it has succeeded to prove its presence over the years of its existence. Based on its success metrics, it can be very well assumed that the social design principles and best practices are inherently followed within Mediawiki community. Thus, introduction of an improved documentation process would be aided and assisted by the existing support structure.
 \newline \newline
-\textbf{Principle 3 : } Unanticipated contributions are a in the face of a challenging socio-technical environment of open source software development:
+\textbf{Principle 3 : } Unanticipated contributions are a challenge in face of the socio-technical environment of open source software development:
 \indent An open science (open knowledge base) process is the central paradigm of the Mediawiki community structure. Yet again, the improved documentation process will not be effected by this challenge. In fact, the external contributions in the form of open discussions will help improve the quality of the Mediawiki software architecture documents, which is the ultimate goal of the proposed concept
 
 \subsection{Document Maintenance Bot - A proof of concept}
 \indent The previous section capture the human resource organization aspect of the improved software architecture documentation process.
-\\\indent Organizing roles-responsibilities helps to achieve better quality of software architecture documents. But, an important aspect of the improved documentation process is document maintainability on \enquote{mediawiki.org}. To streamline this maintenance process wherein, the documents on \enquote{mediawiki.org} are kept up-to-date, a more regular audit needs to be performed. Since this task is time consuming and adds to the burden of human maintainers, it is logical to use a BOT. A defined in \emph{https://www.mediawiki.org/wiki/Manual:Bots} - "Bots are automated tools that can be used to perform tedious work or certain repetitive tasks related to a wiki." This reasoning perfectly fits our requirement. Using a bot to take on the responsibility of maintainable / visible / sustainable documents, not only relieves the human effort but also regularizes the mandatory task of documentation.
+\\\indent Organizing roles-responsibilities helps to achieve better quality of software architecture documents. But, an important aspect of the improved documentation process is document maintainability on \enquote{mediawiki.org}. To streamline this maintenance process wherein, the documents on \enquote{mediawiki.org} are kept up-to-date, a more regular audit needs to be performed. Since this task is time consuming and adds to the burden of human maintainers, it is logical to use a BOT. \enquote{Bots are automated tools that can be used to perform tedious work or certain repetitive tasks related to a wiki} \cite{manual_bot}. This reasoning perfectly fits our requirement. Using a bot to take on the responsibility of maintainable / visible / sustainable documents, not only relieves the human effort but also regularizes the mandatory task of documentation.
 
 
 \begin{figure}[H]
@@ -345,13 +338,13 @@ This interaction and activities can be better-explained with a use-case scenario
   \caption[Maintenace Bot Sequence diagram]{Maintenace Bot Sequence diagram.}\label{fig:MWDocBot}
 \end{figure}
 Sequence Diagram in detail. 
-\begin{itemize}
-\item The BOT initially pulls the latest version of the source code from the Mediawiki repository master branch. Once pulled, the text file containing the documentation within the source code is extracted
-\item It then reads the text from the corresponding documentation page on\enquote{Mediawiki.org}
-\item The texts from source code and wiki page are compared for difference (plain text difference).
-\item If there is a mismatch (web page is not up-to-date) then the bot checks the history of the wiki  page
-\item If the wiki page was not updated in the last few days, a task is created for its maintenance.
-\end{itemize}
+\begin{enumerate}
+\item \textbf{Pull} : The BOT initially pulls the latest version of the source code from the Mediawiki repository master branch. Once pulled, the text file containing the documentation within the source code is extracted
+\item \textbf{Read} : The bot then reads the text from the corresponding documentation page on\enquote{Mediawiki.org}
+\item \textbf{Compare} : The texts from source code and wiki page are compared for difference (plain text difference).
+\item \textbf{Check History} :If there is a mismatch after comparison (web page is not up-to-date) then the bot checks the history of the wiki  page.
+\item \textbf{Create Task} : If the wiki page was not updated in the last few days, a task is created in Phabricator for its maintenance (update/ create).
+\end{enumerate}
 This sequence of events initiated and executed by the BOT helps to maintain an updated copy of the documentation of mediawiki software architecture on \enquote{mediawiki.org}.  
 
 \subsection{Guidelines for the process implementation and orientation}
@@ -361,7 +354,7 @@ When an improved process is being conceptualized, it is important to understand 
 \item Orienting the existing community members to accept, understand and follow the process : 
 \newline This scenario is a greater challenge with respect to the existing community and stakeholders. The improved documentation process needs to be mandated by organizational heads in order to include it within the existing software process. All current developers need to be advised and instructed by architects to obligatorily include the documentation of architectural components in the source code before committing the code that they write or update. 
 \item Implementing the process by orienting new members to follow the process :
-\newline Coding conventions and guidelines will help new developers amd mediawiki stakeholders to understand the importance of documentation and mandate them to include the architecture documents as a part of the source code.
+\newline Coding conventions and guidelines will help new developers and Mediawiki stakeholders to understand the importance of documentation and mandate them to include the architecture documents as a part of the source code.
 \end{itemize}
 
 
@@ -396,3 +389,5 @@ When an improved process is being conceptualized, it is important to understand 
 \item Adoptability - Acquiring and fitting in a new/ improved process refers to the adoption of the process within the community. In the current scenario, the need and demand for software architecture documentation within Mediawiki suggests that the artifacts are highly desired and the process to maintain them will be adopted readily by the stakeholders. 
 \end{enumerate}
 \end{itemize}
+
+\paragraph{This chapter concludes with a proof of concept based on the building, refining and evaluation of ideas. The summarization of the conceptualization phase can be as follows : The efficient task distribution based on role-responsibility definition and employment of human as well as non-human effort can result in an effective process improvement and a matured software standard. The following chapter implements the final concept devised in this chapter to realize a deployable solution for an improved documentation process for the Mediawiki software architecture. }

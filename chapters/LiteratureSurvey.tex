@@ -1,8 +1,20 @@
 \chapter{Literature Survey}\label{chapter:LiteratureSurvey}
 
 This chapter aims to answer the previously formulated research questions by surveying already available literature and the related work in this direction This literature survey forms a basis in this thesis to derive ideas from existing examples and to come up with ideas to conceptualize the implementation work ahead. Also the related work helps to start with the initial idea and build upon it to derive a novel solution to solve the existing problems.
-\section{Some Important Concepts}
-\indent \textbf{Software Architecture : } Software architecture documentation provides a blueprint of a software-intensive system for the communication between stakeholders about the high-level design of the system \cite{6923128}
+\section{Research Methodology}
+In a scientific work comprising research and implementation, it is important to strategize a research methodology for effective and efficient way of approaching the problem and deriving its solution.
+
+\subsection{Literature Survey plan}
+\indent During the Literature Survey phase of thesis work a plan based on \autoref{fig:research_methodology} \cite{Unterkalmsteiner2011} was adopted for a defined approach to search relevant work in the available literature. Papers from Google scholar, ACM library and IEEE library were the overall terget of the search. The final collection was organized using the \enquote{Mendeley} desktop application for better readability and access. 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=100mm]{images/research_methodology.jpg}
+  \caption[Literature Survey strategy  \cite{Unterkalmsteiner2011}]{Literature Survey strategy  \cite{Unterkalmsteiner2011}.}\label{fig:research_methodology}
+\end{figure}
+
+\subsection{Some Important Concepts}
+\indent This subsection lists and defines a few keywords (from the literature obtained ) that are relevant for understanding the scope of this thesis.
+\\\indent \textbf{Software Architecture : } Software architecture documentation provides a blueprint of a software-intensive system for the communication between stakeholders about the high-level design of the system \cite{6923128}
 \newline
 \\\indent \textbf{Complete : } A software or documentation or requirement is complete when it is \enquote{good enough to meet our expectations for this system within the context in which we are developing it}  \cite{BachmannDocumentingSoftware2010}
 \newline
@@ -17,7 +29,7 @@ This chapter aims to answer the previously formulated research questions by surv
 \\\indent \textbf{Architectural View : } A representation of a whole system from the perspective of a related set of concerns \cite{Standard2007}.
 \newline
 \\\indent \textbf{Software Process : } Systematic co-operation and co-ordination mechanisms in software-intensive systems by using defined work procedures, organization of work products and management of resources in order to create product value \cite{munch2012software}.
-\\\indent Software process improvement leads to software quality improvement \cite{Fuggeffa1988}, \cite{Lavallee2011}
+\\\indent Software process improvement (continuously improving the process maturity) leads to software quality improvement ( \cite{Fuggeffa1988}, \cite{Lavallee2011} )
 
 \section{Points from Literature} 
 \indent This section elaborates on some facts and answers to research questions derived from existing literature. These points of reference help to build on ideas for finding solutions to the research questions formulated in this thesis.
@@ -36,7 +48,8 @@ Wikimedia Software and why is it required?}
 \item Rationale
 \item Directory
 \end{itemize}
-This makes the documents more available and improves ease of access. The book elaborates on capturing various views of the software architecture from the stakeholder's perspective and explains the structuring of documentation based on these \enquote{stakeholder views} (e.g) in this thesis the target stakeholders are the developers- hence a software architecture documentation that explains the architectural component overview and inter-component interaction specification is required for the better training of new developers and serve as reference for experienced developers.
+This improves the documents' availability and accessibility. The book
+elaborates on capturing various views of the software architecture from the stakeholder's perspective and explains the structuring of documentation based on these \enquote{stakeholder views} (e.g) in this thesis the target stakeholders are the developers- hence a software architecture documentation that explains the architectural component overview and inter-component interaction specification is required for the better training of new developers and serve as reference for experienced developers.
 \\\indent The book also answers the question : \enquote{Why choose wiki ?}. It suggests that documenting software architecture on a wiki platform ha several advantages :
 \begin{itemize}
 \item wiki-links are easy to navigate
@@ -72,7 +85,8 @@ This makes the documents more available and improves ease of access. The book el
 \item Open Business Readiness Rating (OBRR)\cite{Golden2006}
 \item Qualification and Selection of Open Source Software(QSOS) \emph{http://www.qsos.org/}
 \end{itemize}
-\indent \textbf{Natural Language and visualizations : } It was surveyed and studied that 70.4 \% of the OSS projects use natural language with HTML as the main format for documenting software architecture \cite{6923128}. 
+\indent 
+\\\indent \textbf{Natural Language and visualizations : } It was surveyed and studied that 70.4 \% of the OSS projects use natural language with HTML as the main format for documenting software architecture \cite{6923128}. 
 \newline
 \\\indent \textbf{XWiki : } \emph{http://www.xwiki.org/xwiki/bin/view/Main/WebHome} is a professional wiki the can not only provide a WYSIWIG (what you see is what you get) editing feature for content collaboration but can also be used for collaborative web applications. The popularity of this wiki tool suggests the demand for wiki as a platform for documentation and collaboration.
 
@@ -110,10 +124,12 @@ At mediawiki, the most active and important stakeholders are the coders or devel
 \begin{figure}[H]
   \centering
   \includegraphics[width=100mm]{images/4+1View.jpg}
-  \caption["4+1" Unified View of the Software Architecture \cite{bab2009}]{"4+1" Unified View of the Software Architecture.}\label{fig:4_1_view}
+  \caption["4+1" Unified View of the Software Architecture \cite{bab2009}]{"4+1" Unified View of the Software Architecture \cite{bab2009}.}\label{fig:4_1_view}
 \end{figure}
 \indent The document itself and the process to create/ update and maintain this documentation should assist the stakeholders and not add to cost of the software project (\cite{Shahin2014}).
+\newline
 \\\indent \textbf{Roles and Responsibility : }The user management system is usually well-established in any software development organization which follow group management where user rights are group specific. Also, guidelines for user management with regard to the responsibility within the documentation process can be issued and followed \cite{5314237}. This would include change submission and review of documents in the same process as the documentation.
+\newline
 \\\indent \textbf{Documentation Availability and Readability : } Literature suggests that the following are the advantages of using wiki as a tool to document software architecture \cite{Bachmann2005}
 \begin{itemize}
 \item Higher Granularity of text with better readability and navigation options.
@@ -130,12 +146,12 @@ At mediawiki, the most active and important stakeholders are the coders or devel
 \newline
 \\\indent Wiki is not able to track and edit past changes and only provides a discussion page.
 \\\indent \emph{Idea} : Add the software architecture documentation to version control system (along with the source code). Also, migrate document related discussion from wiki page to task management system where documentation process can be tracked as a task.
-\\\indent Many options are available to capture documentation in wiki format. The book \enquote{Documenting Software Architecture – Views and Beyond} \cite{BachmannDocumentingSoftware2010} suggests to use word2wiki to migrate word documents into wiki. Also XWiki (\emph{http://www.xwiki.org/xwiki/bin/view/Main/WebHome}), a free wiki software platform includes WYSIWYG editing, OpenDocument based document import/export options, semantic annotations and tagging, and advanced permissions management.
+\\\indent Many options are available to capture documentation in wiki format. The book \enquote{Documenting Software Architecture – Views and Beyond} \cite{BachmannDocumentingSoftware2010} suggests to use word2wiki to migrate word documents into wiki. Also XWiki \cite{Xwiki_Massol_2014}, a free wiki software platform includes WYSIWYG editing, OpenDocument based document import/export options, semantic annotations and tagging, and advanced permissions management.
 \newline
 \\\indent \enquote{Software Process} \cite{Fuggeffa1988} suggests to pay attention to the complex interrelation of a number of organizational, cultural, technological and economical factors.
 \\\indent\emph{Idea}	- It is wise to interact personally with members of the community to understand their specific requirements, already existing practices/ processes and try to improve it, rather than bringing in something completely new. This increases the acceptance of the process within the community
 \newline
-\\\indent \enquote{Documenting Software Architecture from Knowledge Management perspective} \cite{bab2009} suggests to provide rationale for final architectural solution.Within a software organisation, the extent of design that constitutes its software architecture is based on its \enquote{context, domain, culture, assets, staff expertise, etc.}. And this \enquote{thin line in the sand} must be made visible to all stakeholders. Also, it is important to \enquote{revisit, redefine and adjust} the architecture design decisions as the software and organization evolves. It is the software architect's responsibility to \enquote{make design choices, validate them, and capture them in various architecture related artifacts} \cite{Kruchten2008}. The Mediawiki coding convention suggests having a text (.txt) file for the corresponding component in the source code \emph{mediawiki.org/wiki /Coding conventions Documentation}
+\\\indent \enquote{Documenting Software Architecture from Knowledge Management perspective} \cite{bab2009} suggests to provide rationale for final architectural solution.Within a software organisation, the extent of design that constitutes its software architecture is based on its \enquote{context, domain, culture, assets, staff expertise, etc.}. And this \enquote{thin line in the sand} must be made visible to all stakeholders. Also, it is important to \enquote{revisit, redefine and adjust} the architecture design decisions as the software and organization evolves. It is the software architect's responsibility to \enquote{make design choices, validate them, and capture them in various architecture related artifacts} \cite{Kruchten2008}. The Mediawiki coding convention suggests having a text (.txt) file for the corresponding component in the source code \cite{Manual_coding}
 \\\indent\emph{Idea} : The documentation should be written by the architect/ developer as they understand the architectural components in the best possible way. While an architectural component is added/ updated, the corresponding text file documenting the component should also be updated. There can be inter-references between the code and document to find relevant parts easily.
 \newline
 \\\indent The architectural viewpoint needs to capture details that are more abstract than source code functional details and less abstract than high-level architectural component interaction \cite{bab2009}.
@@ -146,5 +162,5 @@ At mediawiki, the most active and important stakeholders are the coders or devel
 
 
 
-
+\paragraph{The following chapter derives concepts studies and understood in this chapter in order to formulate and support ideas for an improved documentation process for the Mediawiki software architecture. }
 

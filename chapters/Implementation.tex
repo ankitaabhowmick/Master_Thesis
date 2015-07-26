@@ -1,12 +1,38 @@
 \chapter{Implementation}\label{chapter:Implementation}
 
 \section{Assumptions}
-\indent the architectural components have been identified and a \enquote{.txt} file exists for each component
-\\\indent these files are written in wiki formatted text
-\\\indent all corresponding docs are already available as of date on  \enquote{Mediawiki.org}
-\\\indent annotations in the source code \enquote{@see} help to navigate to the corresponding text file in the docs folder.
-\\\indent The corresponding pages on Mediawiki.org have restricted access (e.g) Protected pages \emph{https://www.mediawiki.org/wiki/Help:Protected\_pages}. Or, the architecture description could be a part of the non-editable section such that they cannot be modified by other Mediawiki BOTs or users.
+
+\indent Before starting the implementation of a maintenance-BOT, certain important assumptions were made in order to set an ideal context and background to start the planned development. Only when these conditions are fulfilled or existent, the BOT can provide the ideal solution for its purpose.
+\begin{itemize}
+\item The architectural components have been identified and a “*.txt” file exists for each component in the “/docs” folder in the repository that captures the structured architecture documents.
+\item These “*.txt” files are written in wiki-formatted text.
+\item Annotations like “@see” are provided in the source code of Mediawiki architecture components to help to navigate to the corresponding text file for its documentation in the docs folder.
+\item All corresponding architecture component documents are already available as of date on “Mediawiki.org”
+\item These documents are categorized to identify them as structured software architecture documents.
+\item The corresponding pages on Mediawiki.org have restricted access (e.g) Protected pages \cite{help_pp}. Or, the architecture description could be a part of the non-editable section such that they cannot be modified by other Mediawiki BOTs or users.
+\end{itemize}
+
+Keeping these initial assumption in mind, the architectural outline has been designed for the BOT's implementation and functionality. 
+
 \section{Architecture and Technical outline}
+
+This section explains the technical outlines of the BOT architecture in general and discusses the components of our specific documentation maintenance BOT.
+
+\subsection{BOT architectural components}
+In this sub-section the various existing components and their application interfaces that were useful to implement the BOT's architectural design have been listed. It has to be borne in mind that \enquote{Python} is the chosen language for implementation of the BOT script :
+\begin{enumerate}
+\item \textbf{Python Git API} \cite{git_py} : The first important requirement for the BOT is to interact with the master branch of the source code repository in the version control system in order to \enquote{pull} the latest changes (version) of the software. Since the source code is available as a \enquote{Git} repository, the \enquote{Git API} is required to interact with the system. For this reason the Python Api \enquote{GitPython} package was installed and used for interfacing with the Mediawiki software source code and extract the latest version of the "*.txt" files in the \enquote{/docs} folder.
+\item \textbf{Phabricator API} \cite{phab_api} : It is an API to phabricator that allows scripts written on other languages (like Python) can interfae with the applications in the Phabricator suite.
+\newline \textbf{Python Phabricator library} \cite{phab_py} : The \enquote{phabricator} library installation enables python language scripts to interface with the Phabricator application via the conduit API. 
+\item \textbf{Python Mediawiki Robot Framework - PywikiBot} \cite{manual_pwb} : It is a python package layout that provides the full Mediawiki API usage for maintenance of pages on Mediawiki.org using a BOT user account. This is the core framework on which the implemented BOT script \enquote{docbot.py} is executed using a BOT user configuration specific to the intended use.
+\newline \textbf{Mediawiki API} \cite{mw_api} : The Mediawiki web API is a web service that can use any programming language to interact and access wiki pages and their features, data , etc. over HTTP. The Pywikibot scripts use these APIs to interact with the Mediawiki pages. In case of this implementation, the BOT script written in Python language uses these Mediawiki APIs via the PywikiBot framework in order to read the text from the Mediawiki pages. 
+\end{enumerate}
+
+
+
+\subsection{Details of the Implementation}
+
+
 
 \begin{figure}[H]
   \centering
@@ -21,32 +47,46 @@
   \caption[State Diagram of the Maintenance BOT]{State Diagram of the Maintenance BOT.}\label{fig:BOT_comp_diag}
 \end{figure}
 
-\section{Details of the implemention}
 
-Python
 
-Git API 
 
-PywikiBot
-
-Mediawiki API
-
+\section{Bot in Action}
 Mediawiki labs
-
-Phabricator API
-
-
-\section{Tests}
+\subsection{Test Scenarios}
 1. File exists
-File does not exist
-2. Task created
-3. Task not created
+2. File does not exist
+3. Task created
+4. Task not created
+
+\subsection{Deployment}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/deployment_diagram}
+  \caption[Mediawiki Software development process]{Mediawiki Software development process.}\label{fig:deployment_diagram}
+\end{figure}
+
+It was important to understand the Deployment process of Mediawiki software in order understand the deployment of the bot and the interface connections between the various systems : 
+\begin{itemize}
+\item Mediawiki.org
+\item Phabricator
+\item Gerrit
+\end{itemize}
+The \autoref{fig:deployment_diagram} captures the general deployment of Mediawiki software The following \autoref{fig:BOT_deployment} highlights the inclusion of the BOT in the deployment diagram, connecting the above mentioned system interface.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/BOT_deployment}
+  \caption[State Diagram of the Maintenance BOT]{State Diagram of the Maintenance BOT.}\label{fig:BOT_deployment}
+\end{figure}
 
 \subsection{What All can this BOT do ?}
 capture the difference and print it on a template on the page
 
 
 \section{Future implementation and General Implications }
+attach the difference to the task.
 
 		
 

@@ -1,18 +1,22 @@
 [1] Config.pm:324> INFO - This is Biber 2.1
 [2] Config.pm:327> INFO - Logfile is 'main.blg'
-[289] biber-MSWIN:273> INFO - === %a %b %e, %Y, %H:%M:%S
-[290] Biber.pm:333> INFO - Reading 'main.bcf'
-[1502] Biber.pm:645> INFO - Found 36 citekeys in bib section 0
-[1692] Biber.pm:2977> INFO - Processing section 0
-[1877] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography/literature.bib' for section 0
-[2958] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[3878] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography/literature.bib'
-[3888] Utils.pm:146> WARN - Duplicate entry key: 'BachmannDocumentingSoftware2010' in file 'bibliography/literature.bib', skipping ...
-[4756] Utils.pm:146> WARN - I didn't find a database entry for crossref 'https://wiki.eclipse.org/Main_Page' in entry 'eclipse2013' - ignoring (section 0)
-[7212] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[7213] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[7213] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
-[7214] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
-[7880] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[9249] bbl.pm:596> INFO - Output to main.bbl
-[9260] Biber.pm:106> INFO - WARNINGS: 2
+[282] biber-MSWIN:273> INFO - === %a %b %e, %Y, %H:%M:%S
+[283] Biber.pm:333> INFO - Reading 'main.bcf'
+[1453] Biber.pm:645> INFO - Found 57 citekeys in bib section 0
+[1551] Biber.pm:2977> INFO - Processing section 0
+[1646] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography/literature.bib' for section 0
+[2818] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[3841] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography/literature.bib'
+[3853] Utils.pm:146> WARN - Duplicate entry key: 'BachmannDocumentingSoftware2010' in file 'bibliography/literature.bib', skipping ...
+[4782] Utils.pm:146> WARN - BibTeX subsystem: C:\Users\Ankitaa\AppData\Local\Temp\_GKkj38gdU\literature.bib_7088.utf8, line 417, warning: undefined macro "July"
+[4786] Utils.pm:146> WARN - I didn't find a database entry for 'manual_bot' (section 0)
+[4797] Utils.pm:146> WARN - I didn't find a database entry for crossref 'https://wiki.eclipse.org/Main_Page' in entry 'eclipse2013' - ignoring (section 0)
+[4798] Utils.pm:146> WARN - I didn't find a database entry for crossref 'http://www.xwiki.org/xwiki/bin/view/Main/Documentation' in entry 'Xwiki_Massol_2014' - ignoring (section 0)
+[4806] Utils.pm:146> WARN - The field 'month' in entry 'Maintainers_2014' cannot be null, deleting it
+[8281] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[8282] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[8282] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[8283] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[9044] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[10356] bbl.pm:596> INFO - Output to main.bbl
+[10388] Biber.pm:106> INFO - WARNINGS: 6

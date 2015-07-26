@@ -48,6 +48,24 @@
       \endverb
       \keyw{Adoption,Measurement and economics,Open source software,Productivity,Quality,Reuse,Software process improvement}
     \endentry
+    \entry{mw_api}{online}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeltitlesource}{title}
+      \field{title}{{API:}{Main}{Page}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/API:Main_page
+      \endverb
+    \endentry
+    \entry{api_tutorial}{online}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeltitlesource}{title}
+      \field{title}{{API:}{Tutorial}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/API:Tutorial
+      \endverb
+    \endentry
     \entry{ALM2009}{incollection}{}
       \list{language}{1}{%
         {English}%
@@ -198,6 +216,16 @@
       \verb http://www.software.ac.uk/
       \endverb
     \endentry
+    \entry{Maintainers_2014}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labeltitlesource}{title}
+      \field{title}{{Developers/}{Maintainers}}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Developers/Maintainers
+      \endverb
+    \endentry
     \entry{6923128}{inproceedings}{}
       \name{author}{5}{}{%
         {{uniquename=0,hash=9a3131ca498ba863c0c6f33fa7baac32}{Ding}{D\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
@@ -333,6 +361,15 @@
       \endverb
       \keyw{architecture,keynotes,software}
     \endentry
+    \entry{git_py}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeltitlesource}{title}
+      \field{title}{{GitPython}}
+      \verb{url}
+      \verb https://pypi.python.org/pypi/GitPython
+      \endverb
+    \endentry
     \entry{Golden2006}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=131dfc90aab5cf2a765b87e6479a1c4b}{Golden}{G\bibinitperiod}{Bernard}{B\bibinitperiod}{}{}{}{}}%
@@ -364,6 +401,15 @@
       \field{year}{2006}
       \verb{file}
       \verb :C$\backslash$:/Users/Ankitaa/Desktop/10.1.1.95.6735.pdf:pdf
+      \endverb
+    \endentry
+    \entry{help_pp}{online}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labeltitlesource}{title}
+      \field{title}{{Help:}{Protected pages}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Help:Protected_pages
       \endverb
     \endentry
     \entry{Kim:2000:CBW:518514}{book}{}
@@ -508,6 +554,60 @@
       \endverb
       \keyw{capability maturity model,impacts developers,process improvement,quality improvement,software,systematic}
     \endentry
+    \entry{Manual_coding}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Manual:}{Coding conventions}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Manual:Coding_conventions
+      \endverb
+    \endentry
+    \entry{manual_cc}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Manual:}{Coding}{Convention}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Manual:Coding_conventions#Documentation
+      \endverb
+    \endentry
+    \entry{manual_extensions}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Manual:}{Extensions}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Manual:Extensions
+      \endverb
+    \endentry
+    \entry{Installation_guide}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Manual:}{Installation Guide}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Manual:Installation_guide#Main_installation_guide
+      \endverb
+    \endentry
+    \entry{manual_pwb}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Manual:}{Pywikibot}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Manual:Pywikibot
+      \endverb
+    \endentry
+    \entry{MW_doc}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mediawiki}{documentation}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Documentation
+      \endverb
+    \endentry
     \entry{Mens2011}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=07e3dab71ff2bac06cd1ecf5b69ae028}{Mens}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
@@ -532,6 +632,22 @@
       \verb http://ceur-ws.org/Vol-746/IWSECO2011-1-InvitedPaper-MensGoeminne.pdf
       \endverb
       \keyw{empirical software engi- neering,open source software,repository mining,social software engineering,software ecosystem,software evolution}
+    \endentry
+    \entry{Michel_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6d6f5d15e9e99e655ec3678febd118eb}{Michel}{M\bibinitperiod}{Felix}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6d6f5d15e9e99e655ec3678febd118eb}
+      \strng{fullhash}{6d6f5d15e9e99e655ec3678febd118eb}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{A Structured Task-Centered Framework for Online Collaboration}}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://wwwmatthes.in.tum.de/pages/mhk5dp0uzh87/Master-s-Thesis-Felix-Michel
+      \endverb
     \endentry
     \entry{michlmayr:quality_problems}{inproceedings}{}
       \name{author}{3}{}{%
@@ -607,6 +723,62 @@
       \field{labeltitlesource}{title}
       \field{title}{Software Process Definition and Management}
       \field{year}{2012}
+    \endentry
+    \entry{openhub_MW}{online}{}
+      \field{sortinit}{o}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labeltitlesource}{title}
+      \field{title}{{openhub}{Mediawiki}}
+      \verb{url}
+      \verb https://www.openhub.net/p/mediawiki
+      \endverb
+    \endentry
+    \entry{phab_api}{online}{}
+      \field{sortinit}{p}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{{phabricator}{Conduit}{API}}
+      \verb{url}
+      \verb https://secure.phabricator.com/book/phabdev/article/conduit/
+      \endverb
+    \endentry
+    \entry{MW_doc_phab}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{{Phabricator}{Mediawiki}{documentation}}
+      \verb{url}
+      \verb https://phabricator.wikimedia.org/tag/mediawiki-documentation/
+      \endverb
+    \endentry
+    \entry{Bots_2007}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{Project:}{Bots}}
+      \field{year}{2007}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Project:Bots
+      \endverb
+    \endentry
+    \entry{Project_pd}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{{Project:}{PD}{Help}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Project:PD_help
+      \endverb
+    \endentry
+    \entry{phab_py}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{{Python}{Phabricator}}
+      \verb{url}
+      \verb https://pypi.python.org/pypi/phabricator
+      \endverb
     \endentry
     \entry{Scacchi2007}{book}{}
       \name{author}{1}{}{%
@@ -828,6 +1000,15 @@
       \verb :C$\backslash$:/Users/Ankitaa/Desktop/4278472.pdf:pdf
       \endverb
     \endentry
+    \entry{3P_users}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Third-party}{Mediawiki}{Users}{Discussion}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Third-party_MediaWiki_users_discussion
+      \endverb
+    \endentry
     \entry{Unterkalmsteiner2011}{article}{}
       \name{author}{6}{}{%
         {{uniquename=0,hash=568154751fd8b2416e68d5bdf2997691}{Unterkalmsteiner}{U\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
@@ -879,6 +1060,17 @@
       \field{pages}{33\bibrangedash 38}
       \range{pages}{6}
     \endentry
+    \entry{Xwiki_Massol_2014}{online}{}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Xwiki}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.xwiki.org/xwiki/bin/view/Main/WebHome
+      \endverb
+    \endentry
     \entry{yeates_stuart_OSS_2008}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=70afaf7ca0a90e2b9a042ce42f35eb66}{Yeates}{Y\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
@@ -926,6 +1118,7 @@
       \keyw{Open source,Quality assurance,Software development models,Survey}
     \endentry
   \endsortlist
+  \missing{manual_bot}
 \endrefsection
 \endinput
 
