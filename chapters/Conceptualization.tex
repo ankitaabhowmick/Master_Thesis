@@ -12,7 +12,7 @@
   \includegraphics[width=100mm]{images/code_stats}
   \caption[Mediawiki code statistics \cite{openhub_MW}]{Mediawiki code statistics \cite{openhub_MW}.}\label{fig:code_stats}
 \end{figure}
-The Mediawiki open source package is written in PHP (originally written for use on Wikipedia) - \autoref{fig:code_stats} \cite{openhub_MW}. The first approach to understand the architecture was to dive into the \enquote{\textbackslash{includes}} folder which comprises the code for the basic architectural components of the Mediawiki software like \enquote{api}, \enquote{cache}, \enquote{db} and many more. 
+The Mediawiki open source package is written in PHP \cite{mediawiki} (originally written for use on Wikipedia) - \autoref{fig:code_stats} \cite{openhub_MW}. The first approach to understand the architecture was to dive into the \enquote{\textbackslash{includes}} folder which comprises the code for the basic architectural components of the Mediawiki software like \enquote{api}, \enquote{cache}, \enquote{db} and many more. 
 \indent On successful setup of Mediawiki software and configuring the necessary database and server setup, the main page of the local installation powered by the Mediawiki engine can be launched as seen in the \autoref{fig:Mediawiki_mainpage}.
 This complete setup now helped to play around the software and the wiki to understand, use and modify its features.
 \item \textbf{Analyze the documentation that already exists : } It was important to understand the documentation that is already available on \enquote{Mediawiki.org} in order to analyze the pros and cons of the existing structure and process of the software architecture documentation. The existing documentation helped to get a high level understanding of the system and some low-level implementation details of certain components which are well-documented (e.g) Mediawiki APIs \cite{api_tutorial}, Extensions \cite{manual_extensions}, etc. Documentation is also available for developers and system administrators \cite{MW_doc}
@@ -100,7 +100,7 @@ In order to understand the documentation process and intended improvements, the 
 \end{mdframed}
 These use cases clearly identify the responsibilities as a part of current process and need to be considered for their roles in the improved process as well. The improvement will not require the complete change in roles and responsibilities. Rather, the same use cases need to be satisfied with a better process.
 \newline
-\\\indent In the \autoref{fig:use-case-scenario} all the above use case have been considered in a single use-case diagram to visually understand the actors and their activities in the system.
+\\\indent In the \autoref{fig:use-case-scenario} all the above use case have been considered in a single use-case diagram to visually understand the actors and their activities in the system. The task management system refers to the \enquote{Phabricator} as a system with which the various actors interact.
 
 \begin{figure}[H]
   \centering

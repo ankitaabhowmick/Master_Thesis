@@ -102,7 +102,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Assumptions}{54}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Architecture and Technical outline}{54}{section.5.2}
+\contentsline {section}{\numberline {5.2}Architecture and Technical outline}{55}{section.5.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.1}BOT architectural components}{55}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
@@ -110,50 +110,54 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Bot in Action}{57}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Test Scenarios}{57}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Test Scenarios}{58}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Deployment}{58}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Deployment}{60}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}What All can this BOT do ?}{59}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}What all can this BOT do ?}{62}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Future implementation and General Implications}{59}{section.5.4}
+\contentsline {section}{\numberline {5.4}Future implementation and General Implications}{62}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {III}Evaluation and Conclusion}{60}{part.3}
+\contentsline {part}{\numberline {III}Evaluation and Conclusion}{64}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Evaluation}{61}{chapter.6}
+\contentsline {chapter}{\numberline {6}Evaluation}{65}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Meetings and Discussions}{61}{section.6.1}
+\contentsline {section}{\numberline {6.1}Meetings and Discussions}{65}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Survey}{62}{section.6.2}
+\contentsline {section}{\numberline {6.2}Survey}{66}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Evaluation}{62}{section.6.3}
+\contentsline {section}{\numberline {6.3}Evaluation}{66}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Review Questions}{62}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.1}Review Questions}{66}{subsection.6.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Community-related quality metrics}{62}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Community-related quality metrics}{66}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Measure the success of the implemented solution}{63}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}Measure the success of the implemented solution}{67}{subsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{64}{chapter.7}
+\contentsline {section}{\numberline {6.4}Comparison with othe OSS}{67}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Answer to Research Questions}{64}{section.7.1}
+\contentsline {chapter}{\numberline {7}Conclusion}{68}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Challenges}{64}{section.7.2}
+\contentsline {section}{\numberline {7.1}Answer to Research Questions}{68}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Benefits of implemented solution}{64}{section.7.3}
+\contentsline {section}{\numberline {7.2}Challenges}{68}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}arguments to support the idea}{64}{section.7.4}
+\contentsline {section}{\numberline {7.3}Benefits of implemented solution}{68}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Concluding Remanks}{64}{section.7.5}
+\contentsline {section}{\numberline {7.4}arguments to support the idea}{68}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Addendum}{66}{part.4}
+\contentsline {section}{\numberline {7.5}Concluding Remanks}{68}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Results of Implementation}{67}{Appendix.1.A}
+\contentsline {part}{\numberline {IV}Addendum}{70}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{68}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {A}Implementation - Some details and Results}{71}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{70}{chapter*.36}
+\contentsline {section}{\numberline {A.1}Basic code snippet}{71}{section.1.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{71}{chapter*.37}
+\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{75}{Appendix.1.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{72}{chapter*.38}
+\contentsline {chapter}{\nonumberline List of Figures}{78}{chapter*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{79}{chapter*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{80}{chapter*.39}

@@ -361,6 +361,15 @@
       \endverb
       \keyw{architecture,keynotes,software}
     \endentry
+    \entry{gerrit}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeltitlesource}{title}
+      \field{title}{{Gerrit}}
+      \verb{url}
+      \verb https://code.google.com/p/gerrit
+      \endverb
+    \endentry
     \entry{git_py}{online}{}
       \field{sortinit}{G}
       \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
@@ -410,6 +419,15 @@
       \field{title}{{Help:}{Protected pages}}
       \verb{url}
       \verb https://www.mediawiki.org/wiki/Help:Protected_pages
+      \endverb
+    \endentry
+    \entry{irc}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labeltitlesource}{title}
+      \field{title}{{IRC}{help}}
+      \verb{url}
+      \verb http://www.irchelp.org/
       \endverb
     \endentry
     \entry{Kim:2000:CBW:518514}{book}{}
@@ -554,6 +572,15 @@
       \endverb
       \keyw{capability maturity model,impacts developers,process improvement,quality improvement,software,systematic}
     \endentry
+    \entry{manual_bot}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Manual:}{Bots}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Manual:Bots
+      \endverb
+    \endentry
     \entry{Manual_coding}{online}{}
       \field{sortinit}{M}
       \field{sortinithash}{2684bec41e9697b92699b46491061da2}
@@ -599,6 +626,15 @@
       \verb https://www.mediawiki.org/wiki/Manual:Pywikibot
       \endverb
     \endentry
+    \entry{mw_core}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mediawiki-core}}
+      \verb{url}
+      \verb https://doc.wikimedia.org/mediawiki-core/master/php
+      \endverb
+    \endentry
     \entry{MW_doc}{online}{}
       \field{sortinit}{M}
       \field{sortinithash}{2684bec41e9697b92699b46491061da2}
@@ -606,6 +642,15 @@
       \field{title}{{Mediawiki}{documentation}}
       \verb{url}
       \verb https://www.mediawiki.org/wiki/Documentation
+      \endverb
+    \endentry
+    \entry{mediawiki}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mediawiki.org}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/MediaWiki
       \endverb
     \endentry
     \entry{Mens2011}{article}{}
@@ -733,6 +778,15 @@
       \verb https://www.openhub.net/p/mediawiki
       \endverb
     \endentry
+    \entry{phab}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{{Phabricator}}
+      \verb{url}
+      \verb http://phabricator.org/
+      \endverb
+    \endentry
     \entry{phab_api}{online}{}
       \field{sortinit}{p}
       \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
@@ -749,6 +803,34 @@
       \field{title}{{Phabricator}{Mediawiki}{documentation}}
       \verb{url}
       \verb https://phabricator.wikimedia.org/tag/mediawiki-documentation/
+      \endverb
+    \endentry
+    \entry{phab-tools}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{{Phabricator-tools}}
+      \verb{url}
+      \verb https://github.com/wikimedia/phabricator-tools
+      \endverb
+    \endentry
+    \entry{wm-phab}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{{Phabricator}{Wikimedia}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://blog.wikimedia.org/2014/11/24/welcome-to-phabricator-wikimedias-new-collaboration-platform/
+      \endverb
+    \endentry
+    \entry{phab_labs}{online}{}
+      \field{sortinit}{p}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{{phab}{wmflabs}}
+      \verb{url}
+      \verb https://phab-01.wmflabs.org
       \endverb
     \endentry
     \entry{Bots_2007}{online}{}
@@ -1043,6 +1125,15 @@
       \verb http://www.computer.org/portal/web/csdl/doi/10.1109/TSE.2011.26
       \endverb
     \endentry
+    \entry{Wm_labs}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labeltitlesource}{title}
+      \field{title}{{Wikimedia}{Labs}}
+      \verb{url}
+      \verb https://www.mediawiki.org/wiki/Wikimedia_Labs
+      \endverb
+    \endentry
     \entry{Wu2001}{article}{}
       \name{author}{2}{}{%
         {{uniquename=1,hash=b778d0f1c2dc2c99f0fe4dd5e4f9b603}{Wu}{W\bibinitperiod}{Ming-wei}{M\bibinithyphendelim w\bibinitperiod}{}{}{}{}}%
@@ -1118,7 +1209,6 @@
       \keyw{Open source,Quality assurance,Software development models,Survey}
     \endentry
   \endsortlist
-  \missing{manual_bot}
 \endrefsection
 \endinput
 

@@ -1,13 +1,13 @@
 \chapter{Implementation}\label{chapter:Implementation}
-
+\indent As proposed in the previous chapter, this chapter elaborately explains the implementation of the conceptualized Bot. 
 \section{Assumptions}
 
 \indent Before starting the implementation of a maintenance-BOT, certain important assumptions were made in order to set an ideal context and background to start the planned development. Only when these conditions are fulfilled or existent, the BOT can provide the ideal solution for its purpose.
 \begin{itemize}
-\item The architectural components have been identified and a “*.txt” file exists for each component in the “/docs” folder in the repository that captures the structured architecture documents.
-\item These “*.txt” files are written in wiki-formatted text.
-\item Annotations like “@see” are provided in the source code of Mediawiki architecture components to help to navigate to the corresponding text file for its documentation in the docs folder.
-\item All corresponding architecture component documents are already available as of date on “Mediawiki.org”
+\item The architectural components have been identified and a \enquote{*.txt} file exists for each component in the \enquote{/docs} folder in the repository that captures the structured architecture documents.
+\item These \enquote{*.txt} files are written in wiki-formatted text.
+\item Annotations like \enquote{@see} are provided in the source code of Mediawiki architecture components to help to navigate to the corresponding text file for its documentation in the docs folder.
+\item All corresponding architecture component documents are already available as of date on \enquote{Mediawiki.org}
 \item These documents are categorized to identify them as structured software architecture documents.
 \item The corresponding pages on Mediawiki.org have restricted access (e.g) Protected pages \cite{help_pp}. Or, the architecture description could be a part of the non-editable section such that they cannot be modified by other Mediawiki BOTs or users.
 \end{itemize}
@@ -28,65 +28,122 @@ In this sub-section the various existing components and their application interf
 \newline \textbf{Mediawiki API} \cite{mw_api} : The Mediawiki web API is a web service that can use any programming language to interact and access wiki pages and their features, data , etc. over HTTP. The Pywikibot scripts use these APIs to interact with the Mediawiki pages. In case of this implementation, the BOT script written in Python language uses these Mediawiki APIs via the PywikiBot framework in order to read the text from the Mediawiki pages. 
 \end{enumerate}
 
-
-
 \subsection{Details of the Implementation}
-
-
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/BOT_comp_diag}
   \caption[Component Diagram of the Maintenance BOT]{Component Diagram of the Maintenance BOT.}\label{fig:BOT_comp_diag}
 \end{figure}
+The \autoref{fig:BOT_comp_diag} the individual components of the BOT implementation can be seen. 
+\begin{itemize}
+\item \textbf{Pywikibot} : The Pywikibot framework provides the backbone for the Bot implementation. As already highlighted in the previous sub-section, the Pywikibot framework interacts with Mediawiki pages via the APIs, as shown and marked as \textbf{Mediawiki.org} component in the figure. This helps to retrieve(read) the text from the wiki pages on \enquote{Mediawiki.org}.
+\item \textbf{Configuration file} : The configuration files is essentially configured / customized for the local Mediawiki installation. The specifications of the Mediawiki installation, user, passwords, language, etc. need to be configured in order to use the Pywikibot framework as a backbone for the intended Bot script.\autoref{fig:user_config}
+\item \textbf{DocBot} : The \enquote{docbot.py} script is the essential python script that performs the outlined functionality of the document maintenance Bot. The DocBot interacts directly with the \textbf{MediawikiSourceCode} component. The git API is used for interaction with the Git repository of Mediawiki source code in order to fetch the latest version. Basic code can be found in the Appendix A.
+\item \textbf{Wmfphablib} : The library is a part of the \enquote{Phabricator-tools} which are open source tools under development that can be used for migration of external data into Phabricator\cite{phab-tools}. Using these tools as an example and setting up/ configuring the \enquote{Wmfphablib}, the APIs could for connecting to the \textbf{Phabricator} component is possible. In the case of this implementation, the \enquote{conduit API} is used for task creation in Phabricator under the project \enquote{Software Architecture Documentation}
 
+\end{itemize}
 
-\begin{figure}[H]
+The basic components above highlight the architectural outline and requirements for the Bot implementation. \autoref{fig:BOT_state_diagram} shows the transition of Bot object during the various phases of its active life-cycle.
+\begin{figure}
   \centering
   \includegraphics[width=\textwidth]{images/BOT_state_diagram}
-  \caption[State Diagram of the Maintenance BOT]{State Diagram of the Maintenance BOT.}\label{fig:BOT_comp_diag}
+  \caption[State Diagram of the Maintenance BOT]{State Diagram of the Maintenance BOT.}\label{fig:BOT_state_diagram}
 \end{figure}
-
-
+The state diagram helps to understand the decision points made by the Bot and the automation of task creation for documentation maintenance.
 
 
 \section{Bot in Action}
-Mediawiki labs
+In order to test the implemented Bot solution and its task creation capability, the script was executed by connecting the \enquote{Wmfphablib} to Wikimedia labs \cite{Wm_labs}. The lab provides a cloud computing infrastructure with virtual machines to provide tools for developing and testing various Wikimedia applications, scripts, Bots, etc. For this specific case the configuration has been set up to connect to the phab-wmflab \cite{phab_labs} for testing the tasks created under \enquote{Software Architecture Documentation}
 \subsection{Test Scenarios}
-1. File exists
-2. File does not exist
-3. Task created
-4. Task not created
+Several scenarios were considered to test the Bot script for its functionality and to understand the ways in which the Bot could be more productive and responsive for the intended maintenance use. Screenshots of all results are available in Appendix A.
+\begin{enumerate} 
+\item \textbf{Test} : \enquote{*.txt} files in the Mediawiki source code repository are up-to-date.
+\newline
+\newline \textbf{Description} : Execute the BOT script in order to test the basic functionality of \enquote{pulling} the latest changes in the Git master branch of the Mediawiki source code repository into the cloned local copy in order to retrieve the latest(reviewed) version of \enquote{*.txt} file from the \enquote{/docs} folder.
+\newline 
+\newline \textbf{Result} : The latest version of the Mediawiki source code is \enquote{pulled} from the Git repository and stored in the local clone. Only when the \enquote{pull} is successful, the rest of the script is executed.
+\newline
+\item \textbf{Test} : Documentation exists on \enquote{Mediawiki.org} corresponding to the architectural component description in the source code.
+\newline
+\newline \textbf{Description} : Execute the BOT script in order to test the basic functionality of reading the \enquote{*.txt} file from the \enquote{/docs} folder and comparing the text to the corresponding wikipage.
+\newline 
+\newline \textbf{Result} : The latest version of the Mediawiki source code is \enquote{pulled} from the Git repository and stored in the local clone. The file \enquote{*.txt} file is read from the \enquote{/docs} folder in the cloned and up-to-date repository. The read text is written into a file in the same execution environment where the Bot is being executed. The file is compared (identical textual comparison) to the text read from the document on wikipage.
+\newline
+\item \textbf{Test} : Documentation does not exists on \enquote{Mediawiki.org} corresponding to the architectural component description in the source code.
+\newline
+\newline \textbf{Description} : This is negative scenario test to check what happens when the wikipage does not exist for the corresponding architectural component. Execute the BOT script in order to test the basic functionality of reading the \enquote{*.txt} file from the \enquote{/docs} folder and comparing the text to the corresponding wikipage. 
+\newline 
+\newline \textbf{Result} : The latest version of the Mediawiki source code is \enquote{pulled} from the Git repository and stored in the local clone. The file \enquote{*.txt} file is read from the \enquote{/docs} folder in the cloned and up-to-date repository. The read text is written into a file in the same execution environment where the Bot is being executed. But, since the corresponding wikipage is not available, the script is unable to read the contents into a file and throws an error stating that the the file(wikipage test file) is not defined.
+\newline
+\item \textbf{Test} : Documentation is compared and revision history is checked when wikipage is not up-to-date.
+\newline
+\newline \textbf{Description} : Execute the BOT script in order to test the basic functionality of comparing the architecture documents from source code to the wikipage and checking the revision page for document update history. The last updated date is checked and compared with the present date.
+\newline 
+\newline \textbf{Result - Success} : The file \enquote{*.txt} file is read from the \enquote{/docs} folder Mediawiki repository. The read text is written into a file in the same execution environment where the Bot is being executed. The corresponding wikipage content is read into a file. If the compared files are not same (text mismatch) the revision history of the wikipage is checked.
+\newline
+\item \textbf{Test} : Documentation is compared and Phabricator task is created under the specified project when wikipage is not up-to-date.
+\newline
+\newline \textbf{Description} : Execute the BOT script in order to test the basic functionality of comparing the architecture documents from source code to the wikipage and checking the revision page for document update history. In case the text is not updated in the last few days, a Phabricator task is created.
+\newline 
+\newline \textbf{Result} : If the compared files are not same (text mismatch) the revision history of the wikipage is checked. If the wikipage was not updated recently, a Phabricator task for documentation maintenance is created under the specified Phabricator project.
+\newline
+\item \textbf{Test} : Documentation is compared and Phabricator task is not created when wikipage is relatively new.
+\newline
+\newline \textbf{Description} : Execute the BOT script in order to test that the maintenance activity does not \enquote{flood} the task management system (Phabricator). A fixed duration (e.g. 5 days) can be provided as a buffer for the maintenance activity to be completed by human Maintainers without the involvement of the automated Bot script.
+\newline 
+\newline \textbf{Result} : If the compared files are not same (text mismatch) the revision history of the wikipage is checked. If the wikipage was updated recently (e.g. less than 5 days), then no task is created on Phabricator.
+\newline
+\end{enumerate}
 
 \subsection{Deployment}
+For successful integration of the developed component into the existing Mediawiki system, was important to understand the Deployment process for deployment of the bot and the interfacing the the various sub-systems. As shown in \autoref{fig:deployment_diagram}, the following are the important devices that need interfacing for the deployment of the implementation.  
+\begin{itemize}
+\item \textbf{Mediawiki.org} \cite{mediawiki} - The open source wiki package that provides the software engine that powers the wikis like \enquote{Wikipedia} in order to host wiki-formatted pages. The software architecture documentation of Mediawiki itself is also available / desired on \enquote{Mediawiki.org} webpage as wiki-formatted text.
 
+\item \textbf{Gerrit} \cite{gerrit} - The version controlled code review system that links to the Mediawiki source code repository.
+\item \textbf{Phabricator} \cite{wm-phab} - An important contributor to the process and task management system for streamlining project management issues. It is a stand-alone collaboration platform (application) which is not directly integrated into the Mediawiki software system. Rather, it is a sub-system that can be configured and customized for the purpose of task management as and when required.
 
+\end{itemize}
+These sub-systems / components have already been discussed in the previous chapter and their functionality and use in the Mediawiki software process has been well established. The \autoref{fig:deployment_diagram} captures the general deployment of Mediawiki software.
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/deployment_diagram}
   \caption[Mediawiki Software development process]{Mediawiki Software development process.}\label{fig:deployment_diagram}
-\end{figure}
-
-It was important to understand the Deployment process of Mediawiki software in order understand the deployment of the bot and the interface connections between the various systems : 
-\begin{itemize}
-\item Mediawiki.org
-\item Phabricator
-\item Gerrit
-\end{itemize}
-The \autoref{fig:deployment_diagram} captures the general deployment of Mediawiki software The following \autoref{fig:BOT_deployment} highlights the inclusion of the BOT in the deployment diagram, connecting the above mentioned system interface.
-
+\end{figure} 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/BOT_deployment}
   \caption[State Diagram of the Maintenance BOT]{State Diagram of the Maintenance BOT.}\label{fig:BOT_deployment}
 \end{figure}
+\autoref{fig:BOT_deployment} highlights the inclusion of the BOT in the deployment diagram, connecting the above mentioned system interfaces.
+\newline Once deployed, the Bot can be executed as a part of the cron jobs in the build-integration environment such that the the maintenance task intended to be performed by the Bot can be regulated. depending on the desired frequency of execution, the cron job can be set for the maintenance activity (e.g. once per week)
 
-\subsection{What All can this BOT do ?}
-capture the difference and print it on a template on the page
+
+\subsection{What all can this BOT do ? }
+\indent Apart from the functionality and test scenarios covered in the above Bot implementation comprise the basic Bot implementation where the Bot is able to interact with the three different sub-systems highlighted in the previous subsection. Once these connections are established and the systems are interfaced via the Bot, many more functionalities can be added to the \enquote{Documentation Maintenance Bot}.
+\\\indent Here is a list of additional / improved functionalities (non-comprehensive) that the basic Bot implementation is capable of handling.
+\begin{itemize}
+\item Create Phabricator task when a document on wikipage (category- Software Architecture Document) is not available for an architectural component corresponding to the \enquote{*.txt} file in the \enquote{/docs} folder of the source code.
+\item Capture the difference when documents on \enquote{Mediawiki.org} are compared to the \enquote{*.txt} files in the source code and print the difference as a part of a maintenance template on that wikipage on \enquote{Mediawiki.org}
+\item Create the software architecture document on the wikipage by copying the corresponding text from the source code automatically.
+\item Add changes (update) the wikipage with the corresponding text from the source code automatically.
+\item Search by category for all software architecture documents on \enquote{Mediawiki.org} and create Phabricator task if the corresponding reviewed document is not available as a part of the source code.
+\item Delete (or add comments in template) if wikipage for any document that does not have a corresponding text file in the reviewed source code.
+\end{itemize}
+
 
 
 \section{Future implementation and General Implications }
-attach the difference to the task.
+The above implementation of concept in its basic form leaves scope for immense improvements and future development. Some future improvements (possible extensions) to the Bot script have been listed in the previous subsection. Also, more features can be added to improve the automation of the Maintenance activity for the software architecture documents.
+\newline A few more future implementations of this concept are listed below.
+\begin{itemize}
+\item Notify the responsible architecture component owners for missing / updated documentation.
+\item Add automated checks for missing text files in the source code for the corresponding architectural component. 
+\item Add templates on Mediawiki software architecture document pages to pull / diaplay maintenance information.
+\end{itemize}
 
-		
-
+\textbf{Future Implications of the customized solution} : 
+\newline The conceptualization of a model developed for a certain type of software can have its implications and useful implementation in all software belonging to the same domain and development model.
+\newline This concept has been conceived on the backdrop of open source Mediawiki software. In general this paradigm can be tailored to fit any open source software and open source community structure. Also, the thesis work aims at improving the software architecture documentation process for Mediawiki software. 
+\newline This process improvement aims only the documentation process in particular for an open source community. Similar process improvements can be made in any specific software process for any such open source development model. Automation of maintenance activity coupled with defined human roles as Maintainers is desired and can be easily applied/ implemented for process improvement in any open source community.
