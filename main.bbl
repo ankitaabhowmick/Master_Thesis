@@ -283,6 +283,32 @@
       \verb http://bolsa.info.unlp.edu.ar/campamento/campamento/documentos/GB%5C_Expert%5C_Letter%5C_Open%5C_Source%5C_Maturity%5C_Model%5C_1.5.3.pdf
       \endverb
     \endentry
+    \entry{Dyba2005}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=78bfea335626b117b9eb9e55dfb9be01}{Dyba}{D\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{78bfea335626b117b9eb9e55dfb9be01}
+      \strng{fullhash}{78bfea335626b117b9eb9e55dfb9be01}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0098-5589}
+      \field{journaltitle}{IEEE Transactions on Software Engineering}
+      \field{number}{5}
+      \field{title}{{An empirical investigation of the key factors for success in software process improvement}}
+      \field{volume}{31}
+      \field{year}{2005}
+      \field{pages}{410\bibrangedash 424}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TSE.2005.53
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/01438376.pdf:pdf
+      \endverb
+      \keyw{Index Terms- Empirical software engineering,critical success factors,organizational issues,software process improvement,survey research.}
+    \endentry
     \entry{eclipse2013}{online}{}
       \field{sortinit}{E}
       \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}

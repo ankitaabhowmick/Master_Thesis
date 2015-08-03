@@ -126,6 +126,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}Future implementation and General Implications}{63}{section.5.4}
 \defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline The implementation of an improved software documentation process leaves scope for many critical discussions and viewpoints. The following chapter evaluates the improved concept for its usefulness, acceptance within the community and its general implications on process improvement}{64}{section*.36}
+\defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {III}Evaluation and Conclusion}{65}{part.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Evaluation}{66}{chapter.6}
@@ -146,28 +148,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}Analysis of Successful Process Improvement}{71}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}
+\contentsline {paragraph}{\nonumberline This chapter successfully evaluates and critically supports the motive and reason behind the suggested solution. The next chapter helps us to provide concluding remarks to support the implication of this thesis work.}{73}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Answer to Research Questions}{73}{section.7.1}
+\contentsline {chapter}{\numberline {7}Conclusion}{74}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Challenges}{73}{section.7.2}
+\contentsline {section}{\numberline {7.1}Answer to Research Questions}{74}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Benefits of implemented solution}{73}{section.7.3}
+\contentsline {section}{\numberline {7.2}Challenges}{74}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}arguments to support the idea}{73}{section.7.4}
+\contentsline {section}{\numberline {7.3}Benefits of implemented solution}{74}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Concluding Remanks}{73}{section.7.5}
+\contentsline {section}{\numberline {7.4}arguments to support the idea}{74}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Addendum}{75}{part.4}
+\contentsline {section}{\numberline {7.5}Concluding Remanks}{74}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Implementation - Some details and Results}{76}{Appendix.1.A}
+\contentsline {part}{\numberline {IV}Addendum}{76}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Basic code snippet}{76}{section.1.A.1}
+\contentsline {chapter}{Appendix \numberline {A}Implementation - Some details and Results}{77}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{80}{Appendix.1.B}
+\contentsline {section}{\numberline {A.1}Basic code snippet}{77}{section.1.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{83}{chapter*.41}
+\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{81}{Appendix.1.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{84}{chapter*.42}
+\contentsline {chapter}{\nonumberline List of Figures}{84}{chapter*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{85}{chapter*.43}
+\contentsline {chapter}{\nonumberline List of Tables}{85}{chapter*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{86}{chapter*.45}
