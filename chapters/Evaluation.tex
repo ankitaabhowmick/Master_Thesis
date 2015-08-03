@@ -1,67 +1,121 @@
 \chapter{Evaluation}\label{chapter:Evaluation}
 \indent Evaluation of the quality of an improved process within a community establishes its usefulness and justifies the efforts put into its implementation and fulfillment.
 \\\indent The QualOSS standard \cite{Shahin2014} suggests that the quality of an improved process can be assessed on grounds of various process qualities related to its performance, efficiency and effectiveness, recorded over a period of time. Similarly, the evaluation of Software Process Improvement (SPI) \cite{Unterkalmsteiner2011} effect on high volume of literature study identified the \enquote{Pre-post evaluation} as the most common evaluation strategy.  It also suggests the use of process metrics, questionnaires and interviews as effective evaluation methods. The following sections list the use of these strategies to evaluate the improved software architecture documentation process.
-
-\section{Meetings and Discussions}
-\indent Communication is the key to understanding the views and reviews of users
-Stakeholder viewpoint - 
-\begin{enumerate}
-\item Is the process adequate for its intended purpose (purpose of improving documentation process) ?
-\item What features of this documentation process are attractive ? What features may pose challenges?
-\item Will the process be effective / sustainable over a period of time?
-\end{enumerate}
-
-Experience viewpoint -
-\begin{enumerate}
-\item What can be the problems in enforcement of a strict process?
-\item Is the strict documentation process adoptable in the current socio-technical environment of the Mediawiki community.
-\item Is there a scope to define "document maintainer" activities and assign these responsibilities to existing Roles of Developer/ Architect. 
-\item Does the implementation of this process require huge efforts in terms of required resources - personnel and time? 
-\item Can that effort be estimated ?
-\item Is the need of this process equatable to the estimated effort? What precedes - need or effort ?
-\end{enumerate}
-
-
-\section{Survey}
-
-Evaluation based on user survey :
-
-
-\section{Evaluation }
-This section list the static analysis strategies that evaluate the implemented process for software architecture documentation.
+\section{Evaluation}
+This section lists the static analysis strategies that evaluate the implemented process for software architecture documentation.
 \subsection{Review Questions}
-\indent Architects and architecture analysts are concerned regarding the conformance of the architecture documentation to the set standards \cite{BachmannDocumentingSoftware2010}. For our specific purpose, this review is performed by Mediawiki architects for checking the conformance of documentation to its standards and requirements. The conformance can be checked by answering the following questions\cite{BachmannDocumentingSoftware2010}
+Architects and architecture analysts are concerned regarding the conformance of the architecture documentation to the set standards \cite{BachmannDocumentingSoftware2010}. For our specific purpose, this review is performed by Mediawiki architects for checking the conformance of documentation to its standards and requirements. The conformance can be checked by answering the following questions\cite{BachmannDocumentingSoftware2010}
 \begin{enumerate}
-\item Does the Software architecture documentation contain appropriate administrative and overview data?
-\item Is the documentation required by the organization ?
-\item Who are the stakeholders and are their requirements for documentation met by the software architecture documents.
-\item Does the document achieve its purpose?
-\item Does the document provide an introductory information and sufficient information to assist the understanding of the architectures
+\item \textbf{Q : }Does the Software architecture documentation contain appropriate administrative and overview data?
+\newline
+\textbf{A : } Yes ! Module owners/ reviewers/ developers are identified for the architectural components. Also, more information can be provided as a template on the wiki page for the corresponding document. 
+\item \textbf{Q : }Is the documentation required by the organization ?
+\newline
+\textbf{A : }The discussions before the start of work (Chapter 2) and the later evaluation of the implemented concept answers the requirement of documentation within the organization.
+\item \textbf{Q : }Who are the stakeholders and are their requirements for documentation met by the software architecture documents?
+\newline
+\textbf{A : }As mentioned in previous chapters where stakeholder requirements were studied, the developer were identified as the most important stakeholders in terms of creation and use of these documents.
+\item \textbf{Q : }Does the document achieve its purpose?
+\newline 
+\textbf{A : }The evaluation of the concept (stakeholder review) and the test of solution proves that it achieves its intended purpose.
+\item \textbf{Q : }Does the document provide an introductory information and sufficient information to assist the understanding of the architectures?
+\newline
+\textbf{A : } A structured documentation written by the developer of the architectural component who understands and can reason for the architectural decision provides sufficient information in the text document. 
 \end{enumerate}
 \subsection{Community-related quality metrics} 
 The following quality metrics from the QualOSS standard can be used to and evaluate the documentation process \cite{5314237}
 \begin{enumerate}
-\item Maintenance Capacity - Provide resource for maintenance, continuous support and improvement
-\item Sustainability - Maintenance over an extended period of time
-\item Process Maturity - Achieve goal
+\item \textbf{Maintenance Capacity} - Provide resource for maintenance, continuous support and improvement
+\item \textbf{Sustainability} - Maintenance over an extended period of time
+\item \textbf{Process Maturity} - Achieve goal and continuously improve the process
 \end{enumerate}
 
 \subsection{Measure the success of the implemented solution}
 \begin{enumerate}
 \item \textbf{Maintenance efforts (costs vs. capacity) \cite{Shahin2014}} 
-Validity, Investment, Cost of quality and cost of process improvement \cite{Gorschek2006}
+Validity, Investment, Cost of quality and cost of process improvement can be measured in terms of the following \cite{Gorschek2006}
+\newline \indent \textbf{Personnel}
+\newline \indent \textbf{Time}
+\newline 
+The number of people required for achieving an improved process is not large as only a small subset of Mediawiki developers (also confirmed in the review) are responsible for architectural module maintenance. This also confirms that initial effort required is the creation of missing documents. Later maintenance is assisted by the implemented solution.
+\newline
+This analysis helps to answer the question\enquote{Is the process adequate for its intended purpose?}
+\item \textbf{Process features - }
+The following features need to be evaluated in order to evaluate the applicability and usefulness  \cite{Fuggeffa1988} of the concept and solution for software architecture documentation process
 \begin{itemize}
-\item \textbf{Personnel}
-\item \textbf{Time}
-\end{itemize}
-\item \textbf{Is the process adequate for its intended purpose?}
-\item \textbf{Process features}
- need to be evaluated in order to evaluate the applicability and usefulness \cite{Fuggeffa1988}
-\begin{itemize}
-\item \textbf{Architecture tracking}
-\item \textbf{Multiple user support}
-\item \textbf{Capture and reason}
+\item \textbf{Architecture tracking} - A structure software architecture documentation as written by developers and reviewed by architects simultaneosly during development ensures the tracking of software architectural changes.
+\item \textbf{Multiple user support} - The concept aims accessibility of documents as its prime requirement. The implementation that allows document access as wiki page ensures multiple user support not only in terms of the document text readability but also   its purpose and use by multiple stakeholders (developers, architects, new users, training, maintenance, etc.).
+\item \textbf{Capture and reason} - The Phabricator task are crafted to capture differences between software architecture document text in source and that in the wiki and provide a reason the task's purpose(document maintenance / update required)
 \end{itemize}
 \end{enumerate}
 
-\section{Comparison with othe OSS}
+The community-related quality metrics and the success measure criteria listed in the above subsections were used to formulate questions for review and assessment. The results are presented in the following section.
+\section{Assessment through Review and Discussions}
+\indent Communication is the key to understanding the views and reviews of users. A good way to understand and assess the conceptualized idea and implementation scope, a set of questions were formulated in order to receive feedback from Mediawiki stakeholders. The questions aim to capture the reviews, feedback and critical evaluation based on the stakeholders' interest and experience within the community. The following questions were answered critically with these viewpoints.
+\subsection{Critical Assessment}
+\textbf{Stakeholder viewpoint}
+\begin{enumerate}
+\item \textbf{Is the process adequate for its intended purpose (purpose of improving documentation process) ?}
+\newline If the Phabricator task is well-crafted to provide useful information like text diff, module owner / maintainer, etc. then it will help to update the wiki page easily. 
+\newline Useful high level information is captured in these text documents which cover the important architectural components.
+\item \textbf{What features of this documentation process are attractive ? What features may pose challenges?}
+\newline Attractive feature is the point 1 itself where the well-informed task creation is made possible.
+Challenges could be as follows :
+\newline Other wiki pages are also dependent on some information from the text files in the source repository. The mapping of these dependencies might be a challenge.
+\newline An \enquote{area maintainer} needs to be assigned to each text file for an architectural component.
+\newline Deciding the frequency of the cron job (running the Bot) might be problematic. (e.g.) every 2 days might be too less as the document writer may need more time to copy the text into wiki page and might have unnecessary tasks created for a job that he already is aware of; if the Bot runs every 10 days, then it might to late to correct text files for some intended changes like typo corrections made on the wiki page.
+\newline If developers are required to make updates to text files as trigger for wiki update, then the question of effectiveness of the wiki page comes under question. 
+\item \textbf{Will the process be effective / sustainable over a period of time?}
+\newline Maybe ! 
+\newline Effectiveness depends on the coverage of these text files in terms of the architectural components that are describes in them
+\newline Sustainability depends on the motivation of developers/ document writers to maintain an identical copy of text file and wiki page.
+\end{enumerate}
+\textbf{Rationale/ Discussion : } The challenge concerning the mapping of other documents on wiki to the text file is not a concern of this thesis scope. The only motive at hand is to produce structured documentation that can be readable as wiki pages and accessible during development as text files during source code development.
+\newline \newline
+Cron job frequency can be varied and tested for different frequencies in order to determine its optimized frequency.
+\newline \newline
+The effectiveness of wiki as a medium for documentation has been already discussed in the Chapter 4 and hence proves the idea behind its intended purpose. 
+\textbf{Experience viewpoint}
+\begin{enumerate}
+\item \textbf{What can be the problems in enforcement of a strict process?}
+\newline Ignorance of community members with respect to documentation update
+\newline Pile-up of Phabricator tasks without being assigned/ worked on/ closed.
+\newline No action being taken on text files to avoid tasks being created.
+\newline Community members find ways to bypass the activities of DocBot
+\newline If too many architectural components are present for which text files exist then assigning module owners for each area might be difficult.
+\item \textbf{Is the strict documentation process adoptable in the current socio-technical environment of the Mediawiki community?}
+\newline Hard to generalize !
+\newline Some module owners are conscientious and may take on the responsibility to maintain the text files.
+\newline Others may be less bound to their responsibility.
+\item \textbf{Is there a scope to define "document maintainer" activities and assign these responsibilities to existing Roles of Developer/ Architect? }
+\newline Possible, as the DocBot will assist them in their maintenance activity and make their job easier.
+\item \textbf{Does the implementation of this process require huge efforts in terms of required resources - personnel and time? }
+\newline No, its doable (initial work required only on 20 text files that correspond to the identified architectural component)
+\item \textbf{Can that effort be estimated ?}
+\newline No ! Not via survey!
+\item \textbf{Is the need of this process equatable to the estimated effort? What precedes - need or effort?}
+\newline Priority is not very high. Need of software architecture documentation is prime requirement of all complex and good software (whether OSS or not).
+\newline Effort is huge as documentation of a ten year old complex software architecture is already old and un-maintained.
+\end{enumerate}
+\textbf{Rationale/ Discussion : } The challenges faced with process improvement within the socio-technical scope is the target of this thesis work. There is always a scope to improve the process and tailor it to the needs of the community. The challenges pointed above are human and behavioral aspects that can be handled using activities like training and leadership effectiveness \cite{Viana2012}.
+\newline When comparing need versus effort it is always important to understand the willingness of the community members to accept and adopt a change (as discussed in the Chapter 4). Thus, when equated to the complexity of the evolutionary software, any activity that assists in maintenance of its architecture documentation need is well-desired and worth the effort
+
+\subsection{Limitations of the Concept and proposed Solution}
+Every new concept or process improvement brings along certain limitations that may pose challenges in the face of its intended usefulness and effectiveness. The following point list a few such limitations that were identified during the review phase.
+\begin{itemize}
+\item \textbf{Mandatory} : There is no way to "automatically mandate" the condition where the system is aware that when an architectural component is developed, the corresponding text file is updated by the developer.
+\item \textbf{Obligatory} : The process involves conscientious human obligation for maintenance effort. This may sometimes pose hindrance in application of process improvement.
+\item \textbf{Supervisory} : In most software engineering project motivation and supervision is required from the technical management for implementation of an improved process. In case of Mediawiki OSS that is a community-oriented organizational structure this hierarchy is hard to set. Practicing managerial activities is hard in such a community environment. Thus, lack of push may result in deviation from responsibility
+\end{itemize}
+
+
+\section{Analysis of Successful Process Improvement}
+The improved software architecture documentation process of Mediawiki provides an analysis that evaluates process improvement in general and its implications with respect to documentation within open source community. \cite{Dyba2005} identifies the importance of management roles and activities for improving organizational performance. This relates to any process in general that needs to be enforced/ practiced within an organization.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/success_factors}
+  \caption[Understanding factors that effect process improvement]{Understanding factors that effect process improvement \cite{Dyba2005}.}\label{fig:Process_Roles}
+\end{figure}
+
+
+

@@ -1125,6 +1125,39 @@
       \verb http://www.computer.org/portal/web/csdl/doi/10.1109/TSE.2011.26
       \endverb
     \endentry
+    \entry{Viana2012}{misc}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=f8d65119c1f3e4f0a8fac30374086d44}{Viana}{V\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=051d55ecd660ad6513fc6057dd68d43a}{Conte}{C\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f4ad691e9defb90e3f2178f93c809374}{Vilela}{V\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b5d193d93899e40ccefbed5956dec4ad}{Souza}{S\bibinitperiod}{C.R.B.}{C\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=0f23e27825b4e37455ba3441b17b9df1}{Santos}{S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8ffe8f3ac5f2318fc6adcecf778fd91c}{Prikladnicki}{P\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f828acd8e284cf15debdcbc4c63b7428}
+      \strng{fullhash}{a591b7329c9db256f1ee38c1100818c7}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Understanding how to successfully deal with human and technical aspects involved in Software Process Improvement (SPI) programs is a challenging issue. Technical aspects are not enough to guarantee the success of activities. Human factors (e.g., experiences, opinions and perceptions) impact the effectiveness of SPI programs. Aim: this paper aims to improve our current understanding on how human aspects can influence SPI programs from the point of view of the professionals involved in such efforts. We compare our findings with the results of previous studies in order to analyze the different contexts in which human aspects influence SPI. Method: We conducted a qualitative study in the context of small companies involved in SPI programs in Amazonas State in Brazil based on the Brazilian Maturity Model - MPS.BR. We used semi-structural interviews with software engineers. Results: We identified findings about eleven of the fourteen investigated human aspects. We identified new characteristics that motivate actors to get involved in SPI programs. Finally, while previous research indicated that the process of individual decision making as a negative aspect, we identified this as a positive aspect. Conclusions: Despite the differences in companies' size and maturity models, our findings corroborate many of the important results of previous case studies. The consistency of the presented results with previous research in different organizations, teams, and countries suggest that these results are true for software engineering in general. However, there were differences related to the motivating factors and the perception of the individual decision making. In our study, we observed that the personality, perception and employee selection aspects were also significant to the SPI program's success. This has not been reported before in the literature. In fact, we need to stress that studies like the one presented are important because they help to create a body of evidence regarding SPI.}
+      \field{booktitle}{16th International Conference on Evaluation \& Assessment in Software Engineering (EASE 2012)}
+      \field{isbn}{978-1-84919-541-6}
+      \field{title}{{The influence of human aspects on software process improvement: qualitative research findings and comparison to previous studies}}
+      \field{year}{2012}
+      \field{pages}{121\bibrangedash 125}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1049/ic.2012.0015
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Ankitaa/Desktop/The influence of human aspects on software process improvement\_ Qualitative research findings and comparison to previous studies (PDF Download Available).pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://digital-library.theiet.org/content/conferences/10.1049/ic.2012.0015
+      \endverb
+      \keyw{human aspects,qualitative studies,software process improvement}
+    \endentry
     \entry{Wm_labs}{online}{}
       \field{sortinit}{W}
       \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}

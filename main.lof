@@ -6,55 +6,59 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces The PDCA (Plan-Do-Check-Act) Paradigm /cite{Gorschek2006}}}{3}{figure.caption.4}
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces The PDCA (Plan-Do-Check-Act) Paradigm /cite{Gorschek2006}}}{3}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Documentation available for software architecture levels}}{7}{figure.caption.5}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Documentation available for software architecture levels}}{7}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Current software maintenace process Sequence diagram}}{10}{figure.caption.6}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Current software maintenace process Sequence diagram}}{10}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Current documentation process Sequence diagram}}{11}{figure.caption.7}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Literature Survey strategy \cite {Unterkalmsteiner2011}}}{16}{figure.caption.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces ALM process and roles \cite {ALM2009}}}{20}{figure.caption.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Statistical evaluation of Documentation process/ modes in Open source communities}}{22}{figure.caption.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces "4+1" Unified View of the Software Architecture \cite {bab2009}}}{24}{figure.caption.12}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Current documentation process Sequence diagram}}{11}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Mediawiki code statistics \cite {openhub_MW}}}{30}{figure.caption.14}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Literature Survey strategy \cite {Unterkalmsteiner2011}}}{16}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Auto-generated doxygen documentation}}{31}{figure.caption.15}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces ALM process and roles \cite {ALM2009}}}{20}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Mediawiki Software Process including Documentation process}}{33}{figure.caption.16}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Statistical evaluation of Documentation process/ modes in Open source communities}}{22}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Use-case scenarios explaining user roles and tasks}}{36}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces The sphere of Maintainer's roles and responsibilities}}{41}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Defining distinct roles and responsibilities in a process}}{45}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Introducing the doumentation maintenance BOT in the Mediawiki software process}}{47}{figure.caption.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Maintenace Bot Sequence diagram}}{49}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Dimensions of documentation process features}}{51}{figure.caption.27}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces "4+1" Unified View of the Software Architecture \cite {bab2009}}}{24}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Component Diagram of the Maintenance BOT}}{56}{figure.caption.29}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Mediawiki code statistics \cite {openhub_MW}}}{30}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces State Diagram of the Maintenance BOT}}{57}{figure.caption.30}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Auto-generated doxygen documentation}}{31}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Mediawiki Software development process}}{61}{figure.caption.31}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Mediawiki Software Process including Documentation process}}{33}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces State Diagram of the Maintenance BOT}}{61}{figure.caption.32}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Use-case scenarios explaining user roles and tasks}}{36}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces The sphere of Maintainer's roles and responsibilities}}{41}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Defining distinct roles and responsibilities in a process}}{45}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Introducing the doumentation maintenance BOT in the Mediawiki software process}}{47}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Maintenace Bot Sequence diagram}}{49}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Dimensions of documentation process features}}{51}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Component Diagram of the Maintenance BOT}}{56}{figure.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces State Diagram of the Maintenance BOT}}{57}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Mediawiki Software development process}}{61}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces State Diagram of the Maintenance BOT}}{61}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Understanding factors that effect process improvement}}{72}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -62,12 +66,10 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax B.1}{\ignorespaces Mediawiki source code and configuration file}}{80}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax B.1}{\ignorespaces Mediawiki source code and configuration file}}{75}{figure.caption.34}
+\contentsline {figure}{\numberline {\relax B.2}{\ignorespaces Main page of the local Mediawiki installation}}{81}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax B.2}{\ignorespaces Main page of the local Mediawiki installation}}{76}{figure.caption.35}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax B.3}{\ignorespaces User configuration python file for Mediawiki Pywikibot installation}}{77}{figure.caption.36}
+\contentsline {figure}{\numberline {\relax B.3}{\ignorespaces User configuration python file for Mediawiki Pywikibot installation}}{82}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

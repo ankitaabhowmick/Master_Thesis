@@ -6,6 +6,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Abstract}{iv}{chapter*.2}
 \defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Good software architecture documentation is the starting of a good software practise that makes the software itself more maintainable, extendable and sustainable over its extended lifetime and evolution. Complex open-source software that grow exponentially with time require this documentation to serve its knowledge sharing purpose for new developers, communicate software architectural rationale to the users and other stakeholders and serve as means for documenting the ideas behind the design of architectural components and their interfaces.}{iv}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline The thesis involves the initial research on the available state-of-the-art Software Architecture documentation processes, tools, etc. that help in maintaining a software architecture documentation and keeping it consistent with the evolving architecture. Understanding the current software architecture documentation process at Mediawiki keeping the evaluation goals in mind is an essential part of this thesis work. It also focuses on critical evaluation of the documentation process to derive requirements for its improvement.}{iv}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Based on the analysis, review and interaction method, an improved Software Architecture documentation process will be proposed, implemented and evaluated. Initial work involves understanding the MediaWiki software architecture complexities from an open social software perspective. Then existing software processes are studied in order to present ideas for a better maintainable SA documentation process. The final step is to evaluate improvements of the process and the quality of documentation on grounds of maintainability, Accessibility, Consistency, Completeness, etc.}{iv}{section*.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {I}Introduction}{1}{part.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
@@ -50,7 +56,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Meetings / Interactive Sessions}{13}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline The following chapter identifies, studies and understands the literature and related work that can help in formulating ideas for an improved documentation process for the Mediawiki software architecture.}{14}{section*.8}
+\contentsline {paragraph}{\nonumberline The following chapter helps to identify, study and understand the literature and related work that can help in formulating ideas for an improved documentation process for the Mediawiki software architecture.}{14}{section*.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Literature Survey}{15}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -72,7 +78,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Idea Generation}{25}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline The following chapter derives concepts studies and understood in this chapter in order to formulate and support ideas for an improved documentation process for the Mediawiki software architecture.}{27}{section*.13}
+\contentsline {paragraph}{\nonumberline The following chapter derives concepts that were studied and understood in this chapter in order to formulate and support ideas for an improved documentation process for the Mediawiki software architecture.}{27}{section*.16}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {II}Thesis Contribution}{28}{part.2}
 \defcounter {refsection}{0}\relax 
@@ -94,9 +100,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Guidelines for the process implementation and orientation}{50}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Dimensions of the Improved Documentation Process}{50}{section.4.3}
+\contentsline {section}{\numberline {4.3}Dimensions of the Improved Documentation Process}{51}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline This chapter concludes with a proof of concept based on the building, refining and evaluation of ideas. The summarization of the conceptualization phase can be as follows : The efficient task distribution based on role-responsibility definition and employment of human as well as non-human effort can result in an effective process improvement and a matured software standard. The following chapter implements the final concept devised in this chapter to realize a deployable solution for an improved documentation process for the Mediawiki software architecture.}{53}{section*.28}
+\contentsline {paragraph}{\nonumberline This chapter concludes with a proof of concept based on the building, refining and evaluation of ideas. The summarization of the conceptualization phase can be as follows : The efficient task distribution based on role-responsibility definition and employment of human as well as non-human effort can result in an effective process improvement and a matured software standard. The following chapter implements the final concept devised in this chapter to realize a deployable solution for an improved documentation process for the Mediawiki software architecture.}{53}{section*.31}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Implementation}{54}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -116,48 +122,52 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.3}What all can this BOT do ?}{62}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Future implementation and General Implications}{62}{section.5.4}
+\contentsline {subsection}{\numberline {5.3.4}Bot's advantageous feature}{62}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {III}Evaluation and Conclusion}{64}{part.3}
+\contentsline {section}{\numberline {5.4}Future implementation and General Implications}{63}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Evaluation}{65}{chapter.6}
+\contentsline {part}{\numberline {III}Evaluation and Conclusion}{65}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Meetings and Discussions}{65}{section.6.1}
+\contentsline {chapter}{\numberline {6}Evaluation}{66}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Survey}{66}{section.6.2}
+\contentsline {section}{\numberline {6.1}Evaluation}{66}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Evaluation}{66}{section.6.3}
+\contentsline {subsection}{\numberline {6.1.1}Review Questions}{66}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Review Questions}{66}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.1.2}Community-related quality metrics}{67}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Community-related quality metrics}{66}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.1.3}Measure the success of the implemented solution}{67}{subsection.6.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Measure the success of the implemented solution}{67}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.2}Assessment through Review and Discussions}{68}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Comparison with othe OSS}{67}{section.6.4}
+\contentsline {subsection}{\numberline {6.2.1}Critical Assessment}{68}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{68}{chapter.7}
+\contentsline {subsection}{\numberline {6.2.2}Limitations of the Concept and proposed Solution}{71}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Answer to Research Questions}{68}{section.7.1}
+\contentsline {section}{\numberline {6.3}Analysis of Successful Process Improvement}{71}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Challenges}{68}{section.7.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Benefits of implemented solution}{68}{section.7.3}
+\contentsline {section}{\numberline {7.1}Answer to Research Questions}{73}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}arguments to support the idea}{68}{section.7.4}
+\contentsline {section}{\numberline {7.2}Challenges}{73}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Concluding Remanks}{68}{section.7.5}
+\contentsline {section}{\numberline {7.3}Benefits of implemented solution}{73}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Addendum}{70}{part.4}
+\contentsline {section}{\numberline {7.4}arguments to support the idea}{73}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Implementation - Some details and Results}{71}{Appendix.1.A}
+\contentsline {section}{\numberline {7.5}Concluding Remanks}{73}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Basic code snippet}{71}{section.1.A.1}
+\contentsline {part}{\numberline {IV}Addendum}{75}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{75}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {A}Implementation - Some details and Results}{76}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{78}{chapter*.37}
+\contentsline {section}{\numberline {A.1}Basic code snippet}{76}{section.1.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{79}{chapter*.38}
+\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{80}{Appendix.1.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{80}{chapter*.39}
+\contentsline {chapter}{\nonumberline List of Figures}{83}{chapter*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{84}{chapter*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{85}{chapter*.43}

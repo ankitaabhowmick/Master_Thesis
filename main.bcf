@@ -2362,6 +2362,10 @@
     <bcf:citekey order="125">Shahin2014</bcf:citekey>
     <bcf:citekey order="126">Gorschek2006</bcf:citekey>
     <bcf:citekey order="127">Fuggeffa1988</bcf:citekey>
+    <bcf:citekey order="128">Viana2012</bcf:citekey>
+    <bcf:citekey order="129">Dyba2005</bcf:citekey>
+    <bcf:citekey order="130">Dyba2005</bcf:citekey>
+    <bcf:citekey order="131">Dyba2005</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty" type="entry" sortscheme="nty">
   <bcf:sorting>

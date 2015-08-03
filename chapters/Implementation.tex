@@ -126,12 +126,20 @@ These sub-systems / components have already been discussed in the previous chapt
 \begin{itemize}
 \item Create Phabricator task when a document on wikipage (category- Software Architecture Document) is not available for an architectural component corresponding to the \enquote{*.txt} file in the \enquote{/docs} folder of the source code.
 \item Capture the difference when documents on \enquote{Mediawiki.org} are compared to the \enquote{*.txt} files in the source code and print the difference as a part of a maintenance template on that wikipage on \enquote{Mediawiki.org}
-\item Create the software architecture document on the wikipage by copying the corresponding text from the source code automatically.
+\item Create the software architecture document on the wikipage by copying the corresponding text from the source code automatically if that documentation does not exist on wiki.
 \item Add changes (update) the wikipage with the corresponding text from the source code automatically.
 \item Search by category for all software architecture documents on \enquote{Mediawiki.org} and create Phabricator task if the corresponding reviewed document is not available as a part of the source code.
 \item Delete (or add comments in template) if wikipage for any document that does not have a corresponding text file in the reviewed source code.
 \end{itemize}
 
+\subsection{Bot's advantageous feature}
+The Bot has been conceptualized and implemented with several advantages in mind. These advantages refer to its features that are an improvement to existing concepts and ideas of a semi-automated documentation maintenance process.
+\newline
+\textbf{Conflict resolution : } The existing idea within Mediawiki community \footnote{available as a phabricator task :  https://phabricator.wikimedia.org/T91626} suggested immediately copying the text files from source code to the wiki pages. But the implemented DocBot considers the following scenario:
+\newline When the wiki page is updated intentionally on \enquote{Mediawiki.org} by a human maintainer, if the docBot simply copies from the text file, the changes of the human documentor will be overwhitten.
+\newline Thus, the implemented DocBot compares the copies from source code and wiki page and creates task for the difference in text (not overwriting intentional changes), and handles the conflict resolution more gracefully.   
+\newline 
+\textbf{Well-crafted task for easier maintenance : } It is possible to craft the auto-generated documentation task such that it captures and prints the \enquote{diff} between text files and wiki pages (maybe as an attachment).  Any such helpful information will make the task more understandable and in turn make the maintenance activity easier.
 
 
 \section{Future implementation and General Implications }
@@ -141,6 +149,8 @@ The above implementation of concept in its basic form leaves scope for immense i
 \item Notify the responsible architecture component owners for missing / updated documentation.
 \item Add automated checks for missing text files in the source code for the corresponding architectural component. 
 \item Add templates on Mediawiki software architecture document pages to pull / diaplay maintenance information.
+\item Provide guidelines for improved structure of software architecture documentation.
+Also, prepare structured documentation for the identified software architecture components in accordance with these guidelines to serve as an example for future document writers.
 \end{itemize}
 
 \textbf{Future Implications of the customized solution} : 
