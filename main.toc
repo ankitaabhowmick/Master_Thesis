@@ -158,18 +158,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Benefits of implemented solution}{74}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Concluding Remanks}{74}{section.7.4}
+\contentsline {section}{\numberline {7.4}Concluding Remarks}{76}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Addendum}{76}{part.4}
+\contentsline {part}{\numberline {IV}Addendum}{77}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Implementation - Some details and Results}{77}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}Implementation - Some details and Results}{78}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Basic code snippet}{77}{section.1.A.1}
+\contentsline {section}{\numberline {A.1}Basic code snippet}{78}{section.1.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{81}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{82}{Appendix.1.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{84}{chapter*.43}
+\contentsline {chapter}{\nonumberline List of Figures}{85}{chapter*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{85}{chapter*.44}
+\contentsline {chapter}{\nonumberline List of Tables}{86}{chapter*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{86}{chapter*.45}
+\contentsline {chapter}{\nonumberline Bibliography}{87}{chapter*.45}
