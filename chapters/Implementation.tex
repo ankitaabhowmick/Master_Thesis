@@ -56,7 +56,7 @@ The state diagram helps to understand the decision points made by the Bot and th
 \section{Bot in Action}
 In order to test the implemented Bot solution and its task creation capability, the script was executed by connecting the \enquote{Wmfphablib} to Wikimedia labs \cite{Wm_labs}. The lab provides a cloud computing infrastructure with virtual machines to provide tools for developing and testing various Wikimedia applications, scripts, Bots, etc. For this specific case the configuration has been set up to connect to the phab-wmflab \cite{phab_labs} for testing the tasks created under \enquote{Software Architecture Documentation}
 \subsection{Test Scenarios}
-Several scenarios were considered to test the Bot script for its functionality and to understand the ways in which the Bot could be more productive and responsive for the intended maintenance use. Screenshots of all results are available in Appendix A.
+Several scenarios were considered to test the Bot script for its functionality and to understand the ways in which the Bot could be more productive and responsive for the intended maintenance use. Screenshots of all results are available in Appendix A (\autoref{results}).
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Scenario 1} : \enquote{*.txt} files in the Mediawiki source code repository are up-to-date.
 \newline
@@ -76,7 +76,7 @@ Several scenarios were considered to test the Bot script for its functionality a
 \newline
 \newline \textbf{Description} : This is negative scenario test to check what happens when the wikipage does not exist for the corresponding architectural component. Execute the BOT script in order to test the basic functionality of reading the \enquote{*.txt} file from the \enquote{/docs} folder and comparing the text to the corresponding wikipage. 
 \newline 
-\newline \textbf{Result} : The latest version of the Mediawiki source code is \enquote{pulled} from the Git repository and stored in the local clone. The file \enquote{*.txt} file is read from the \enquote{/docs} folder in the cloned and up-to-date repository. The read text is written into a file in the same execution environment where the Bot is being executed. But, since the corresponding wikipage is not available, the script is unable to read the contents into a file and throws an error stating that the the file(wikipage test file) is not defined.
+\newline \textbf{Result} : The latest version of the Mediawiki source code is \enquote{pulled} from the Git repository and stored in the local clone. The file \enquote{*.txt} file is read from the \enquote{/docs} folder in the cloned and up-to-date repository. The read text is written into a file in the same execution environment where the Bot is being executed. But, since the corresponding wikipage is not available, the script is unable to read the contents into a file and throws an error stating that the file(wikipage test file) is not defined.
 \end{mdframed}
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Scenario 4} : Documentation is compared and revision history is checked when wikipage is not up-to-date.
@@ -112,18 +112,18 @@ These sub-systems / components have already been discussed in the previous chapt
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/deployment_diagram}
-  \caption[Mediawiki Software development process]{Mediawiki Software development process.}\label{fig:deployment_diagram}
+  \caption[Mediawiki Software deployment process]{Mediawiki Software deployment process.}\label{fig:deployment_diagram}
 \end{figure} 
-\begin{figure}[H]
+\begin{sidewaysfigure}[ht]
   \centering
-  \includegraphics[width=\textwidth]{images/BOT_deployment}
-  \caption[State Diagram of the Maintenance BOT]{State Diagram of the Maintenance BOT.}\label{fig:BOT_deployment}
-\end{figure}
+  \includegraphics[width=\hsize]{images/BOT_deployment}
+  \caption[Deployment Diagram of the Maintenance BOT]{Deployment Diagram of the Maintenance BOT.}\label{fig:BOT_deployment}
+\end{sidewaysfigure}
 \autoref{fig:BOT_deployment} highlights the inclusion of the BOT in the deployment diagram, connecting the above mentioned system interfaces.
 \newline Once deployed, the Bot can be executed as a part of the cron jobs in the build-integration environment such that the the maintenance task intended to be performed by the Bot can be regulated. depending on the desired frequency of execution, the cron job can be set for the maintenance activity (e.g. once per week)
 
 
-\subsection{Inherent capabilities of the Bot }
+\subsection{Inherent capabilities of the Bot }\label{capabilities}
 \indent Apart from the functionality and test scenarios covered in the above Bot implementation comprise the basic Bot implementation where the Bot is able to interact with the three different sub-systems highlighted in the previous subsection. Once these connections are established and the systems are interfaced via the Bot, many more functionalities can be added to the \enquote{Documentation Maintenance Bot}.
 \\\indent Here is a list of additional / improved functionalities (non-comprehensive) that the basic Bot implementation is capable of handling.
 \begin{itemize}
@@ -135,13 +135,14 @@ These sub-systems / components have already been discussed in the previous chapt
 \item Delete (or add comments in template) if wikipage for any document that does not have a corresponding text file in the reviewed source code.
 \end{itemize}
 
-\subsection{Bot's advantageous feature}
+\subsection{Bot's advantageous feature}\label{advantages}
 The Bot has been conceptualized and implemented with several advantages in mind. These advantages refer to its features that are an improvement to existing concepts and ideas of a semi-automated documentation maintenance process.
 \newline
 \textbf{Conflict resolution : } The existing idea within Mediawiki community \footnote{available as a phabricator task :  https://phabricator.wikimedia.org/T91626} suggested immediately copying the text files from source code to the wiki pages. But the implemented DocBot considers the following scenario:
+\newline 
 \newline When the wiki page is updated intentionally on \enquote{Mediawiki.org} by a human maintainer, if the docBot simply copies from the text file, the changes of the human documentor will be overwhitten.
 \newline Thus, the implemented DocBot compares the copies from source code and wiki page and creates task for the difference in text (not overwriting intentional changes), and handles the conflict resolution more gracefully.   
-\newline 
+\newline \newline
 \textbf{Well-crafted task for easier maintenance : } It is possible to craft the auto-generated documentation task such that it captures and prints the \enquote{diff} between text files and wiki pages (maybe as an attachment).  Any such helpful information will make the task more understandable and in turn make the maintenance activity easier.
 
 

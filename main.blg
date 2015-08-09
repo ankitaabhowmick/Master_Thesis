@@ -1,21 +1,21 @@
-[1] Config.pm:324> INFO - This is Biber 2.1
-[2] Config.pm:327> INFO - Logfile is 'main.blg'
-[256] biber-MSWIN:273> INFO - === %a %b %e, %Y, %H:%M:%S
-[257] Biber.pm:333> INFO - Reading 'main.bcf'
-[1478] Biber.pm:645> INFO - Found 68 citekeys in bib section 0
-[1615] Biber.pm:2977> INFO - Processing section 0
-[1725] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography/literature.bib' for section 0
-[2957] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[3903] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography/literature.bib'
-[4080] Utils.pm:146> WARN - Duplicate entry key: 'BachmannDocumentingSoftware2010' in file 'bibliography/literature.bib', skipping ...
-[4922] Utils.pm:146> WARN - BibTeX subsystem: C:\Users\Ankitaa\AppData\Local\Temp\gDN8bG9ePN\literature.bib_10504.utf8, line 417, warning: undefined macro "July"
-[4935] Utils.pm:146> WARN - I didn't find a database entry for crossref 'https://wiki.eclipse.org/Main_Page' in entry 'eclipse2013' - ignoring (section 0)
-[4935] Utils.pm:146> WARN - I didn't find a database entry for crossref 'http://www.xwiki.org/xwiki/bin/view/Main/Documentation' in entry 'Xwiki_Massol_2014' - ignoring (section 0)
-[4943] Utils.pm:146> WARN - The field 'month' in entry 'Maintainers_2014' cannot be null, deleting it
-[8137] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[8137] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[8138] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
-[8138] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
-[8989] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[10285] bbl.pm:596> INFO - Output to main.bbl
-[10294] Biber.pm:106> INFO - WARNINGS: 5
+[2] Config.pm:324> INFO - This is Biber 2.1
+[4] Config.pm:327> INFO - Logfile is 'main.blg'
+[257] biber-MSWIN:273> INFO - === %a %b %e, %Y, %H:%M:%S
+[258] Biber.pm:333> INFO - Reading 'main.bcf'
+[1577] Biber.pm:645> INFO - Found 69 citekeys in bib section 0
+[1879] Biber.pm:2977> INFO - Processing section 0
+[2138] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography/literature.bib' for section 0
+[3490] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[4532] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography/literature.bib'
+[4546] Utils.pm:146> WARN - Duplicate entry key: 'BachmannDocumentingSoftware2010' in file 'bibliography/literature.bib', skipping ...
+[5708] Utils.pm:146> WARN - BibTeX subsystem: C:\Users\Ankitaa\AppData\Local\Temp\ktiQdtsEOB\literature.bib_9060.utf8, line 417, warning: undefined macro "July"
+[5725] Utils.pm:146> WARN - I didn't find a database entry for crossref 'https://wiki.eclipse.org/Main_Page' in entry 'eclipse2013' - ignoring (section 0)
+[5726] Utils.pm:146> WARN - I didn't find a database entry for crossref 'http://www.xwiki.org/xwiki/bin/view/Main/Documentation' in entry 'Xwiki_Massol_2014' - ignoring (section 0)
+[5735] Utils.pm:146> WARN - The field 'month' in entry 'Maintainers_2014' cannot be null, deleting it
+[9577] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[9578] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[9578] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[9579] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[10547] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[12002] bbl.pm:596> INFO - Output to main.bbl
+[12012] Biber.pm:106> INFO - WARNINGS: 5

@@ -9,7 +9,7 @@
 \item \textbf{Understand and use the Software : } It was important to download and locally install Mediawiki open source software to understand the basic components of the software architecture. The installation guide \cite{Installation_guide} helped in understanding the system requirements and successfully configuring and setting up the executable code on the \enquote{localhost} under the the name \enquote{en} to denote the English language version of the setup. 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=100mm]{images/code_stats}
+  \includegraphics[width=120mm]{images/code_stats}
   \caption[Mediawiki code statistics \cite{openhub_MW}]{Mediawiki code statistics \cite{openhub_MW}.}\label{fig:code_stats}
 \end{figure}
 The Mediawiki open source package is written in PHP \cite{mediawiki} (originally written for use on Wikipedia) - \autoref{fig:code_stats} \cite{openhub_MW}. The first approach to understand the architecture was to dive into the \enquote{\textbackslash{includes}} folder which comprises the code for the basic architectural components of the Mediawiki software like \enquote{api}, \enquote{cache}, \enquote{db} and many more. 
@@ -246,7 +246,7 @@ The idea of an architectural module / component owner as its \enquote{documenter
 >{\columncolor[HTML]{FFFFFF}}l |
 >{\columncolor[HTML]{FFFFFF}}l |@{}}
 \toprule
-\cellcolor[HTML]{FFFFFF}{\bf } & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Extensions (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
+\cellcolor[HTML]{FFFFFF}{\bf{Attributes} } & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Extensions (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Setup}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Complex setup. Requires database configuration, setting up localization, preparing autoloadable classes and defining additional hooks.}}  & \multicolumn{1}{|c|}{\parbox{5cm}{No setup is required within the Mediawiki engine}}                    \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Implementation}} & \multicolumn{1}{|c|}{\parbox{5cm}{Rigid : extensions should be implemented as subclasses of a MediaWiki-provided base class }}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{Flexible :	 Bots have no such restrictions and inter-dependency with the Mediawiki engine}} \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Assistance}} & \multicolumn{1}{|c|}{\parbox{5cm}{NO feature of manual assistance is available. The code can be modified, but once added, the extension behaves independently}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{BOTs can be configured to add manual assistance to reduce chances of mass errors}}
@@ -277,7 +277,7 @@ But, the \autoref{extension-bot} highlights the complexity involved in building 
 \item \enquote{Explicit tasks} refer to the role-bound tasks created and assigned on the \enquote{Phabricator} or the well defined responsibilities for a particular user-role.
 \item \enquote{Implicit tasks} refer to the activities that are an intrinsic part of community and organizational responsibility (e.g) community collaboration and acceptance.
 \end{itemize}
-Defining new responsibilities for existing roles may pose certain challenges pertaining to the implicit tasks . These challenges refer to the social aspects of defining new responsibilities within an existing community structure.The key principles to address these challenges are [\cite{Michel_2014}
+Defining new responsibilities for existing roles may pose certain challenges pertaining to the implicit tasks . These challenges refer to the social aspects of defining new responsibilities within an existing community structure.The key principles to address these challenges are \cite{Michel_2014}
 \begin{enumerate}
 \item the self-organization of the community through task decomposition
 \item an on-line community support based on social design principles and best practices
@@ -285,11 +285,11 @@ Defining new responsibilities for existing roles may pose certain challenges per
 \end{enumerate}
 
 But the challenges are implicitly handled by the organization of the explicit tasks as suggested by the above principles. 
-\newline
-\indent \textbf{Principle 1 : }  Gracefully handle challenges regarding assignment of responsibility  - Task decomposition by role-responsibility organization
+\newline \newline
+ \textbf{Principle 1 : }  Gracefully handle challenges regarding assignment of responsibility  - Task decomposition by role-responsibility organization
 \begin{figure}[H]
   \centering
-  \includegraphics[width=100mm]{images/Process_Roles}
+  \includegraphics[width=120mm]{images/Process_Roles}
   \caption[Defining distinct roles and responsibilities in a process]{Defining distinct roles and responsibilities in a process.}\label{fig:Process_Roles}
 \end{figure}
 
@@ -305,7 +305,7 @@ As a part of the software architecture documentation process, these existing rol
 
 \end{itemize}
 
-\textbf{Principle 2 : }On-line community support helps to overcome the challenges of missing knowledge base.  
+ \textbf{Principle 2 : }On-line community support helps to overcome the challenges of missing knowledge base.  
 \indent The Mediawiki community is a part of the larger open source community where it has succeeded to prove its presence over the years of its existence. Based on its success metrics, it can be very well assumed that the social design principles and best practices are inherently followed within Mediawiki community. Thus, introduction of an improved documentation process would be aided and assisted by the existing support structure.
 \newline \newline
 \textbf{Principle 3 : } Unanticipated contributions are a challenge in face of the socio-technical environment of open source software development:
@@ -332,7 +332,7 @@ As shown by the dashed red lined, the BOT replaces a few activities and assists 
 This interaction and activities can be better-explained with a use-case scenario to understand the BOT's role in the documentation process. 
 \indent Use Case : An open task is created when the pages on mediawiki.org is not updated as compared to the latest documents in the source code.
 \\\indent  In \autoref{fig:MWDocBot} we can analyze this use-case as a sequence diagram where the BOT has been placed in the sequence of events in the process. The BOT is seen as the principal actor in this improved documentation process.
-\begin{figure}[H]
+\begin{figure}[!htsb]
   \centering
   \includegraphics[width=\textwidth]{images/MWDocBot}
   \caption[Maintenace Bot Sequence diagram]{Maintenace Bot Sequence diagram.}\label{fig:MWDocBot}
@@ -365,7 +365,7 @@ When an improved process is being conceptualized, it is important to understand 
 \indent This section highlights the key factors that contribute to the improvement of the documentation process. These factors have been identifies as dimensional facets of the documentation process structure. 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/doc_process_dimensions}
+  \includegraphics[width=100mm]{images/doc_process_dimensions}
   \caption[Dimensions of documentation process features]{Dimensions of documentation process features.}\label{fig:doc_process_dimensions}
 \end{figure}
 \textbf{Capturing the dimensions of the improved documentation process in a nutshell} 
@@ -373,20 +373,20 @@ When an improved process is being conceptualized, it is important to understand 
 \begin{itemize}
 \item \textbf{Review : } Any standard software process involves a strict review process at every stage of its lifecycle. Thus, it is important for the documentation process also to involve a review phase. This review involves the definition and interaction of the following:
 \begin{enumerate}
-\item Role - The role of a \enquote{Reviewer} has been defined as a part of the improved documentation process. Mediawiki clearly defines the user role of a reviewer for its software development process. The same or other users can be assigned the role of a \enquote{Document Reviewer}. An experienced developer or an architect is the best candidate for the role of a software architecture document reviewer.
-\item Responsibility - The \enquote{Reviewer} has the responsibility of reviewing the software architecture documents when they are \enquote{pushed} as a part of the source code into the \enquote{Gerrit} review system. Only when the reviewer accepts/ approves the documentation, it is added to the \enquote{authoritative repository}. Once the document is approved, it can be copied/ added to \enquote{mediawiki.org}
-\item Organization - The Roles and Responsibilities need to be assigned and defined as a part of the documentation process. This dimension of software project organization is ensured by the existing \enquote{Gerrit} Review system.
+\item \textbf{Role} - The role of a \enquote{Reviewer} has been defined as a part of the improved documentation process. Mediawiki clearly defines the user role of a reviewer for its software development process. The same or other users can be assigned the role of a \enquote{Document Reviewer}. An experienced developer or an architect is the best candidate for the role of a software architecture document reviewer.
+\item \textbf{Responsibility} - The \enquote{Reviewer} has the responsibility of reviewing the software architecture documents when they are \enquote{pushed} as a part of the source code into the \enquote{Gerrit} review system. Only when the reviewer accepts/ approves the documentation, it is added to the \enquote{authoritative repository}. Once the document is approved, it can be copied/ added to \enquote{mediawiki.org}
+\item \textbf{Organization} - The Roles and Responsibilities need to be assigned and defined as a part of the documentation process. This dimension of software project organization is ensured by the existing \enquote{Gerrit} Review system.
 \end{enumerate}
 \item \textbf{Maturity} - A higher maturity of a software process ensures the quality of a software and its organization
 \begin{enumerate}
-\item Compatibility - A standard consistent process that fits in with the existing matured processes is considered matured enough for its intended purpose. In case of the improved documentation process, it is compatible with the existing software process, with interfaces that blend into the existing system.
-\item Operability - A user's effort in the operation control of a process determines its operarbility \cite{Berander2005}. In case of the improved documentation process, maintenance operation effort is shared by the BOT, thus making it highly operable.
+\item \textbf{Compatibility} - A standard consistent process that fits in with the existing matured processes is considered matured enough for its intended purpose. In case of the improved documentation process, it is compatible with the existing software process, with interfaces that blend into the existing system.
+\item \textbf{Operability} - A user's effort in the operation control of a process determines its operarbility \cite{Berander2005}. In case of the improved documentation process, maintenance operation effort is shared by the BOT, thus making it highly operable.
 \end{enumerate}
-\item \textbf{Community} - The improved documentation process targets the open source community iin general and the Mediawiki software in particular. Pertinent to the community, it is important that the process is conceptualized bearing all the socio-technical factors in mind. 
+\item \textbf{Community} - The improved documentation process targets the open source community in general and the Mediawiki software in particular. Pertinent to the community, it is important that the process is conceptualized bearing all the socio-technical factors in mind. 
 \begin{enumerate}
-\item Acceptance - A process serves its purpose when it is readily accepted in the community for which it has been defined and conceptualized. As the improved documentation process satisfies the stakeholder requirements, its acceptance is guaranteed within the community. 
-\item Adaptability - To evaluate whether an improved process will be sustained within the community over a period of time, its adaptability needs to be assessed. Since the suggested process is an improvement over the existing process, it always leaves scope for further improvement as and when the software evolves.
-\item Adoptability - Acquiring and fitting in a new/ improved process refers to the adoption of the process within the community. In the current scenario, the need and demand for software architecture documentation within Mediawiki suggests that the artifacts are highly desired and the process to maintain them will be adopted readily by the stakeholders. 
+\item \textbf{Acceptance} - A process serves its purpose when it is readily accepted in the community for which it has been defined and conceptualized. As the improved documentation process satisfies the stakeholder requirements, its acceptance is guaranteed within the community. 
+\item \textbf{Adaptability} - To evaluate whether an improved process will be sustained within the community over a period of time, its adaptability needs to be assessed. Since the suggested process is an improvement over the existing process, it always leaves scope for further improvement as and when the software evolves.
+\item \textbf{Adoptability} - Acquiring and fitting in a new/ improved process refers to the adoption of the process within the community. In the current scenario, the need and demand for software architecture documentation within Mediawiki suggests that the artifacts are highly desired and the process to maintain them will be adopted readily by the stakeholders. 
 \end{enumerate}
 \end{itemize}
 

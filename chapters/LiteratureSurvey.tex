@@ -8,7 +8,7 @@ In a scientific work comprising research and implementation, it is important to 
 \indent During the Literature Survey phase of thesis work a plan based on \autoref{fig:research_methodology} \cite{Unterkalmsteiner2011} was adopted for a defined approach to search relevant work in the available literature. Papers from Google scholar, ACM library and IEEE library were the overall terget of the search. The final collection was organized using the \enquote{Mendeley} desktop application for better readability and access. 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=100mm]{images/research_methodology.jpg}
+  \includegraphics[width=70mm]{images/research_methodology.jpg}
   \caption[Literature Survey strategy  \cite{Unterkalmsteiner2011}]{Literature Survey strategy  \cite{Unterkalmsteiner2011}.}\label{fig:research_methodology}
 \end{figure}
 
@@ -73,7 +73,7 @@ elaborates on capturing various views of the software architecture from the stak
 \\\indent \textbf{Application Lifecycle Management tools : }  There are a host of ALM software suits available in the industry that support a software product's governance, development and maintenance in order to streamline the development process and achieve better standards \cite{ALM2009}. The figure shoes a typical Application lifecycle management process, highlighting the important roles defined by the process.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=100mm]{images/ALM_process_roles.jpg}
+  \includegraphics[width=\textwidth]{images/ALM_process_roles.jpg}
   \caption[ALM process and roles \cite{ALM2009}]{ALM process and some roles \cite{ALM2009}.}\label{fig:ALM_process_roles}
 \end{figure} 
 \indent \textbf{Capability Maturity Model : }  For process oriented software engineering, CMM standards \cite{SCAMPITeam2013} have been set for process maturity evaluation. But open source communities are more focused on development maturity rather than process maturity. The Open Source Maturity Model (OSMM) \cite{Duijnhouwer2003} defines the standards and maturity levels to help established organizations to assess and select the open source software before adopting it as a component of their larger software. Thus, although OSMM defines process maturity for open source software maturity assessment, it does not mandate a maturity model as a part of the software development and documentation process within the community. 
@@ -83,12 +83,12 @@ elaborates on capturing various views of the software architecture from the stak
 \\\indent \textbf{Software process in Open Source community : } The journal for \enquote{Systems and Software} \cite{Zhao2003} suveyed that over 61\% of the open source projects employ bug tracking tools, and a majority of projects use bug tracking tools provided by the host web sites to maintain their software and process. No explicit standard or process has been defined for documentation alone but some maturity levels and standards have been defined by the comprehensive QualOSS assessment model \cite{5314237}for open source software that can help to understand and improve the process maturity. Some earlier assessment models that concentrated mostly on OSS code, documentation and community structure are :
 \begin{itemize}
 \item Open Business Readiness Rating (OBRR)\cite{Golden2006}
-\item Qualification and Selection of Open Source Software(QSOS) \emph{http://www.qsos.org/}
+\item Qualification and Selection of Open Source Software(QSOS)  \cite{qsos}
 \end{itemize}
 \indent 
 \\\indent \textbf{Natural Language and visualizations : } It was surveyed and studied that 70.4 \% of the OSS projects use natural language with HTML as the main format for documenting software architecture \cite{6923128}. 
 \newline
-\\\indent \textbf{XWiki : } \emph{http://www.xwiki.org/xwiki/bin/view/Main/WebHome} is a professional wiki the can not only provide a WYSIWIG (what you see is what you get) editing feature for content collaboration but can also be used for collaborative web applications. The popularity of this wiki tool suggests the demand for wiki as a platform for documentation and collaboration.
+\\\indent \textbf{XWiki : } Xwiki \cite{Xwiki_Massol_2014} is a professional wiki the can not only provide a WYSIWIG (what you see is what you get) editing feature for content collaboration but can also be used for collaborative web applications. The popularity of this wiki tool suggests the demand for wiki as a platform for documentation and collaboration.
 
 \subsection{Evaluation and quality assurance of Documentation Process}
 \indent \emph{What are the metrics for evaluation of the software architecture documentation process and how can the quality of process be assured?}
@@ -102,10 +102,10 @@ elaborates on capturing various views of the software architecture from the stak
 \\\indent \textbf{Socio-Technical factors : } Software quality is influenced by the way the community interacts \cite{Mens2011}. The socio-technical environment within a community of developers who are geographically separated and not bound by strict process control tends to introduce risk factors in terms of software quality. QualOSS assessment model \cite{5314237} suggest that the organization of open source communities is loosely-bound and statistical research \cite{Zhao2003} proves that only about 20\% of the open source projects have planned release dates . Some process oriented co-ordination approaches have been developed and adopted by open sorce software communities to manage their software processes. The \enquote{STIN} (Socio-Technical Interaction Networks)in Free/Open Source Software Development Processes \cite{SPM_2005} describes the well-established STIN (\enquote{Socio-Technical Interaction Networks})relationship for process enforcement by combining the socio-technical aspects that effect open source organizations. 
 \\\indent \textbf{Process Quality metrics : } Maintainability, evolvability and sustainability of the system should be supported by the software process \cite{BachmannDocumentingSoftware2010} \cite{5314237}. There is a direct correlation between the quality of the process and the quality of the developed software \cite{Fuggeffa1988}. The article on \enquote{Software Process Roadmap} \cite{Fuggeffa1988} suggests that the degree of maturity of the process is a main dimension of process assessment. Open source communities can be evaluated on the basis of a few exceptional metrics in this regard \cite{Zhao2003} :
 \begin{itemize}
-\item Responsibility : level of user participation in open source projects is extremely high
-\item Organizational process : simpler feature-request process and easier transition from detection to debugging 
-\item Efficiency : larger motivation of developer to propagate personal need to community need
-\item Collaboration : open source processes and tools for change management include cutting edge, large-scale collaborative software development
+\item \textbf{Responsibility} : level of user participation in open source projects is extremely high
+\item \textbf{Organizational process} : simpler feature-request process and easier transition from detection to debugging 
+\item \textbf{Efficiency} : larger motivation of developer to propagate personal need to community need
+\item \textbf{Collaboration} : open source processes and tools for change management include cutting edge, large-scale collaborative software development
 \end{itemize}
 \indent The quality assurance activities in open source communities, that heavily rely on large scale distributed software development, is still an evolving discipline. Although the open development model may pose challenges with regard to quality assurance, sometimes it may prove successful as compared to traditional software development practices \cite{Zhao2003}. For example, more people or users of the code and documents will result in more errors / shortfalls / requirements to be detected, ultimately resulting in an accelerated software development and better quality. An extensive study of the open source Apache Server \cite{Mockus2000} resulted in findings that grounded the hypothesis that open source software development processes prove to reach the quality standards of traditional software processes and sometimes even reach better standards.
 \\\ To assure quality the open source software community emphasize majorly on certain key process areas (KPA) which include high maturity levels of configuration management and project tracking, as compared to traditional software projects \cite{Zhao2003}. \enquote{User participation and feedback} serve as an important metric for assuring quality of open source software, its architecture and documents. 
@@ -149,16 +149,16 @@ At mediawiki, the most active and important stakeholders are the coders or devel
 \\\indent Many options are available to capture documentation in wiki format. The book \enquote{Documenting Software Architecture – Views and Beyond} \cite{BachmannDocumentingSoftware2010} suggests to use word2wiki to migrate word documents into wiki. Also XWiki \cite{Xwiki_Massol_2014}, a free wiki software platform includes WYSIWYG editing, OpenDocument based document import/export options, semantic annotations and tagging, and advanced permissions management.
 \newline
 \\\indent \enquote{Software Process} \cite{Fuggeffa1988} suggests to pay attention to the complex interrelation of a number of organizational, cultural, technological and economical factors.
-\\\indent\emph{Idea}	- It is wise to interact personally with members of the community to understand their specific requirements, already existing practices/ processes and try to improve it, rather than bringing in something completely new. This increases the acceptance of the process within the community
+\\\indent \emph{Idea} : It is wise to interact personally with members of the community to understand their specific requirements, already existing practices/ processes and try to improve it, rather than bringing in something completely new. This increases the acceptance of the process within the community
 \newline
 \\\indent \enquote{Documenting Software Architecture from Knowledge Management perspective} \cite{bab2009} suggests to provide rationale for final architectural solution.Within a software organisation, the extent of design that constitutes its software architecture is based on its \enquote{context, domain, culture, assets, staff expertise, etc.}. And this \enquote{thin line in the sand} must be made visible to all stakeholders. Also, it is important to \enquote{revisit, redefine and adjust} the architecture design decisions as the software and organization evolves. It is the software architect's responsibility to \enquote{make design choices, validate them, and capture them in various architecture related artifacts} \cite{Kruchten2008}. The Mediawiki coding convention suggests having a text (.txt) file for the corresponding component in the source code \cite{Manual_coding}
-\\\indent\emph{Idea} : The documentation should be written by the architect/ developer as they understand the architectural components in the best possible way. While an architectural component is added/ updated, the corresponding text file documenting the component should also be updated. There can be inter-references between the code and document to find relevant parts easily.
+\\\indent \emph{Idea} : The documentation should be written by the architect/ developer as they understand the architectural components in the best possible way. While an architectural component is added/ updated, the corresponding text file documenting the component should also be updated. There can be inter-references between the code and document to find relevant parts easily.
 \newline
-\\\indent The architectural viewpoint needs to capture details that are more abstract than source code functional details and less abstract than high-level architectural component interaction \cite{bab2009}.
-\\\indent\emph{Idea} : Capture the architectural component details and their functional details from a developer's view of the system to add relevant details as understood by current developer and as would be required for the future developer.
+\\\indent The architectural viewpoint needs to capture details that are more abstract than source code functional details and less abstract than high-level architectural component interaction \cite{bab2009}. 
+\\\indent \emph{Idea} : Capture the architectural component details and their functional details from a developer's view of the system to add relevant details as understood by current developer and as would be required for the future developer.
 \newline
 \\\indent \enquote{Mediawiki.org} follows a standard user based rights system to grant permissions \emph{(Manual:User Rights)} to user groups with the special case of BOTs that have the rights to access and modify \enquote{mediawiki.org} pages for huge volume of maintenance activities.
-\\\indent\emph{Idea} : Apart from manual creation of documents by the Mediawiki developers, the responsibility for their maintenance can be partially automated by the usage of BOTs.
+\\\indent \emph{Idea} : Apart from manual creation of documents by the Mediawiki developers, the responsibility for their maintenance can be partially automated by the usage of BOTs.
 
 
 

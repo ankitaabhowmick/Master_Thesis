@@ -23,29 +23,30 @@ Architects and architecture analysts are concerned regarding the conformance of 
 \textbf{A : } A structured documentation written by the developer of the architectural component who understands and can reason for the architectural decision provides sufficient information in the text document. 
 \end{enumerate}
 \subsection{Community-related quality metrics} 
-The following quality metrics from the QualOSS standard can be used to and evaluate the documentation process \cite{5314237}
+The following quality metrics from the QualOSS standard have been used to formulate the evaluation points for the improved documentation process \cite{5314237}
 \begin{enumerate}
-\item \textbf{Maintenance Capacity} - Provide resource for maintenance, continuous support and improvement
-\item \textbf{Sustainability} - Maintenance over an extended period of time
-\item \textbf{Process Maturity} - Achieve goal and continuously improve the process
+\item \textbf{Maintenance Capacity} - The improved process should provide resources for maintenance, continuous support and improvement.
+\item \textbf{Sustainability} - An improved process should guarantee its sustainability such that maintenance of documents is possible over an extended period of time.
+\item \textbf{Process Maturity} - The process should achieve its goal and should provide a model for continuous improvement
 \end{enumerate}
 
 \subsection{Measure the success of the implemented solution}
 \begin{enumerate}
-\item \textbf{Maintenance efforts (costs vs. capacity) \cite{Shahin2014}} 
+\item \textbf{Maintenance efforts (costs vs. capacity) \cite{Shahin2014}} - 
 Validity, Investment, Cost of quality and cost of process improvement can be measured in terms of the following \cite{Gorschek2006}
-\newline \indent \textbf{Personnel}
-\newline \indent \textbf{Time}
-\newline 
-The number of people required for achieving an improved process is not large as only a small subset of Mediawiki developers (also confirmed in the review) are responsible for architectural module maintenance. This also confirms that initial effort required is the creation of missing documents. Later maintenance is assisted by the implemented solution.
+\begin{itemize}
+\item \textbf{Personnel}
+\item \textbf{Time}
+\end{itemize}
+The number of people required for achieving an improved process is not large as only a small subset of Mediawiki developers (also confirmed in the review) are responsible for architectural module maintenance. This also confirms that initial effort required is only with regard to the creation of missing documents. Later, maintenance of these documents is assisted by the implemented solution.
 \newline
-This analysis helps to answer the question\enquote{Is the process adequate for its intended purpose?}
+This analysis helps to answer the question : \enquote{Is the process adequate for its intended purpose?}
 \item \textbf{Process features - }
 The following features need to be evaluated in order to evaluate the applicability and usefulness  \cite{Fuggeffa1988} of the concept and solution for software architecture documentation process
 \begin{itemize}
-\item \textbf{Architecture tracking} - A structure software architecture documentation as written by developers and reviewed by architects simultaneosly during development ensures the tracking of software architectural changes.
+\item \textbf{Architecture tracking} - A structured software architecture documentation, as written by developers and reviewed by architects simultaneously during development, ensures the tracking of software architectural changes.
 \item \textbf{Multiple user support} - The concept aims accessibility of documents as its prime requirement. The implementation that allows document access as wiki page ensures multiple user support not only in terms of the document text readability but also   its purpose and use by multiple stakeholders (developers, architects, new users, training, maintenance, etc.).
-\item \textbf{Capture and reason} - The Phabricator task are crafted to capture differences between software architecture document text in source and that in the wiki and provide a reason the task's purpose(document maintenance / update required)
+\item \textbf{Capture and reason} - The Phabricator tasks are crafted to capture differences between software architecture document text in source and the text in the wiki pages and provide a reason for the task's purpose (e.g. document maintenance / update required)
 \end{itemize}
 \end{enumerate}
 
@@ -75,6 +76,8 @@ Challenges could be as follows :
 Cron job frequency can be varied and tested for different frequencies in order to determine its optimized frequency.
 \newline \newline
 The effectiveness of wiki as a medium for documentation has been already discussed in the Chapter 4 and hence proves the idea behind its intended purpose. 
+\newline
+\newline
 \textbf{Experience viewpoint}
 \begin{enumerate}
 \item \textbf{What can be the problems in enforcement of a strict process?}
@@ -98,21 +101,21 @@ The effectiveness of wiki as a medium for documentation has been already discuss
 \newline Effort is huge as documentation of a ten year old complex software architecture is already old and un-maintained.
 \end{enumerate}
 \textbf{Rationale/ Discussion : } The challenges faced with process improvement within the socio-technical scope is the target of this thesis work. There is always a scope to improve the process and tailor it to the needs of the community. The challenges pointed above are human and behavioral aspects that can be handled using activities like training and leadership effectiveness \cite{Viana2012}.
-\newline When comparing need versus effort it is always important to understand the willingness of the community members to accept and adopt a change (as discussed in the Chapter 4). Thus, when equated to the complexity of the evolutionary software, any activity that assists in maintenance of its architecture documentation need is well-desired and worth the effort
+\newline \newline When comparing need versus effort it is always important to understand the willingness of the community members to accept and adopt a change (as discussed in the Chapter 4). Thus, when equated to the complexity of the evolutionary software, any activity that assists the need for maintenance of its architecture documentation, the solution id undoubtedly well-desired and worth the effort
 
 \subsection{Limitations of the Concept and proposed Solution}
-Every new concept or process improvement brings along certain limitations that may pose challenges in the face of its intended usefulness and effectiveness. The following point list a few such limitations that were identified during the review phase.
+Every new concept or process improvement brings along certain limitations that may pose challenges in the face of its intended usefulness and effectiveness. The following points are few such limitations that were identified during the review phase.
 \begin{itemize}
 \item \textbf{Mandatory} : There is no way to "automatically mandate" the condition where the system is aware that when an architectural component is developed, the corresponding text file is updated by the developer.
-\item \textbf{Obligatory} : The process involves conscientious human obligation for maintenance effort. This may sometimes pose hindrance in application of process improvement.
-\item \textbf{Supervisory} : In most software engineering project motivation and supervision is required from the technical management for implementation of an improved process. In case of Mediawiki OSS that is a community-oriented organizational structure this hierarchy is hard to set. Practicing managerial activities is hard in such a community environment. Thus, lack of push may result in deviation from responsibility
+\item \textbf{Obligatory} : The process obligates conscientious human effort for maintenance. This may sometimes pose hindrance in the introduction and application of process improvement.
+\item \textbf{Supervisory} : In most software engineering projects, motivation and supervision is required from the technical management for implementation of an improved process. In case of Mediawiki OSS that is a community-oriented organizational structure, this hierarchy is hard to set. Practicing managerial activities is hard in such a community environment. Thus, lack of push may result in deviation from responsibility.
 \end{itemize}
 
 
 \section{Analysis of Successful Process Improvement}
 The improved software architecture documentation process of Mediawiki provides an analysis that evaluates process improvement in general and its implications with respect to documentation within open source community. \cite{Dyba2005} identifies the importance of management roles and activities for improving organizational performance. This relates to any process in general that needs to be enforced/ practiced within an organization.
 \newline
-\autoref{fig:Success_Factors} identifies the variables that can used to evaluate the software process improvement success. We can evaluate the the proposed concept and implemented solution for software architecture documentation process improvement based on some of these variables.
+\autoref{fig:Success_Factors} identifies the variables that can used to evaluate the software process improvement success. We can evaluate the proposed concept and implemented solution for software architecture documentation process improvement based on some of these variables.
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/success_factors}
@@ -122,8 +125,8 @@ The improved software architecture documentation process of Mediawiki provides a
 \textbf{Independent Variables : } 
 \begin{itemize}
 \item Knowledge sharing is the key motivation for documentation which positively evaluates the topic itself and also the proposed solution based on the variables \enquote{Exploitation of existing and exploration of new knowledge}
-\item The community structure in OSS including Mediawiki supports individual participation and contribution in the best possible. The process of software architecture documentation targets all individuals within the community, thus, securing a positive process improvement based on the variable \enquote{Employee Participation}.
-\item As stated in the previous point, the community structure support effective collaboration with more emphasis on developing rather than selling. In case of documentation process improvement this community structure effects negatively on the variables \enquote{Business Orientation and Involved Leadership}. As stated previously as a limitation, it is clear that motivation and strategic management are self driven and not enforced within OSS, leading to inadequacy of process orientation.
+\item The community structure in OSS including Mediawiki supports individual participation and contribution in the best possible way. The process of software architecture documentation targets all individuals within the community, thus, securing a positive process improvement based on the variable \enquote{Employee Participation}.
+\item As stated in the previous point, the community structure supports effective collaboration with more emphasis on developing rather than selling. In case of documentation process improvement this community structure effects negatively on the variables \enquote{Business Orientation and Involved Leadership}. As stated previously as a limitation, it is clear that motivation and strategic management are self-driven and not enforced within OSS, leading to inadequacy within process orientation.
 \end{itemize}
 
 \textbf{Moderating Variables : }

@@ -888,6 +888,15 @@
       \verb https://pypi.python.org/pypi/phabricator
       \endverb
     \endentry
+    \entry{qsos}{online}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{15867262911a166ca2270ec58a0e3fe9}
+      \field{labeltitlesource}{title}
+      \field{title}{{QSOS}}
+      \verb{url}
+      \verb http://www.qsos.org/
+      \endverb
+    \endentry
     \entry{Scacchi2007}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=ad725bce9a60551cf361a36e69fdc0a9}{Scacchi}{S\bibinitperiod}{Walt}{W\bibinitperiod}{}{}{}{}}%
