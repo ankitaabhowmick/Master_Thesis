@@ -37,9 +37,9 @@ As seen in \autoref{fig:doxygen}, it is clear that the the architecture details 
   \caption[Auto-generated doxygen documentation]{Auto-generated doxygen documentation.}\label{fig:doxygen}
 \end{figure}
 Having realized the need for improved documentation of Mediawiki software architecture, the conscious demand arose for an improved process that could ensure the creation and maintenance of improved documents. Hence the scope of this thesis work was limited and set to the defined scope of \enquote{Improving the Software Architecture Documentation process of Mediawiki Software}.
-\item \textbf{Organizational structure : } When understanding a software system as an organization and the processes that drive its daily activities, it is important to understand the \enquote{Who, What and How ?} of the system. This helps to grasp the organizational behavior as a complex socio-technical system. Thus the initial phase of the thesis involved the identification and understanding of current roles, responsibilities and processes that are practiced in the Mediawiki community. The outline of the current state-of-the-art organizational components have been captured in \autoref{chapter:ResearchQuestions} Section 2.3. 
+\item \textbf{Organizational structure : } When understanding a software system as an organization and the processes that drive its daily activities, it is important to understand the \enquote{Who, What and How ?} of the system. This helps to grasp the organizational behavior as a complex socio-technical system. Thus the initial phase of the thesis involved the identification and understanding of current roles, responsibilities and processes that are practiced in the Mediawiki community. The outline of the current state-of-the-art organizational components have been captured in \autoref{CurrentSOA}. 
 \item \textbf{Documentation process as a part of the software process : } Every software development organization follows a process in order to manage, co-ordinate and streamline its daily SDLC (Software Development Life-Cycle) activities. Documentation itself is a part of this development process. Thus, it was important to analyze the process for generating and maintaining documentation by mediawiki community in order to assess its shortfalls and required improvements.
-\indent The software and documentation process components and an outline of their basic interaction can be seen in the figure \autoref{fig:MWProcess}  The important roles within the community that are a part of the software process have been captured in the blue ellipses. The interaction of these roles with the system components and the activities involved as a part of individual responsibility has been captured in the diagram. 
+\indent The software and documentation process components and an outline of their basic interaction can be seen in the \autoref{fig:MWProcess}  The important roles within the community that are a part of the software process have been captured in the blue ellipses. The interaction of these roles with the system components and the activities involved as a part of individual responsibility has been captured in the diagram. 
 \vspace{10mm}
 \begin{figure}[H]
   \centering
@@ -117,21 +117,21 @@ In the Table \autoref{Role-doc-maintenance} the previously identified \enquote{r
 \begin{tabular}{@{}
 >{\columncolor[HTML]{F8A102}}c |
 >{\columncolor[HTML]{FFFFC7}}c |
->{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}c |
 >{\columncolor[HTML]{FFFFC7}}c |@{}}
 \toprule
-\multicolumn{1}{l|}{\cellcolor[HTML]{F8A102}{\bf \parbox{2cm}{Use Cases}}} & \cellcolor[HTML]{FFFC9E}{\bf \parbox{2cm}{Role}} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Responsibility}} & \cellcolor[HTML]{FFFC9E}{\bf Maintainability} \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 1}}        & Developer/ Reviwer                 & \parbox{4cm}{Documentation task as a follow-on of development task}                                & possible                                      \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 2}}        & Developer                          & \parbox{4cm}{Coding (software development): branch / push / merge / commit}                                     & not possible                                  \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 3}}        & Documentor                         & \parbox{4cm}{Create documentation on wiki platform - mediawiki.org}                                 & not possible                                  \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 4}}        & Developer/ Reviewer                & \parbox{4cm}{Task specially created/ assigned for documentation}                                            & possible                                      \\ \bottomrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf \parbox{2cm}{Use Cases}}} & \cellcolor[HTML]{FFFC9E}{\bf \parbox{2cm}{Role}} & \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFC9E}{\bf Responsibility}} & \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFC9E}{\bf Maintainability}} \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 1}}        & Developer/ Reviwer                 & \multicolumn{1}{|c|}{\parbox{4cm}{Documentation task as a follow-on of development task}}                                & possible                                      \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 2}}        & Developer                          & \multicolumn{1}{|c|}{\parbox{4cm}{Coding (software development): branch / push / merge / commit}       }                              & not possible                                  \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 3}}        & Documentor                         & \multicolumn{1}{|c|}{\parbox{4cm}{Create documentation on wiki platform - mediawiki.org}        }                         & not possible                                  \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf 4}}        & Developer/ Reviewer                & \multicolumn{1}{|c|}{\parbox{4cm}{Task specially created/ assigned for documentation}                                           } & possible                                      \\ \bottomrule
 \end{tabular}
 \end{table}
 
 \textbf{Requirement for the Improved Documentation process : }The above tabular categorization helps to understand the need for a semi-automated process where the developer is not completely burdened with the responsibility of review and maintenance of documentation on \enquote{mediawiki.org}.
 
 
-\subsection{Assessing the Initial ideas }
+\subsection{Assessing the Initial ideas }\label{initial_ideas_assess}
 
 This subsection helps to understand the initial ideas and the need to build upon them by discussing their pros-cons and feasibility of implementation within the thesis scope.
 
@@ -140,27 +140,26 @@ This subsection helps to understand the initial ideas and the need to build upon
 
 \item \textbf{Creating software architecture documents on \enquote{Mediawiki.org}}
 \indent As a part of the literature survey Section 3.2.1, it was observed that documentation of wiki had several advantages over traditional documentation. But the concept of improved documentation process using only wiki as the platform may pose certain downsides. The following table compares the wiki with a version controlled platform on certain important criteria.
-
 \begin{table}[]
 \centering
-\caption{Comparing wiki-documents and Version-controlled documentation }
+\caption{Comparing wiki-documents and Version-controlled documentation}
 \label{wiki-VC_compare}
-\begin{tabular}{@{}
->{\columncolor[HTML]{FFFFFF}}l |
->{\columncolor[HTML]{FFFFC7}}l |
->{\columncolor[HTML]{FFFFFF}}l |@{}}
+\begin{tabular}{@{}|l|l|l|@{}}
 \toprule
-{\bf Requirement}                                                                     & \multicolumn{1}{c|}{{\bf \parbox{5cm}{Documentation on Wiki (Disadvantages)}}}                             & \multicolumn{1}{c|}{{\bf \parbox{5cm}{Version Controlled documentation (Advantages)}}}                                   \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}}                                        & \parbox{5cm}{Formal review is not possible. Anyone who has access to the wiki pages can edit and save pages.}                      & \parbox{5cm}{If source code is part of a review system then documentation also becomes part of the commits and is reviewed before final "push".} \\ \cmidrule(l){2-3} 
-\multicolumn{1}{|c|}{\multirow{-2}{*}{{\bf Maintainability}}} & \parbox{5cm}{Tracking major changes is not possible.}                                                                              & \parbox{5cm}{The version control system provides novel solutions to identify textual differences.}                                               \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}}                                        & \parbox{5cm}{Offline work is not possible.}                                                                                        & \parbox{5cm}{Coding / documentation can be performed online until the "commit" stage. Only the final "push" needs connectivity.}                 \\ \cmidrule(l){2-3} 
-\multicolumn{1}{|c|}{\multirow{-2}{*}{{\bf Usability}}}       & \parbox{5cm}{Every page save creates a new history entry. An insignificant change may lead to unnecessary revision history entry.} & \parbox{5cm}{No history entry needs to be managed.}                                                                                              \\ \bottomrule
+\rowcolor[HTML]{FFFC9E} 
+\cellcolor[HTML]{FFFFFF}{\bf Attributes}                                        & \parbox{5cm}{{\bf Documentation on Wiki (Disadvantages)}}                                                                          & \parbox{5cm}{{\bf Version Controlled documentation (Advantages)}}                                                                                \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F56B00}}                                  & \parbox{5cm}{Formal review is not possible. Anyone who has access to the wiki pages can edit and save pages.}                      & \parbox{5cm}{If source code is part of a review system then documentation also becomes part of the commits and is reviewed before final "push".} \\ \cmidrule(l){2-3} 
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{F56B00}Maintainability}} & \parbox{5cm}{Tracking major changes is not possible.}                                                                              & \parbox{5cm}{The version control system provides novel solutions to identify textual differences.}                                              \\ \midrule
+\cellcolor[HTML]{F8A102}                                                        & \parbox{5cm}{Offline work is not possible.}                                                                                        & \parbox{5cm}{Coding / documentation can be performed online until the "commit" stage. Only the final "push" needs connectivity.               }  \\ \cmidrule(l){2-3} 
+\multirow{-2}{*}{\cellcolor[HTML]{F8A102}Usability}                             & \parbox{5cm}{Every page save creates a new history entry. An insignificant change may lead to unnecessary revision history entry.} & \parbox{5cm}{No history entry needs to be managed.}                                                                                              \\ \bottomrule
 \end{tabular}
 \end{table}
 
  The table \autoref{wiki-VC_compare} projects the cons of wiki and the pros of version control, hence, suggesting the need for version controlled documentation.
  
 \item \textbf{Creating new \enquote{namespace} on \enquote{mediawiki.org} for Software Architecture Documentation}
+
+
 
 \indent \enquote{Mediawiki.org} already provides many \enquote{namespaces} like \enquote{Manual} that are used for documentation as already mentioned in the previous chapters. Adding another namespace to this pool would add to the confusion of categorization and document organization This thesis aims at structured software architecture documentation as a part of the wiki page and does not aim to introduce unnecessary inclusions to \enquote{mediawiki.org}.
 \\\indent The same categorization efficiency can be achieved by using the Mediawiki feature : \enquote{Category} instead of introducing a new namespace. The table \autoref{Category-namespace} captures a few advantages of categories in this regard.
@@ -175,8 +174,8 @@ This subsection helps to understand the initial ideas and the need to build upon
 >{\columncolor[HTML]{FFFFFF}}l |
 >{\columncolor[HTML]{FFFFFF}}l |@{}}
 \toprule
-\cellcolor[HTML]{FFFFFF}{\bf }                                  & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Namespace (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Category (Advantages)}}                                                                              \\ \midrule
-\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Creatioin}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Namespace cannot be directly added as a special page (feature not available yet). It needs to be added along with the namespace array index to "LocalSeetings.php" file in a Mediawiki installation}                       }  & \multicolumn{1}{|c|}{\parbox{5cm}{Category can be easily added to the pool of categories via the wiki web page. It is equivalent to creating a new page on the wiki}}                    \\ \midrule
+\cellcolor[HTML]{FFFFFF}{\bf Attribute }                                  & \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFC9E}{\bf Namespace (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFC9E}{\bf Category (Advantages)}}                                                                              \\ \midrule
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Creation}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Namespace cannot be directly added as a special page (feature not available yet). It needs to be added along with the namespace array index to "LocalSeetings.php" file in a Mediawiki installation}                       }  & \multicolumn{1}{|c|}{\parbox{5cm}{Category can be easily added to the pool of categories via the wiki web page. It is equivalent to creating a new page on the wiki}}                    \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Description}} & \multicolumn{1}{|c|}{\parbox{5cm}{No explanation is available on the use and purpose of a particular namespace. Hence it may me confulsing and may lead to unintended use or categorization.}}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{Category pages are like a usual page which can contain description of its purpose and usage and the list of other pages that belong to that category.}} \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Usage}}       & \multicolumn{1}{|c|}{\parbox{5cm}{It is difficult to handle pages under a namespace. The page has to be created with the right format (namespace:pageName). To change the namespace the existing page needs to be deleted an d a new page needs to be created}} & \multicolumn{1}{|c|}{\parbox{5cm}{It is easy to add, delete, update the category of a page. Only an edit page is required.}}                                                            \\ \bottomrule
 \end{tabular}
@@ -204,7 +203,7 @@ Hence, the idea of providing developers/ architects with a guideline for is not 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=60mm]{images/role_Maintainers}
+  \includegraphics[width=80mm]{images/role_Maintainers}
   \caption[The sphere of Maintainer's roles and responsibilities]{The sphere of Maintainer's roles and responsibilities.}\label{fig:role_Maintainers}
 \end{figure}
 
@@ -220,7 +219,7 @@ An initial ides of document process improvement focused on the human \enquote{Ma
 >{\columncolor[HTML]{FFFFFF}}l |
 >{\columncolor[HTML]{FFFFFF}}l |@{}}
 \toprule
-\cellcolor[HTML]{FFFFFF}{\bf }                                  & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Human-Maintainer (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
+\cellcolor[HTML]{FFFFFF}{\bf Attribute }                                  & \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFC9E}{\bf Human-Maintainer (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Role}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Maintainer is not a dedicated user role in the wiki community. }}  & \multicolumn{1}{|c|}{\parbox{5cm}{A dedicated BOT user can be created as a Maintainer}}                    \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Responsibility}} & \multicolumn{1}{|c|}{\parbox{5cm}{Since a human maintainer is not a dedicated role, the person is vested with multiple responsibilities apart from documentation maintenance }}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{A Documentation maintenance BOT is a dedicated user with a single defined responsibility}} \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Process}}       & \multicolumn{1}{|c|}{\parbox{5cm}{Fitting a new human role in the existing community structure as a part of an improved process may be challenging}} & \multicolumn{1}{|c|}{\parbox{5cm}{On the other hand, the community is open in adopting BOTs for automated activities within the software process.}}                                                           
@@ -246,7 +245,7 @@ The idea of an architectural module / component owner as its \enquote{documenter
 >{\columncolor[HTML]{FFFFFF}}l |
 >{\columncolor[HTML]{FFFFFF}}l |@{}}
 \toprule
-\cellcolor[HTML]{FFFFFF}{\bf{Attributes} } & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Extensions (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
+\cellcolor[HTML]{FFFFFF}{\bf{Attributes} } & \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFC9E}{\bf Extensions (Disadvantages)}}                                                                                                                                                & \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFC9E}{\bf Mediawiki BOT (Advantages)}}                                                                              \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Setup}}   & \multicolumn{1}{|c|}{\parbox{5cm}{Complex setup. Requires database configuration, setting up localization, preparing autoloadable classes and defining additional hooks.}}  & \multicolumn{1}{|c|}{\parbox{5cm}{No setup is required within the Mediawiki engine}}                    \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Implementation}} & \multicolumn{1}{|c|}{\parbox{5cm}{Rigid : extensions should be implemented as subclasses of a MediaWiki-provided base class }}                                                                  & \multicolumn{1}{|c|}{\parbox{5cm}{Flexible :	 Bots have no such restrictions and inter-dependency with the Mediawiki engine}} \\ \midrule
 \multicolumn{1}{|c|}{\cellcolor[HTML]{F8A102}{\bf Assistance}} & \multicolumn{1}{|c|}{\parbox{5cm}{NO feature of manual assistance is available. The code can be modified, but once added, the extension behaves independently}}                                                                 & \multicolumn{1}{|c|}{\parbox{5cm}{BOTs can be configured to add manual assistance to reduce chances of mass errors}}
@@ -322,9 +321,9 @@ As a part of the software architecture documentation process, these existing rol
   \caption[Introducing the doumentation maintenance BOT in the Mediawiki software process]{Introducing the doumentation maintenance BOT in the Mediawiki software process.}\label{fig:/Bot_in_system}
 \end{figure}
 The \autoref{fig:/Bot_in_system} introduces the BOT into the existing Mediawiki software and documentation process and shows the interactions between the different roles and systems that were captured in \autoref{fig:MWProcess}.
-\indent The idea is to use the BOT as a maintenance assistant in the documentation process. As seen in the figure the BOT seamlessly interacts with different systems that are a part of the existing software process in order to improve the documentation process:
+\newline The idea is to use the BOT as a maintenance assistant in the documentation process. As seen in the figure the BOT seamlessly interacts with different systems that are a part of the existing software process in order to improve the documentation process:
 \begin{itemize}
-\item Mediawiki software source code repository (/docs folder)
+\item Mediawiki software source code repository (\enquote{/docs} folder)
 \item Pages on \enquote{Mediawiki.org}
 \item Phabricator task management system
 \end{itemize}

@@ -10,6 +10,7 @@
 \item All corresponding architecture component documents are already available as of date on \enquote{Mediawiki.org}
 \item These documents are categorized to identify them as structured software architecture documents.
 \item The corresponding pages on Mediawiki.org have restricted access (e.g) Protected pages \cite{help_pp}. Or, the architecture description could be a part of the non-editable section such that they cannot be modified by other Mediawiki BOTs or users.
+\item A phabricator project like \enquote{Software Architecture Documentation} already exists.
 \end{itemize}
 
 Keeping these initial assumption in mind, the architectural outline has been designed for the BOT's implementation and functionality. 
@@ -64,6 +65,7 @@ Several scenarios were considered to test the Bot script for its functionality a
 \newline 
 \newline \textbf{Result} : The latest version of the Mediawiki source code is \enquote{pulled} from the Git repository and stored in the local clone. Only when the \enquote{pull} is successful, the rest of the script is executed.
 \end{mdframed}
+
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Scenario 2} : Documentation exists on \enquote{Mediawiki.org} corresponding to the architectural component description in the source code.
 \newline
@@ -71,6 +73,7 @@ Several scenarios were considered to test the Bot script for its functionality a
 \newline 
 \newline \textbf{Result} : The latest version of the Mediawiki source code is \enquote{pulled} from the Git repository and stored in the local clone. The file \enquote{*.txt} file is read from the \enquote{/docs} folder in the cloned and up-to-date repository. The read text is written into a file in the same execution environment where the Bot is being executed. The file is compared (identical textual comparison) to the text read from the document on wikipage.
 \end{mdframed}
+
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Scenario 3} : Documentation does not exists on \enquote{Mediawiki.org} corresponding to the architectural component description in the source code.
 \newline
@@ -78,6 +81,7 @@ Several scenarios were considered to test the Bot script for its functionality a
 \newline 
 \newline \textbf{Result} : The latest version of the Mediawiki source code is \enquote{pulled} from the Git repository and stored in the local clone. The file \enquote{*.txt} file is read from the \enquote{/docs} folder in the cloned and up-to-date repository. The read text is written into a file in the same execution environment where the Bot is being executed. But, since the corresponding wikipage is not available, the script is unable to read the contents into a file and throws an error stating that the file(wikipage test file) is not defined.
 \end{mdframed}
+
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Scenario 4} : Documentation is compared and revision history is checked when wikipage is not up-to-date.
 \newline
@@ -85,6 +89,7 @@ Several scenarios were considered to test the Bot script for its functionality a
 \newline 
 \newline \textbf{Result - Success} : The file \enquote{*.txt} file is read from the \enquote{/docs} folder Mediawiki repository. The read text is written into a file in the same execution environment where the Bot is being executed. The corresponding wikipage content is read into a file. If the compared files are not same (text mismatch) the revision history of the wikipage is checked.
 \end{mdframed}
+
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Scenario 5} : Documentation is compared and Phabricator task is created under the specified project when wikipage is not up-to-date.
 \newline
@@ -92,6 +97,7 @@ Several scenarios were considered to test the Bot script for its functionality a
 \newline 
 \newline \textbf{Result} : If the compared files are not same (text mismatch) the revision history of the wikipage is checked. If the wikipage was not updated recently, a Phabricator task for documentation maintenance is created under the specified Phabricator project.
 \end{mdframed}
+
 \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
 \textbf{Scenario 6} : Documentation is compared and Phabricator task is not created when wikipage is relatively new.
 \newline
@@ -114,11 +120,14 @@ These sub-systems / components have already been discussed in the previous chapt
   \includegraphics[width=\textwidth]{images/deployment_diagram}
   \caption[Mediawiki Software deployment process]{Mediawiki Software deployment process.}\label{fig:deployment_diagram}
 \end{figure} 
+
+
 \begin{sidewaysfigure}[ht]
   \centering
   \includegraphics[width=\hsize]{images/BOT_deployment}
   \caption[Deployment Diagram of the Maintenance BOT]{Deployment Diagram of the Maintenance BOT.}\label{fig:BOT_deployment}
 \end{sidewaysfigure}
+
 \autoref{fig:BOT_deployment} highlights the inclusion of the BOT in the deployment diagram, connecting the above mentioned system interfaces.
 \newline Once deployed, the Bot can be executed as a part of the cron jobs in the build-integration environment such that the the maintenance task intended to be performed by the Bot can be regulated. depending on the desired frequency of execution, the cron job can be set for the maintenance activity (e.g. once per week)
 
@@ -133,6 +142,7 @@ These sub-systems / components have already been discussed in the previous chapt
 \item Add changes (update) the wikipage with the corresponding text from the source code automatically.
 \item Search by category for all software architecture documents on \enquote{Mediawiki.org} and create Phabricator task if the corresponding reviewed document is not available as a part of the source code.
 \item Delete (or add comments in template) if wikipage for any document that does not have a corresponding text file in the reviewed source code.
+\item All templates and changes made by other Bots on the wiki pages of Mediawiki can be ignored by the DocBot while reading the text.
 \end{itemize}
 
 \subsection{Bot's advantageous feature}\label{advantages}
@@ -150,6 +160,7 @@ The Bot has been conceptualized and implemented with several advantages in mind.
 The above implementation of concept in its basic form leaves scope for immense improvements and future development. Some future improvements (possible extensions) to the Bot script have been listed in the previous subsection. Also, more features can be added to improve the automation of the Maintenance activity for the software architecture documents.
 \newline A few more future implementations of this concept are listed below.
 \begin{itemize}
+\item Provide a mapping for the pages (titles) for the corresponding text files which need to be compared by the Bot.
 \item Notify the responsible architecture component owners for missing / updated documentation.
 \item Add automated checks for missing text files in the source code for the corresponding architectural component. 
 \item Add templates on Mediawiki software architecture document pages to pull / display maintenance information.

@@ -4,7 +4,7 @@
 \section{Evaluation}
 This section lists the static analysis strategies that evaluate the implemented process for software architecture documentation.
 \subsection{Review Questions}
-Architects and architecture analysts are concerned regarding the conformance of the architecture documentation to the set standards \cite{BachmannDocumentingSoftware2010}. For our specific purpose, this review is performed by Mediawiki architects for checking the conformance of documentation to its standards and requirements. The conformance can be checked by answering the following questions\cite{BachmannDocumentingSoftware2010}
+Architects and architecture analysts are concerned regarding the conformance of the architecture documentation to the set standards \cite{BachmannDocumentingSoftware2010}. The conformance of the concept and implementation of improved documentation process in this thesis can be checked by answering the following questions\cite{BachmannDocumentingSoftware2010}.
 \begin{enumerate}
 \item \textbf{Q : }Does the Software architecture documentation contain appropriate administrative and overview data?
 \newline
@@ -52,56 +52,67 @@ The following features need to be evaluated in order to evaluate the applicabili
 
 The community-related quality metrics and the success measure criteria listed in the above subsections were used to formulate questions for review and assessment. The results are presented in the following section.
 \section{Assessment through Review and Discussions}
-\indent Communication is the key to understanding the views and reviews of users. A good way to understand and assess the conceptualized idea and implementation scope, a set of questions were formulated in order to receive feedback from Mediawiki stakeholders. The questions aim to capture the reviews, feedback and critical evaluation based on the stakeholders' interest and experience within the community. The following questions were answered critically with these viewpoints.
+\indent Communication is the key to understanding the views and reviews of users. A good way to understand and assess the conceptualized idea and implementation scope was to formulate a set of questions in order to receive feedback from Mediawiki stakeholders \footnote{A1 : reviewed by S Page (WMF - Wikimedia Foundation)}, \footnote{A2 : suggested and evaluated by Daniel Kinzler (MWDE - Mediawiki Deutschland)}.  Specifically, this review was performed by Mediawiki architecture-committee members for checking the conformance of documentation to its standards and requirements. The questions aim to capture the reviews, feedback and critical evaluation based on the stakeholders' interest and experience within the community. The following questions were answered critically with these viewpoints.
 \subsection{Critical Assessment}
-\textbf{Stakeholder viewpoint}
+\textbf{Stakeholder viewpoint} - This viewpoint captures the answers of the stakeholders from the perspective of their role in Mediawiki documentation and their interest in the improved documentation process.
 \begin{enumerate}
 \item \textbf{Is the process adequate for its intended purpose (purpose of improving documentation process) ?}
-\newline If the Phabricator task is well-crafted to provide useful information like text diff, module owner / maintainer, etc. then it will help to update the wiki page easily. 
+\newline \textbf{A1 :} If the Phabricator task is well-crafted to provide useful information like text diff, module owner / maintainer, etc. then it will help to update the wiki page easily. 
 \newline Useful high level information is captured in these text documents which cover the important architectural components.
+\newline \textbf{A2 : }The purpose can be evaluated only if the Bot is put into use and it is noticed that community members pay attention to the tasks created by the Bot.
 \item \textbf{What features of this documentation process are attractive ? What features may pose challenges?}
-\newline Attractive feature is the point 1 itself where the well-informed task creation is made possible.
+\newline \textbf{A1 :} Attractive feature is the point 1 itself where the well-informed task creation is made possible.
 Challenges could be as follows :
 \newline Other wiki pages are also dependent on some information from the text files in the source repository. The mapping of these dependencies might be a challenge.
 \newline An \enquote{area maintainer} needs to be assigned to each text file for an architectural component.
 \newline Deciding the frequency of the cron job (running the Bot) might be problematic. (e.g.) every 2 days might be too less as the document writer may need more time to copy the text into wiki page and might have unnecessary tasks created for a job that he already is aware of; if the Bot runs every 10 days, then it might to late to correct text files for some intended changes like typo corrections made on the wiki page.
 \newline If developers are required to make updates to text files as trigger for wiki update, then the question of effectiveness of the wiki page comes under question. 
+\newline \textbf{A2 :} Attractive : Automatic syncing (no duplicate effort, improved visibility)
+Challenge : Get people to look into the tasks and resolve them.
 \item \textbf{Will the process be effective / sustainable over a period of time?}
-\newline Maybe ! 
+\newline \textbf{A1 :} Maybe ! 
 \newline Effectiveness depends on the coverage of these text files in terms of the architectural components that are describes in them
 \newline Sustainability depends on the motivation of developers/ document writers to maintain an identical copy of text file and wiki page.
+\newline \textbf{A2 :} It needs to be deployed and monitored for success.
 \end{enumerate}
 \textbf{Rationale/ Discussion : } The challenge concerning the mapping of other documents on wiki to the text file is not a concern of this thesis scope. The only motive at hand is to produce structured documentation that can be readable as wiki pages and accessible during development as text files during source code development.
+\newline \newline Suggestion was made for semi-automatic syncing that provides link to edit page on the wiki and modifies with the new/ edited text that can be directly saved. This could overcome the challenge of getting people to resolve the tasks.
 \newline \newline
 Cron job frequency can be varied and tested for different frequencies in order to determine its optimized frequency.
 \newline \newline
-The effectiveness of wiki as a medium for documentation has been already discussed in the Chapter 4 and hence proves the idea behind its intended purpose. 
+The effectiveness of wiki as a medium for documentation has been already discussed in the \autoref{initial_ideas_assess} and hence proves the idea behind its intended purpose. 
 \newline
 \newline
-\textbf{Experience viewpoint}
+\textbf{Experience viewpoint} - This viewpoint for evaluation provides critical assessment based on the experience of the stakeholders in the role of Mediawiki developers and document writers. 
 \begin{enumerate}
 \item \textbf{What can be the problems in enforcement of a strict process?}
-\newline Ignorance of community members with respect to documentation update
+\newline \textbf{A1 :} Ignorance of community members with respect to documentation update
 \newline Pile-up of Phabricator tasks without being assigned/ worked on/ closed.
 \newline No action being taken on text files to avoid tasks being created.
 \newline Community members find ways to bypass the activities of DocBot
 \newline If too many architectural components are present for which text files exist then assigning module owners for each area might be difficult.
+\newline \textbf{A2 :} Enforcement in a volunteer-centric community can be ensured only if the solution is easy and useful.
 \item \textbf{Is the strict documentation process adoptable in the current socio-technical environment of the Mediawiki community?}
-\newline Hard to generalize !
+\newline \textbf{A1 :} Hard to generalize !
 \newline Some module owners are conscientious and may take on the responsibility to maintain the text files.
 \newline Others may be less bound to their responsibility.
+\newline \textbf{A2 :} Adoptable, if the process is not "too strict"
 \item \textbf{Is there a scope to define "document maintainer" activities and assign these responsibilities to existing Roles of Developer/ Architect? }
-\newline Possible, as the DocBot will assist them in their maintenance activity and make their job easier.
+\newline \textbf{A1 :} Possible, as the DocBot will assist them in their maintenance activity and make their job easier.
+\newline \textbf{A2 :} With Wikimedia Foundation undergoing a major restucturing, it may be the best or the worst time to adopt a new defined Role.
 \item \textbf{Does the implementation of this process require huge efforts in terms of required resources - personnel and time? }
-\newline No, its doable (initial work required only on 20 text files that correspond to the identified architectural component)
+\newline \textbf{A1 :} No, its doable (initial work required only on 20 text files that correspond to the identified architectural component)
+\newline \textbf{A2 :} Future scope (extension of this thesis work): to implement and measure the effort required.
 \item \textbf{Can that effort be estimated ?}
-\newline No ! Not via survey!
+\newline \textbf{A1 :} No ! Not via survey!
+\newline \textbf{A2 :} Everything can be estimated, but no estimate is correct !
 \item \textbf{Is the need of this process equatable to the estimated effort? What precedes - need or effort?}
-\newline Priority is not very high. Need of software architecture documentation is prime requirement of all complex and good software (whether OSS or not).
+\newline \textbf{A1 :} Priority is not very high. Need of software architecture documentation is prime requirement of all complex and good software (whether OSS or not).
 \newline Effort is huge as documentation of a ten year old complex software architecture is already old and un-maintained.
+\newline \textbf{A2 :} Its hard or impossible to decide.
 \end{enumerate}
 \textbf{Rationale/ Discussion : } The challenges faced with process improvement within the socio-technical scope is the target of this thesis work. There is always a scope to improve the process and tailor it to the needs of the community. The challenges pointed above are human and behavioral aspects that can be handled using activities like training and leadership effectiveness \cite{Viana2012}.
-\newline \newline When comparing need versus effort it is always important to understand the willingness of the community members to accept and adopt a change (as discussed in the Chapter 4). Thus, when equated to the complexity of the evolutionary software, any activity that assists the need for maintenance of its architecture documentation, the solution id undoubtedly well-desired and worth the effort
+\newline \newline When comparing need versus effort it is always important to understand the willingness of the community members to accept and adopt a change (as discussed in the \autoref{PorcDimension}). Thus, when equated to the complexity of the evolutionary software, any activity (solution) that is easy and assists the need for maintenance of its architecture documentation, is undoubtedly well-desired and worth the effort
 
 \subsection{Limitations of the Concept and proposed Solution}
 Every new concept or process improvement brings along certain limitations that may pose challenges in the face of its intended usefulness and effectiveness. The following points are few such limitations that were identified during the review phase.
@@ -113,9 +124,9 @@ Every new concept or process improvement brings along certain limitations that m
 
 
 \section{Analysis of Successful Process Improvement}
-The improved software architecture documentation process of Mediawiki provides an analysis that evaluates process improvement in general and its implications with respect to documentation within open source community. \cite{Dyba2005} identifies the importance of management roles and activities for improving organizational performance. This relates to any process in general that needs to be enforced/ practiced within an organization.
+The improved software architecture documentation process of Mediawiki provides an analysis that evaluates process improvement in general and its implications with respect to documentation within open source community. T. Dyba \cite{Dyba2005} in his empirical investigation, identifies the importance of management roles and activities for improving organizational performance. This relates to any process in general that needs to be enforced/ practiced within an organization.
 \newline
-\autoref{fig:Success_Factors} identifies the variables that can used to evaluate the software process improvement success. We can evaluate the proposed concept and implemented solution for software architecture documentation process improvement based on some of these variables.
+\autoref{fig:Success_Factors} identifies the variables that can be used to evaluate the software process improvement success. We can evaluate the proposed concept and implemented solution for software architecture documentation process improvement based on some of these variables.
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/success_factors}
@@ -138,4 +149,4 @@ The improved software architecture documentation process of Mediawiki provides a
 \newline \\\indent\enquote{SPI Success} has been perceived, reviewed and assessed theoretically in the previous section. In practice, this implementation needs to be adopted and monitored over a period of time in order prove its efficacy for OSS in general and Mediawiki in particular.
 
 
-\paragraph{This chapter successfully evaluates and critically supports the motive and reason behind the suggested solution. The next chapter helps us to provide concluding remarks to support the implication of this thesis work.}
+\paragraph{This chapter successfully evaluates and critically supports the motive and reason behind the suggested solution. The next chapter provides the concluding remarks to positively support the implication of this thesis work.}

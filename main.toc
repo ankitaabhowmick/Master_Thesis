@@ -6,11 +6,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Abstract}{iv}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Good software architecture documentation is the starting of a good software practise that makes the software itself more maintainable, extendable and sustainable over its extended lifetime and evolution. Complex open-source software that grow exponentially with time require this documentation to serve its knowledge sharing purpose for new developers, communicate software architectural rationale to the users and other stakeholders and serve as means for documenting the ideas behind the design of architectural components and their interfaces.}{iv}{section*.3}
+\contentsline {paragraph}{\nonumberline Good software architecture documentation paves the way for a good software practice, making the software itself more maintainable, extendable and sustainable over its extended lifetime and evolution. A complex open-source software that grows exponentially with time, requires this documentation to serve the purpose of knowledge sharing for new developers, communicate software architecture rationale to the users and other stakeholders and serve as means for documenting the ideas behind the design of architectural components and their interfaces.}{iv}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline The thesis involves the initial research on the available state-of-the-art Software Architecture documentation processes, tools, etc. that help in maintaining a software architecture documentation and keeping it consistent with the evolving architecture. Understanding the current software architecture documentation process at Mediawiki keeping the evaluation goals in mind is an essential part of this thesis work. It also focuses on critical evaluation of the documentation process to derive requirements for its improvement.}{iv}{section*.4}
+\contentsline {paragraph}{\nonumberline The thesis involves the initial research of the available state-of-the-art Software Architecture documentation processes, tools, etc. that help in maintaining software architecture documentation and keeping it consistent with the evolving architecture. Understanding the current software architecture documentation process at Mediawiki while keeping the evaluation goals in mind is an essential part of this thesis work. It also focuses on critical evaluation of the existing documentation process to derive requirements for its improvement.}{iv}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Based on the analysis, review and interaction method, an improved Software Architecture documentation process will be proposed, implemented and evaluated. Initial work involves understanding the MediaWiki software architecture complexities from an open social software perspective. Then existing software processes are studied in order to present ideas for a better maintainable SA documentation process. The final step is to evaluate improvements of the process and the quality of documentation on grounds of maintainability, Accessibility, Consistency, Completeness, etc.}{iv}{section*.5}
+\contentsline {paragraph}{\nonumberline Based on the analysis, review and interaction method, an improved Software Architecture documentation process will be proposed, implemented and evaluated. Initial work involves understanding the MediaWiki software architecture complexities from an open social software perspective. Then existing software processes are studied in order to present ideas for a better maintainable software architecture documentation process. The final step is to evaluate improvements of the process and the quality of documentation produced following these improvements on grounds of maintainability, accessibility, consistency, completeness, etc.}{iv}{section*.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {I}Introduction}{1}{part.1}
 \defcounter {refsection}{0}\relax 
@@ -120,7 +120,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.2}Deployment}{58}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Inherent capabilities of the Bot}{60}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Inherent capabilities of the Bot}{59}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.4}Bot's advantageous feature}{60}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
@@ -146,32 +146,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.2}Limitations of the Concept and proposed Solution}{70}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Analysis of Successful Process Improvement}{70}{section.6.3}
+\contentsline {section}{\numberline {6.3}Analysis of Successful Process Improvement}{71}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline This chapter successfully evaluates and critically supports the motive and reason behind the suggested solution. The next chapter helps us to provide concluding remarks to support the implication of this thesis work.}{72}{section*.38}
+\contentsline {paragraph}{\nonumberline This chapter successfully evaluates and critically supports the motive and reason behind the suggested solution. The next chapter provides the concluding remarks to positively support the implication of this thesis work.}{73}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}
+\contentsline {chapter}{\numberline {7}Conclusion}{74}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Answer to Research Questions}{73}{section.7.1}
+\contentsline {section}{\numberline {7.1}Answer to Research Questions}{74}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Challenges}{73}{section.7.2}
+\contentsline {section}{\numberline {7.2}Challenges}{74}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Benefits of implemented solution}{73}{section.7.3}
+\contentsline {section}{\numberline {7.3}Benefits of implemented solution}{74}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Concluding Remarks}{75}{section.7.4}
+\contentsline {section}{\numberline {7.4}Concluding Remarks}{76}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Addendum}{76}{part.4}
+\contentsline {part}{\numberline {IV}Addendum}{77}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Implementation(code) and Results}{77}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}Implementation(code) and Results}{78}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Basic code snippet}{77}{section.1.A.1}
+\contentsline {section}{\numberline {A.1}Basic code snippet}{78}{section.1.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Test scenario results}{81}{section.1.A.2}
+\contentsline {section}{\numberline {A.2}Test scenario results}{82}{section.1.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{82}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {B}Mediawiki Details}{85}{Appendix.1.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{84}{chapter*.43}
+\contentsline {chapter}{\nonumberline List of Figures}{87}{chapter*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{85}{chapter*.44}
+\contentsline {chapter}{\nonumberline List of Tables}{89}{chapter*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{86}{chapter*.45}
+\contentsline {chapter}{\nonumberline Bibliography}{90}{chapter*.51}
